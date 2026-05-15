@@ -9,12 +9,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   build:
@@ -44,30 +38,14 @@ jobs:
           ASARI_DATA_DIR: ${{ github.workspace }}/strona-dan-dom/asari-export
         run: npm run all
 
-      - name: Commit snapshot do repo
+      - name: Commit snapshot + dashboard
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/snapshots/ data/analytics.json
+          git add data/ dist/
           if git diff --cached --quiet; then
-            echo "Brak nowych snapshotów."
+            echo "Brak zmian."
           else
             git commit -m "chore(stats): snapshot $(date -u +%Y-%m-%d) [skip ci]"
             git push origin HEAD
           fi
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

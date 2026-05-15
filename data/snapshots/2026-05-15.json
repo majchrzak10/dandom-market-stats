@@ -727,6 +727,25 @@
       "firstSeenAt": "2026-03-24"
     },
     {
+      "signature": "234/6093/OGS",
+      "title": "Działka budowlana- Rogoźno",
+      "category": "DZIAŁKA",
+      "transaction": "SPRZEDAŻ",
+      "status": "AKTUALNA",
+      "city": "ROGOŹNO",
+      "district": "Leśna",
+      "locationLabel": "Leśna, ROGOŹNO",
+      "pricePln": 129000,
+      "pricePerM2": 160,
+      "areaM2": 808,
+      "rooms": null,
+      "floor": null,
+      "agentName": "Danuta Majchrzak",
+      "listedAt": "2026-03-16",
+      "lastModifiedAt": "2026-04-20",
+      "firstSeenAt": "2026-04-02"
+    },
+    {
       "signature": "301/6093/ODS",
       "title": "DOM · KOBYLEC",
       "category": "DOM",

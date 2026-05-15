@@ -2,14 +2,14 @@
   "generatedAt": "2026-05-15T13:09:06.162Z",
   "kpi": {
     "date": "2026-05-15",
-    "totalOffers": 53,
-    "sale": 52,
+    "totalOffers": 54,
+    "sale": 53,
     "rent": 1,
-    "avgPrice": 432165,
-    "medianPrice": 321838,
-    "avgPricePerM2": 3087,
+    "avgPrice": 426445,
+    "medianPrice": 320000,
+    "avgPricePerM2": 3032,
     "byCategory": {
-      "DZIAŁKA": 22,
+      "DZIAŁKA": 23,
       "DOM": 18,
       "MIESZKANIE": 12,
       "OBIEKT": 1
@@ -57,6 +57,18 @@
           "pricePerM2DiffPct": -45.9
         },
         {
+          "category": "DZIAŁKA",
+          "city": "ROGOŹNO",
+          "ourCount": 2,
+          "competitorCount": 6,
+          "ourMedianPrice": 135960,
+          "competitorMedianPrice": 87500,
+          "priceDiffPct": 55.4,
+          "ourMedianPricePerM2": 140,
+          "competitorMedianPricePerM2": 109,
+          "pricePerM2DiffPct": 28.4
+        },
+        {
           "category": "DOM",
           "city": "WĄGROWIEC",
           "ourCount": 2,
@@ -79,18 +91,6 @@
           "ourMedianPricePerM2": 4483,
           "competitorMedianPricePerM2": 2857,
           "pricePerM2DiffPct": 56.9
-        },
-        {
-          "category": "DZIAŁKA",
-          "city": "ROGOŹNO",
-          "ourCount": 1,
-          "competitorCount": 6,
-          "ourMedianPrice": 142920,
-          "competitorMedianPrice": 87500,
-          "priceDiffPct": 63.3,
-          "ourMedianPricePerM2": 120,
-          "competitorMedianPricePerM2": 109,
-          "pricePerM2DiffPct": 10.1
         },
         {
           "category": "DOM",
@@ -163,7 +163,7 @@
   "timeSeries": [
     {
       "date": "2026-05-15",
-      "total": 53,
+      "total": 54,
       "added": 0,
       "removed": 0
     }
@@ -172,10 +172,10 @@
     "byCategory": [
       {
         "key": "DZIAŁKA",
-        "count": 21,
-        "avgPrice": 259476,
-        "medianPrice": 200000,
-        "avgPricePerM2": 124
+        "count": 22,
+        "avgPrice": 253545,
+        "medianPrice": 194500,
+        "avgPricePerM2": 125
       },
       {
         "key": "DOM",
@@ -202,10 +202,10 @@
     "byCity": [
       {
         "key": "ROGOŹNO",
-        "count": 10,
-        "avgPrice": 372792,
-        "medianPrice": 290000,
-        "avgPricePerM2": 4066
+        "count": 11,
+        "avgPrice": 350629,
+        "medianPrice": 260000,
+        "avgPricePerM2": 3711
       },
       {
         "key": "WĄGROWIEC",
@@ -920,6 +920,18 @@
       "dataSource": "asari"
     },
     {
+      "signature": "234/6093/OGS",
+      "title": "Działka budowlana- Rogoźno",
+      "city": "ROGOŹNO",
+      "pricePln": 129000,
+      "category": "DZIAŁKA",
+      "listedAt": "2026-03-16",
+      "lastModifiedAt": "2026-04-20",
+      "firstSeenAt": "2026-04-02",
+      "daysOnMarket": 60,
+      "dataSource": "asari"
+    },
+    {
       "signature": "301/6093/ODS",
       "title": "DOM · KOBYLEC",
       "city": "KOBYLEC",
@@ -1038,18 +1050,6 @@
       "firstSeenAt": "2026-04-29",
       "daysOnMarket": 16,
       "dataSource": "asari"
-    },
-    {
-      "signature": "238/6093/OGS",
-      "title": "Zbuduj swój dom w historycznym sercu Pałuk",
-      "city": "PANIGRÓDZ",
-      "pricePln": 219000,
-      "category": "DZIAŁKA",
-      "listedAt": "2026-05-04",
-      "lastModifiedAt": "2026-05-05",
-      "firstSeenAt": "2026-05-05",
-      "daysOnMarket": 11,
-      "dataSource": "asari"
     }
   ],
   "velocity": {
@@ -1070,7 +1070,7 @@
         "label": "31–90 dni",
         "min": 31,
         "max": 90,
-        "count": 10
+        "count": 11
       },
       {
         "label": "91–180 dni",
@@ -1085,18 +1085,18 @@
         "count": 23
       }
     ],
-    "avgDaysOnMarket": 223,
-    "medianDaysOnMarket": 123,
+    "avgDaysOnMarket": 220,
+    "medianDaysOnMarket": 122,
     "avgDaysToRemoval": null,
     "totalRemoved": 0
   },
   "agents": [
     {
       "name": "Danuta Majchrzak",
-      "activeOffers": 53,
-      "avgActivePrice": 429892,
+      "activeOffers": 54,
+      "avgActivePrice": 424320,
       "medianActivePrice": 320000,
-      "totalActiveValue": 22784254,
+      "totalActiveValue": 22913254,
       "removedOffers": 0,
       "avgDaysToRemoval": null
     }
@@ -1105,10 +1105,10 @@
     "byCity": [
       {
         "key": "ROGOŹNO",
-        "count": 10,
-        "avgPrice": 372792,
-        "medianPrice": 290000,
-        "avgPricePerM2": 4066
+        "count": 11,
+        "avgPrice": 350629,
+        "medianPrice": 260000,
+        "avgPricePerM2": 3711
       },
       {
         "key": "WĄGROWIEC",
@@ -1405,6 +1405,13 @@
         "avgPrice": 549000,
         "medianPrice": 549000,
         "avgPricePerM2": 4392
+      },
+      {
+        "key": "Leśna (ROGOŹNO)",
+        "count": 1,
+        "avgPrice": 129000,
+        "medianPrice": 129000,
+        "avgPricePerM2": 160
       },
       {
         "key": "Straszewska (WĄGROWIEC)",

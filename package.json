@@ -1,0 +1,16 @@
+{
+  "name": "dandom-market-stats",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Statystyki ofert dan-dom.pl + benchmark konkurencji",
+  "scripts": {
+    "snapshot": "node scripts/snapshot.mjs",
+    "analyze": "node scripts/analyze.mjs",
+    "build-dashboard": "node scripts/build-dashboard.mjs",
+    "all": "npm run snapshot && npm run analyze && npm run build-dashboard"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.5.9"
+  }
+}

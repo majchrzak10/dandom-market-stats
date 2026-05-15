@@ -1,0 +1,757 @@
+{
+  "generatedAt": "2026-05-15T12:03:03.264Z",
+  "kpi": {
+    "date": "2026-05-15",
+    "totalOffers": 55,
+    "sale": 54,
+    "rent": 1,
+    "avgPrice": 429085,
+    "medianPrice": 321838,
+    "avgPricePerM2": 3136,
+    "byCategory": {
+      "DZIAŁKA": 23,
+      "DOM": 18,
+      "MIESZKANIE": 13,
+      "OBIEKT": 1
+    }
+  },
+  "timeSeries": [
+    {
+      "date": "2026-05-15",
+      "total": 55,
+      "added": 0,
+      "removed": 0
+    }
+  ],
+  "segmentation": {
+    "byCategory": [
+      {
+        "key": "DZIAŁKA",
+        "count": 22,
+        "avgPrice": 253545,
+        "medianPrice": 194500,
+        "avgPricePerM2": 125
+      },
+      {
+        "key": "DOM",
+        "count": 18,
+        "avgPrice": 695494,
+        "medianPrice": 539500,
+        "avgPricePerM2": 4885
+      },
+      {
+        "key": "MIESZKANIE",
+        "count": 13,
+        "avgPrice": 304129,
+        "medianPrice": 319000,
+        "avgPricePerM2": 5669
+      },
+      {
+        "key": "OBIEKT",
+        "count": 1,
+        "avgPrice": 1120000,
+        "medianPrice": 1120000,
+        "avgPricePerM2": 4978
+      }
+    ],
+    "byCity": [
+      {
+        "key": "ROGOŹNO",
+        "count": 11,
+        "avgPrice": 350629,
+        "medianPrice": 260000,
+        "avgPricePerM2": 3711
+      },
+      {
+        "key": "WĄGROWIEC",
+        "count": 7,
+        "avgPrice": 406571,
+        "medianPrice": 339000,
+        "avgPricePerM2": 5204
+      },
+      {
+        "key": "GARBATKA",
+        "count": 3,
+        "avgPrice": 590760,
+        "medianPrice": 480160,
+        "avgPricePerM2": 2670
+      },
+      {
+        "key": "ŁAZISKA",
+        "count": 3,
+        "avgPrice": 735147,
+        "medianPrice": 728000,
+        "avgPricePerM2": 1500
+      },
+      {
+        "key": "NIENAWISZCZ",
+        "count": 2,
+        "avgPrice": 187250,
+        "medianPrice": 187250,
+        "avgPricePerM2": 2292
+      },
+      {
+        "key": "TARNOWO",
+        "count": 2,
+        "avgPrice": 217000,
+        "medianPrice": 217000,
+        "avgPricePerM2": 1899
+      },
+      {
+        "key": "BRZEŹNO STARE",
+        "count": 2,
+        "avgPrice": 144460,
+        "medianPrice": 144460,
+        "avgPricePerM2": 61
+      },
+      {
+        "key": "KOBYLEC",
+        "count": 2,
+        "avgPrice": 635000,
+        "medianPrice": 635000,
+        "avgPricePerM2": 5296
+      },
+      {
+        "key": "DŁUGA GOŚLINA",
+        "count": 1,
+        "avgPrice": 1999999,
+        "medianPrice": 1999999,
+        "avgPricePerM2": 3937
+      },
+      {
+        "key": "KCYNIA",
+        "count": 1,
+        "avgPrice": 323675,
+        "medianPrice": 323675,
+        "avgPricePerM2": 5500
+      },
+      {
+        "key": "RUNOWO",
+        "count": 1,
+        "avgPrice": 72000,
+        "medianPrice": 72000,
+        "avgPricePerM2": 90
+      },
+      {
+        "key": "GRYLEWO",
+        "count": 1,
+        "avgPrice": 74640,
+        "medianPrice": 74640,
+        "avgPricePerM2": 60
+      },
+      {
+        "key": "KALISKA",
+        "count": 1,
+        "avgPrice": 880000,
+        "medianPrice": 880000,
+        "avgPricePerM2": 589
+      },
+      {
+        "key": "ZBIETKA",
+        "count": 1,
+        "avgPrice": 79000,
+        "medianPrice": 79000,
+        "avgPricePerM2": 65
+      },
+      {
+        "key": "BOGUNIEWO",
+        "count": 1,
+        "avgPrice": 189000,
+        "medianPrice": 189000,
+        "avgPricePerM2": 95
+      },
+      {
+        "key": "BOLECHÓWKO",
+        "count": 1,
+        "avgPrice": 416625,
+        "medianPrice": 416625,
+        "avgPricePerM2": 275
+      },
+      {
+        "key": "OKONINY NADJEZIORNE",
+        "count": 1,
+        "avgPrice": 103675,
+        "medianPrice": 103675,
+        "avgPricePerM2": 65
+      },
+      {
+        "key": "DZIEWCZA STRUGA",
+        "count": 1,
+        "avgPrice": 250000,
+        "medianPrice": 250000,
+        "avgPricePerM2": 2778
+      },
+      {
+        "key": "ŻELICE",
+        "count": 1,
+        "avgPrice": 289000,
+        "medianPrice": 289000,
+        "avgPricePerM2": 3715
+      },
+      {
+        "key": "STUDZIENIEC",
+        "count": 1,
+        "avgPrice": 205000,
+        "medianPrice": 205000,
+        "avgPricePerM2": 98
+      },
+      {
+        "key": "POZNAŃ",
+        "count": 1,
+        "avgPrice": 569000,
+        "medianPrice": 569000,
+        "avgPricePerM2": 8670
+      },
+      {
+        "key": "MIEŚCISKO",
+        "count": 1,
+        "avgPrice": 549000,
+        "medianPrice": 549000,
+        "avgPricePerM2": 4392
+      },
+      {
+        "key": "WIATROWO",
+        "count": 1,
+        "avgPrice": 360000,
+        "medianPrice": 360000,
+        "avgPricePerM2": 187
+      },
+      {
+        "key": "OCHODZA",
+        "count": 1,
+        "avgPrice": 950000,
+        "medianPrice": 950000,
+        "avgPricePerM2": 5404
+      },
+      {
+        "key": "WIATROWIEC",
+        "count": 1,
+        "avgPrice": 659900,
+        "medianPrice": 659900,
+        "avgPricePerM2": 6747
+      },
+      {
+        "key": "RUDNICZE",
+        "count": 1,
+        "avgPrice": 1390000,
+        "medianPrice": 1390000,
+        "avgPricePerM2": 12411
+      },
+      {
+        "key": "PANIGRÓDZ",
+        "count": 1,
+        "avgPrice": 219000,
+        "medianPrice": 219000,
+        "avgPricePerM2": 54
+      },
+      {
+        "key": "ŁEKNO",
+        "count": 1,
+        "avgPrice": 49000,
+        "medianPrice": 49000,
+        "avgPricePerM2": 54
+      },
+      {
+        "key": "KAROLEWO",
+        "count": 1,
+        "avgPrice": 129000,
+        "medianPrice": 129000,
+        "avgPricePerM2": 2596
+      },
+      {
+        "key": "STAWIANY",
+        "count": 1,
+        "avgPrice": 365000,
+        "medianPrice": 365000,
+        "avgPricePerM2": 2736
+      }
+    ],
+    "byRooms": [
+      {
+        "key": "4 pok.",
+        "count": 9,
+        "avgPrice": 693656,
+        "medianPrice": 659900,
+        "avgPricePerM2": 6149
+      },
+      {
+        "key": "2 pok.",
+        "count": 7,
+        "avgPrice": 236286,
+        "medianPrice": 209000,
+        "avgPricePerM2": 5366
+      },
+      {
+        "key": "3 pok.",
+        "count": 6,
+        "avgPrice": 361779,
+        "medianPrice": 321838,
+        "avgPricePerM2": 6193
+      },
+      {
+        "key": "5 pok.",
+        "count": 6,
+        "avgPrice": 451167,
+        "medianPrice": 439500,
+        "avgPricePerM2": 3165
+      },
+      {
+        "key": "6 pok.",
+        "count": 2,
+        "avgPrice": 849000,
+        "medianPrice": 849000,
+        "avgPricePerM2": 4324
+      },
+      {
+        "key": "7 pok.",
+        "count": 1,
+        "avgPrice": 1999999,
+        "medianPrice": 1999999,
+        "avgPricePerM2": 3937
+      }
+    ]
+  },
+  "priceChanges": [],
+  "timeOnMarket": [
+    {
+      "signature": "128/6093/OGS",
+      "title": "DZIAŁKA · GARBATKA",
+      "city": "GARBATKA",
+      "pricePln": 372120,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "176/6093/ODS",
+      "title": "Dom rekreacyjny Nienawiszcz niedaleko jezioro",
+      "city": "NIENAWISZCZ",
+      "pricePln": 269000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "236/6093/ODS",
+      "title": "Rezydencja nad jeziorem",
+      "city": "DŁUGA GOŚLINA",
+      "pricePln": 1999999,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "317/6093/OMS",
+      "title": "Nowe mieszkania 3 pokoje, Kcynia ul. Młyńska",
+      "city": "KCYNIA",
+      "pricePln": 323675,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "193/6093/OGS",
+      "title": "Działka budowlana w Runowie, gmina Wągrowiec",
+      "city": "RUNOWO",
+      "pricePln": 72000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "199/6093/OGS",
+      "title": "Działka budowlana w Grylewie",
+      "city": "GRYLEWO",
+      "pricePln": 74640,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "205/6093/OGS",
+      "title": "Działka pod zabudowę mieszkaniową dwulokalową",
+      "city": "ŁAZISKA",
+      "pricePln": 328440,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "208/6093/OGS",
+      "title": "Ostatnia działka przy ul. Boguniewskiej.",
+      "city": "ROGOŹNO",
+      "pricePln": 142920,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "213/6093/OGS",
+      "title": "Na sprzedaż działki przy lesie - Tarnowo, Rogoźno",
+      "city": "TARNOWO",
+      "pricePln": 95000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "216/6093/OGS",
+      "title": "Działka nad jeziorem z pięknym widokiem na wodę",
+      "city": "KALISKA",
+      "pricePln": 880000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "217/6093/OGS",
+      "title": "Działka w Zbietce gmina Mieścisko",
+      "city": "ZBIETKA",
+      "pricePln": 79000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "218/6093/OGS",
+      "title": "Atrakcyjna działka dookoła natura - las jezioro",
+      "city": "BOGUNIEWO",
+      "pricePln": 189000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "272/6093/ODS",
+      "title": "Dom jednorodzinny w Rogoźnie",
+      "city": "ROGOŹNO",
+      "pricePln": 530000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "222/6093/OGS",
+      "title": "Oaza spokoju - działka z drzewami w Łaziskach",
+      "city": "ŁAZISKA",
+      "pricePln": 728000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "364/6093/OMS",
+      "title": "Mieszkanie 2 pokojowe Jeżyka Wągrowiec",
+      "city": "WĄGROWIEC",
+      "pricePln": 270000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "224/6093/OGS",
+      "title": "Działka budowlana - piękne położenie Bolechówko",
+      "city": "BOLECHÓWKO",
+      "pricePln": 416625,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "225/6093/OGS",
+      "title": "Działka z możliwością zabudowy jednorodzinnej",
+      "city": "BRZEŹNO STARE",
+      "pricePln": 88920,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "372/6093/OMS",
+      "title": "Bezczynszowe 2 pokoje z aneksem Wegnera Wągrowiec",
+      "city": "WĄGROWIEC",
+      "pricePln": 339000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "373/6093/OMS",
+      "title": "Stylowe mieszkanie po remoncie",
+      "city": "ROGOŹNO",
+      "pricePln": 359000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "226/6093/OGS",
+      "title": "Piękna duża działka pod zabudowę Brzeźno Stare",
+      "city": "BRZEŹNO STARE",
+      "pricePln": 200000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "378/6093/OMS",
+      "title": "Poranna kawa na własnym tarasie, 3 pokoje czekają!",
+      "city": "WĄGROWIEC",
+      "pricePln": 439000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "227/6093/OGS",
+      "title": "Działka na terenach inwestycyjnych m. Rogoźno",
+      "city": "GARBATKA",
+      "pricePln": 480160,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "280/6093/ODS",
+      "title": "Przestronny dom pod miastem - cisza i wygoda",
+      "city": "ŁAZISKA",
+      "pricePln": 1149000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "228/6093/OGS",
+      "title": "Twoje miejsce na wypoczynek - jezioro i piękny las",
+      "city": "OKONINY NADJEZIORNE",
+      "pricePln": 103675,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "285/6093/ODS",
+      "title": "Dom przy lesie",
+      "city": "DZIEWCZA STRUGA",
+      "pricePln": 250000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "393/6093/OMS",
+      "title": "Przytulne 4 pokoje na parterze – Żelice",
+      "city": "ŻELICE",
+      "pricePln": 289000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "287/6093/ODS",
+      "title": "DOM · ROGOŹNO",
+      "city": "ROGOŹNO",
+      "pricePln": 260000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "230/6093/OGS",
+      "title": "Działka pod zabudowę Wągrowiec ul. Wierzbowa",
+      "city": "WĄGROWIEC",
+      "pricePln": 260000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "290/6093/ODS",
+      "title": "Nowoczesny dom jednorodzinny z garażem",
+      "city": "GARBATKA",
+      "pricePln": 920000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "231/6093/OGS",
+      "title": "Duża działka budowlana",
+      "city": "STUDZIENIEC",
+      "pricePln": 205000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "398/6093/OMS",
+      "title": "Mieszkanie na parterze z balkonem",
+      "city": "ROGOŹNO",
+      "pricePln": 199000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "295/6093/ODS",
+      "title": "Dom w Tarnowie",
+      "city": "TARNOWO",
+      "pricePln": 339000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "401/6093/OMS",
+      "title": "Zielony Dębiec mieszkanie z widokiem",
+      "city": "POZNAŃ",
+      "pricePln": 569000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "403/6093/OMS",
+      "title": "Mieszkanie w bloku na parterze",
+      "city": "ROGOŹNO",
+      "pricePln": 209000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "298/6093/ODS",
+      "title": "Dom w bliskiej okolicy jeziora Wągrowiec",
+      "city": "WĄGROWIEC",
+      "pricePln": 520000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "299/6093/ODS",
+      "title": "Piętrowy dom w Mieścisku na spokojnym osiedlu",
+      "city": "MIEŚCISKO",
+      "pricePln": 549000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "406/6093/OMS",
+      "title": "MIESZKANIE · ROGOŹNO",
+      "city": "ROGOŹNO",
+      "pricePln": 189000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "9/6093/OOS",
+      "title": "Zakład usługowo- produkcyjny",
+      "city": "ROGOŹNO",
+      "pricePln": 1120000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "232/6093/OGS",
+      "title": "Piękna działka Wiatrowo Las z pozwoleniem",
+      "city": "WIATROWO",
+      "pricePln": 360000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "291/6093/ODS",
+      "title": "Piękna leśna działka z domem - Oaza Spokoju",
+      "city": "RUDNICZE",
+      "pricePln": 1390000,
+      "firstSeenAt": "2026-03-24",
+      "daysOnMarket": 52
+    },
+    {
+      "signature": "301/6093/ODS",
+      "title": "DOM · KOBYLEC",
+      "city": "KOBYLEC",
+      "pricePln": 950000,
+      "firstSeenAt": "2026-04-01",
+      "daysOnMarket": 44
+    },
+    {
+      "signature": "234/6093/OGS",
+      "title": "Działka budowlana- Rogoźno",
+      "city": "ROGOŹNO",
+      "pricePln": 129000,
+      "firstSeenAt": "2026-04-02",
+      "daysOnMarket": 43
+    },
+    {
+      "signature": "410/6093/OMS",
+      "title": "2 pokoje na II piętrze w bezczynszowym bloku",
+      "city": "WĄGROWIEC",
+      "pricePln": 319000,
+      "firstSeenAt": "2026-04-07",
+      "daysOnMarket": 38
+    },
+    {
+      "signature": "237/6093/OGS",
+      "title": "Działka budowlana- Nienawiszcz",
+      "city": "NIENAWISZCZ",
+      "pricePln": 105500,
+      "firstSeenAt": "2026-04-20",
+      "daysOnMarket": 25
+    },
+    {
+      "signature": "302/6093/ODS",
+      "title": "Cisza, przestrzeń i szybki dojazd dom k. Wągrowca",
+      "city": "OCHODZA",
+      "pricePln": 950000,
+      "firstSeenAt": "2026-04-21",
+      "daysOnMarket": 24
+    },
+    {
+      "signature": "1/6093/OGW",
+      "title": "Działka z możliwością zabudowy oraz podziału",
+      "city": "ZBIETKA",
+      "pricePln": 311680,
+      "firstSeenAt": "2026-04-21",
+      "daysOnMarket": 24
+    },
+    {
+      "signature": "304/6093/ODS",
+      "title": "Spokój, natura i nowoczesność - dom  pod Wągrowcem",
+      "city": "WIATROWIEC",
+      "pricePln": 659900,
+      "firstSeenAt": "2026-04-27",
+      "daysOnMarket": 18
+    },
+    {
+      "signature": "418/6093/OMS",
+      "title": "Rogoźno, ul. Strzelecka- ostatnie mieszkanie!!!",
+      "city": "ROGOŹNO",
+      "pricePln": 320000,
+      "firstSeenAt": "2026-04-28",
+      "daysOnMarket": 17
+    },
+    {
+      "signature": "305/6093/ODS",
+      "title": "DOM · WĄGROWIEC",
+      "city": "WĄGROWIEC",
+      "pricePln": 699000,
+      "firstSeenAt": "2026-04-29",
+      "daysOnMarket": 16
+    },
+    {
+      "signature": "306/6093/ODS",
+      "title": "Segment z działką Ruda k. Rogoźna",
+      "city": "ROGOŹNO",
+      "pricePln": 399000,
+      "firstSeenAt": "2026-04-29",
+      "daysOnMarket": 16
+    },
+    {
+      "signature": "238/6093/OGS",
+      "title": "Zbuduj swój dom w historycznym sercu Pałuk",
+      "city": "PANIGRÓDZ",
+      "pricePln": 219000,
+      "firstSeenAt": "2026-05-05",
+      "daysOnMarket": 10
+    },
+    {
+      "signature": "239/6093/OGS",
+      "title": "Działka z warunkami zabudowy Łekno",
+      "city": "ŁEKNO",
+      "pricePln": 49000,
+      "firstSeenAt": "2026-05-07",
+      "daysOnMarket": 8
+    },
+    {
+      "signature": "417/6093/OMS",
+      "title": "Mieszkanie 2 pokojowe w Karolewie, gm. Rogoźno",
+      "city": "KAROLEWO",
+      "pricePln": 129000,
+      "firstSeenAt": "2026-05-08",
+      "daysOnMarket": 7
+    },
+    {
+      "signature": "307/6093/ODS",
+      "title": "Ucieknij na wieś: Stan surowy otulony zielenią",
+      "city": "STAWIANY",
+      "pricePln": 365000,
+      "firstSeenAt": "2026-05-11",
+      "daysOnMarket": 4
+    },
+    {
+      "signature": "308/6093/ODS",
+      "title": "Mały dom w Kobylcu –  blisko jeziora i lasu!",
+      "city": "KOBYLEC",
+      "pricePln": 320000,
+      "firstSeenAt": "2026-05-14",
+      "daysOnMarket": 1
+    }
+  ]
+}

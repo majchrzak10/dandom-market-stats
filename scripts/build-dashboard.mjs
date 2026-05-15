@@ -1,6 +1,5 @@
 /**
  * Generuje dist/index.html — self-contained dashboard z osadzonym analytics.json.
- * Hostowane na GitHub Pages przez workflow.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -28,6 +27,11 @@ const html = `<!DOCTYPE html>
   body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
   .kpi-card { transition: transform 0.15s; }
   .kpi-card:hover { transform: translateY(-2px); }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 500; }
+  .badge-added { background: #dcfce7; color: #166534; }
+  .badge-removed { background: #fee2e2; color: #991b1b; }
+  .badge-price-up { background: #fef3c7; color: #92400e; }
+  .badge-price-down { background: #dbeafe; color: #1e40af; }
 </style>
 </head>
 <body class="bg-stone-50 text-stone-900">
@@ -35,7 +39,7 @@ const html = `<!DOCTYPE html>
   <header class="mb-8">
     <h1 class="text-3xl md:text-4xl font-bold tracking-tight">Statystyki ofert Dan-Dom</h1>
     <p class="text-stone-600 mt-2">
-      Aktualizacja: <span id="updated"></span> · Źródło: feed Asari → repo Strona-Dan-Dom
+      Aktualizacja: <span id="updated"></span> · <span id="events-total" class="text-stone-500"></span>
     </p>
   </header>
 
@@ -58,24 +62,53 @@ const html = `<!DOCTYPE html>
       <canvas id="city-chart"></canvas>
     </div>
     <div class="bg-white rounded-2xl shadow-sm p-6">
-      <h2 class="text-lg font-semibold mb-4">Średnia cena/m² wg kategorii</h2>
-      <canvas id="price-per-m2-chart"></canvas>
+      <h2 class="text-lg font-semibold mb-4">Inventory aging — ile czasu wiszą</h2>
+      <canvas id="velocity-chart"></canvas>
+      <div class="mt-4 text-sm text-stone-600" id="velocity-summary"></div>
     </div>
   </section>
 
   <section class="bg-white rounded-2xl shadow-sm p-6 mb-10">
-    <h2 class="text-lg font-semibold mb-4">Najdłużej na rynku (top 10)</h2>
+    <h2 class="text-lg font-semibold mb-4">Performance agentów</h2>
     <table class="w-full text-sm">
       <thead class="text-stone-500 text-left border-b">
-        <tr><th class="pb-2">Oferta</th><th class="pb-2">Miasto</th><th class="pb-2 text-right">Cena</th><th class="pb-2 text-right">Dni</th></tr>
+        <tr>
+          <th class="pb-2">Agent</th>
+          <th class="pb-2 text-right">Aktywne oferty</th>
+          <th class="pb-2 text-right">Wartość portfela</th>
+          <th class="pb-2 text-right">Średnia cena</th>
+          <th class="pb-2 text-right">Sprzedane/wycofane</th>
+          <th class="pb-2 text-right">Śr. dni do zniknięcia</th>
+        </tr>
       </thead>
-      <tbody id="tom-table"></tbody>
+      <tbody id="agents-table"></tbody>
     </table>
+  </section>
+
+  <section class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10">
+    <div class="bg-white rounded-2xl shadow-sm p-6">
+      <h2 class="text-lg font-semibold mb-4">Średnia cena/m² wg kategorii</h2>
+      <canvas id="price-per-m2-chart"></canvas>
+    </div>
+    <div class="bg-white rounded-2xl shadow-sm p-6">
+      <h2 class="text-lg font-semibold mb-4">Najdłużej na rynku (top 10)</h2>
+      <table class="w-full text-sm">
+        <thead class="text-stone-500 text-left border-b">
+          <tr><th class="pb-2">Oferta</th><th class="pb-2">Miasto</th><th class="pb-2 text-right">Cena</th><th class="pb-2 text-right">Dni</th></tr>
+        </thead>
+        <tbody id="tom-table"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="bg-white rounded-2xl shadow-sm p-6 mb-10">
+    <h2 class="text-lg font-semibold mb-4">Ostatnie 30 dni — zdarzenia</h2>
+    <div id="recent-events" class="text-stone-500">Pojawi się po pierwszych diff-ach (jutro).</div>
   </section>
 
   <section class="bg-white rounded-2xl shadow-sm p-6 mb-10" id="price-changes-section">
     <h2 class="text-lg font-semibold mb-4">Zmiany cen</h2>
-    <div id="price-changes-content" class="text-stone-500">Zmiany cen pojawią się po zebraniu więcej snapshotów (min. 2 dni historii).</div>
+    <div id="price-changes-content" class="text-stone-500">Zmiany cen pojawią się po zebraniu eventów (min. 2 dni historii).</div>
   </section>
 </div>
 
@@ -83,6 +116,7 @@ const html = `<!DOCTYPE html>
 const A = ${JSON.stringify(analytics, null, 2)};
 
 document.getElementById("updated").textContent = new Date(A.generatedAt).toLocaleString("pl-PL");
+document.getElementById("events-total").textContent = \`\${A.totalEventsLogged} eventów w historii\`;
 
 const fmtPLN = (n) => n == null ? "—" : new Intl.NumberFormat("pl-PL", { maximumFractionDigits: 0 }).format(n) + " zł";
 
@@ -126,6 +160,31 @@ new Chart(document.getElementById("city-chart"), {
   options: { indexAxis: "y", plugins: { legend: { display: false } } },
 });
 
+new Chart(document.getElementById("velocity-chart"), {
+  type: "bar",
+  data: {
+    labels: A.velocity.buckets.map(b => b.label),
+    datasets: [{ label: "Oferty", data: A.velocity.buckets.map(b => b.count), backgroundColor: ["#22c55e", "#84cc16", "#eab308", "#f97316", "#dc2626"] }],
+  },
+  options: { plugins: { legend: { display: false } } },
+});
+
+document.getElementById("velocity-summary").innerHTML = \`
+  Średni czas na rynku: <b>\${A.velocity.avgDaysOnMarket ?? "—"}</b> dni · Mediana: <b>\${A.velocity.medianDaysOnMarket ?? "—"}</b> dni<br>
+  Zniknęło z bazy: <b>\${A.velocity.totalRemoved}</b> ofert · Śr. czas-do-zniknięcia: <b>\${A.velocity.avgDaysToRemoval ?? "—"}</b> dni
+\`;
+
+document.getElementById("agents-table").innerHTML = A.agents.map(a => \`
+  <tr class="border-b last:border-0">
+    <td class="py-2 font-medium">\${a.name}</td>
+    <td class="py-2 text-right">\${a.activeOffers}</td>
+    <td class="py-2 text-right">\${fmtPLN(a.totalActiveValue)}</td>
+    <td class="py-2 text-right">\${fmtPLN(a.avgActivePrice)}</td>
+    <td class="py-2 text-right">\${a.removedOffers}</td>
+    <td class="py-2 text-right">\${a.avgDaysToRemoval ?? "—"}</td>
+  </tr>
+\`).join("");
+
 new Chart(document.getElementById("price-per-m2-chart"), {
   type: "bar",
   data: {
@@ -144,20 +203,66 @@ document.getElementById("tom-table").innerHTML = A.timeOnMarket.slice(0, 10).map
   </tr>
 \`).join("");
 
+const eventTypeMap = {
+  offer_added: { label: "Nowa", badge: "badge-added" },
+  offer_removed: { label: "Zniknęła", badge: "badge-removed" },
+  price_changed: { label: "Zmiana ceny", badge: "" },
+  area_changed: { label: "Zmiana metrażu", badge: "" },
+  rooms_changed: { label: "Zmiana liczby pokoi", badge: "" },
+  agent_changed: { label: "Zmiana agenta", badge: "" },
+  title_changed: { label: "Zmiana tytułu", badge: "" },
+};
+
+if (A.recentEvents.length > 0) {
+  document.getElementById("recent-events").innerHTML = \`
+    <table class="w-full text-sm">
+      <thead class="text-stone-500 text-left border-b">
+        <tr><th class="pb-2">Data</th><th class="pb-2">Typ</th><th class="pb-2">Oferta</th><th class="pb-2">Miasto</th><th class="pb-2 text-right">Szczegóły</th></tr>
+      </thead>
+      <tbody>
+        \${A.recentEvents.slice(0, 30).map(e => {
+          const meta = eventTypeMap[e.type] || { label: e.type, badge: "" };
+          let detail = "";
+          if (e.type === "price_changed") {
+            const direction = e.diff < 0 ? "badge-price-down" : "badge-price-up";
+            detail = \`<span class="badge \${direction}">\${e.diffPct > 0 ? "+" : ""}\${e.diffPct}%</span> \${fmtPLN(e.from)} → \${fmtPLN(e.to)}\`;
+          } else if (e.type === "offer_added") {
+            detail = \`\${fmtPLN(e.pricePln)} · \${e.category}\`;
+          } else if (e.type === "offer_removed") {
+            detail = \`\${e.daysOnMarket ?? "?"} dni na rynku · \${fmtPLN(e.lastPricePln)}\`;
+          } else if (e.from != null) {
+            detail = \`\${e.from} → \${e.to}\`;
+          }
+          return \`
+            <tr class="border-b last:border-0">
+              <td class="py-2 text-stone-500">\${e.date}</td>
+              <td class="py-2"><span class="badge \${meta.badge}">\${meta.label}</span></td>
+              <td class="py-2">\${e.title || e.signature}</td>
+              <td class="py-2">\${e.city || "—"}</td>
+              <td class="py-2 text-right text-stone-700">\${detail}</td>
+            </tr>
+          \`;
+        }).join("")}
+      </tbody>
+    </table>
+  \`;
+}
+
 if (A.priceChanges.length > 0) {
   document.getElementById("price-changes-content").innerHTML = \`
     <table class="w-full text-sm">
       <thead class="text-stone-500 text-left border-b">
-        <tr><th class="pb-2">Oferta</th><th class="pb-2">Miasto</th><th class="pb-2 text-right">Pierwsza</th><th class="pb-2 text-right">Aktualna</th><th class="pb-2 text-right">Zmiana</th></tr>
+        <tr><th class="pb-2">Oferta</th><th class="pb-2">Miasto</th><th class="pb-2 text-right">Z</th><th class="pb-2 text-right">Na</th><th class="pb-2 text-right">Zmiana</th><th class="pb-2 text-right">Data</th></tr>
       </thead>
       <tbody>
         \${A.priceChanges.slice(0, 20).map(p => \`
           <tr class="border-b last:border-0">
             <td class="py-2">\${p.title}</td>
             <td class="py-2">\${p.city}</td>
-            <td class="py-2 text-right">\${fmtPLN(p.firstPrice)}</td>
-            <td class="py-2 text-right">\${fmtPLN(p.currentPrice)}</td>
+            <td class="py-2 text-right">\${fmtPLN(p.from)}</td>
+            <td class="py-2 text-right">\${fmtPLN(p.to)}</td>
             <td class="py-2 text-right font-semibold \${p.diff < 0 ? "text-green-700" : "text-red-700"}">\${p.diffPct > 0 ? "+" : ""}\${p.diffPct}%</td>
+            <td class="py-2 text-right text-stone-500">\${p.date}</td>
           </tr>
         \`).join("")}
       </tbody>

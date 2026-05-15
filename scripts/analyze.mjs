@@ -1,21 +1,34 @@
 /**
- * Czyta wszystkie snapshoty z data/snapshots/, wylicza statystyki i zapisuje
- * data/analytics.json — w jednym pliku wszystko czego potrzebuje dashboard.
+ * Czyta snapshoty + eventy, wylicza statystyki, zapisuje data/analytics.json.
  *
- * Generuje:
- *  - kpi: aktualne liczby (oferty, średnie ceny, mediany)
- *  - timeSeries: ilość ofert dziennie + nowe/zdjęte
- *  - segmentation: per kategoria, miasto, przedział cenowy
- *  - priceChanges: oferty z udokumentowaną zmianą ceny między snapshotami
- *  - timeOnMarket: lista ofert z liczbą dni od pierwszego pojawienia
+ * Sekcje:
+ *  - kpi:              ogólne liczby (aktywne, śr/mediana cen, byCategory)
+ *  - timeSeries:       liczba ofert dziennie + added/removed
+ *  - segmentation:     byCategory / byCity / byRooms (z avgPrice etc.)
+ *  - priceChanges:     bieżące oferty z udokumentowaną zmianą ceny
+ *  - timeOnMarket:     dni od pierwszego pojawienia per oferta
+ *  - velocity:         histogram inventory aging + statystyki sprzedaży
+ *  - agents:           statystyki per agentName (oferty, średnia cena, sprzedaż)
+ *  - geo:              statystyki per city + per district (z miastem)
+ *  - recentEvents:     ostatnie 30 dni zdarzeń (added/removed/price)
  */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadAllEvents, buildOfferTimelines } from "../lib/events-loader.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const SNAP_DIR = path.join(ROOT, "data", "snapshots");
+const EVENTS_DIR = path.join(ROOT, "data", "events");
+
+const VELOCITY_BUCKETS = [
+  { label: "0–7 dni (świeże)", min: 0, max: 7 },
+  { label: "8–30 dni", min: 8, max: 30 },
+  { label: "31–90 dni", min: 31, max: 90 },
+  { label: "91–180 dni", min: 91, max: 180 },
+  { label: ">180 dni (zalegają)", min: 181, max: Infinity },
+];
 
 function loadSnapshots() {
   if (!fs.existsSync(SNAP_DIR)) return [];
@@ -73,7 +86,10 @@ const latest = snapshots[snapshots.length - 1];
 const offers = latest.offers;
 const sale = offers.filter((o) => o.transaction === "SPRZEDAŻ");
 const today = latest.date;
+const events = loadAllEvents(EVENTS_DIR);
+const timelines = buildOfferTimelines(events);
 
+// === KPI ===
 const kpi = {
   date: today,
   totalOffers: offers.length,
@@ -82,17 +98,13 @@ const kpi = {
   avgPrice: mean(sale.map((o) => o.pricePln).filter(Boolean)),
   medianPrice: median(sale.map((o) => o.pricePln).filter(Boolean)),
   avgPricePerM2: mean(sale.map((o) => o.pricePerM2).filter(Boolean)),
-  byCategory: Object.fromEntries(
-    Object.entries(
-      offers.reduce((acc, o) => {
-        acc[o.category] = (acc[o.category] || 0) + 1;
-        return acc;
-      }, {}),
-    ),
-  ),
+  byCategory: offers.reduce((acc, o) => {
+    acc[o.category] = (acc[o.category] || 0) + 1;
+    return acc;
+  }, {}),
 };
 
-// Trendy w czasie (potrzebują min. 2 snapshotów)
+// === Time series ===
 const sigByDate = new Map(snapshots.map((s) => [s.date, new Set(s.offers.map((o) => o.signature))]));
 const timeSeries = snapshots.map((s, i) => {
   const prev = i > 0 ? sigByDate.get(snapshots[i - 1].date) : null;
@@ -102,46 +114,102 @@ const timeSeries = snapshots.map((s, i) => {
   return { date: s.date, total: s.offers.length, added, removed };
 });
 
-// Zmiany cen między dzisiaj a najstarszym snapshotem zawierającym daną ofertę
-const priceHistory = new Map(); // sig → [{ date, price }]
-for (const s of snapshots) {
-  for (const o of s.offers) {
-    if (!o.pricePln) continue;
-    if (!priceHistory.has(o.signature)) priceHistory.set(o.signature, []);
-    priceHistory.get(o.signature).push({ date: s.date, price: o.pricePln });
-  }
-}
-const priceChanges = [];
-for (const o of offers) {
-  const h = priceHistory.get(o.signature) || [];
-  if (h.length < 2) continue;
-  const first = h[0];
-  const last = h[h.length - 1];
-  if (first.price === last.price) continue;
-  priceChanges.push({
+// === Price changes (z eventów + ze snapshotów) ===
+const priceChangeEvents = events.filter((e) => e.type === "price_changed");
+const priceChanges = priceChangeEvents
+  .map((e) => ({ ...e, currentlyActive: offers.some((o) => o.signature === e.signature) }))
+  .sort((a, b) => Math.abs(b.diffPct ?? 0) - Math.abs(a.diffPct ?? 0))
+  .slice(0, 50);
+
+// === Time on market (aktywne oferty) ===
+const timeOnMarket = offers
+  .map((o) => ({
     signature: o.signature,
     title: o.title,
     city: o.city,
-    firstPrice: first.price,
-    currentPrice: last.price,
-    diff: last.price - first.price,
-    diffPct: Math.round(((last.price - first.price) / first.price) * 1000) / 10,
-    firstSeen: first.date,
-    daysObserved: daysBetween(first.date, last.date),
-  });
-}
-priceChanges.sort((a, b) => Math.abs(b.diffPct) - Math.abs(a.diffPct));
+    pricePln: o.pricePln,
+    category: o.category,
+    firstSeenAt: o.firstSeenAt,
+    daysOnMarket: o.firstSeenAt ? daysBetween(o.firstSeenAt, today) : null,
+  }))
+  .sort((a, b) => (b.daysOnMarket ?? 0) - (a.daysOnMarket ?? 0));
 
-// Time-on-market — używamy firstSeenAt z czytnika (data pierwszej paczki XML z tą sygnaturą)
-const timeOnMarket = offers.map((o) => ({
-  signature: o.signature,
-  title: o.title,
-  city: o.city,
-  pricePln: o.pricePln,
-  firstSeenAt: o.firstSeenAt,
-  daysOnMarket: o.firstSeenAt ? daysBetween(o.firstSeenAt, today) : null,
+// === Velocity / inventory aging ===
+const velocityBuckets = VELOCITY_BUCKETS.map((b) => ({
+  ...b,
+  count: timeOnMarket.filter((t) => t.daysOnMarket != null && t.daysOnMarket >= b.min && t.daysOnMarket <= b.max).length,
 }));
-timeOnMarket.sort((a, b) => (b.daysOnMarket ?? 0) - (a.daysOnMarket ?? 0));
+
+// Średni czas-do-zniknięcia (z eventów: offer_removed mają daysOnMarket)
+const removedEvents = events.filter((e) => e.type === "offer_removed" && e.daysOnMarket != null);
+const velocity = {
+  buckets: velocityBuckets,
+  avgDaysOnMarket: timeOnMarket.length ? mean(timeOnMarket.map((t) => t.daysOnMarket).filter((d) => d != null)) : null,
+  medianDaysOnMarket: timeOnMarket.length ? median(timeOnMarket.map((t) => t.daysOnMarket).filter((d) => d != null)) : null,
+  avgDaysToRemoval: removedEvents.length ? mean(removedEvents.map((e) => e.daysOnMarket)) : null,
+  totalRemoved: removedEvents.length,
+};
+
+// === Agent performance ===
+const removedBySig = new Map(removedEvents.map((e) => [e.signature, e]));
+const agentMap = new Map();
+for (const o of offers) {
+  const name = o.agentName?.trim() || "—";
+  if (!agentMap.has(name)) {
+    agentMap.set(name, { name, activeOffers: 0, totalActiveValue: 0, prices: [] });
+  }
+  const a = agentMap.get(name);
+  a.activeOffers++;
+  if (o.pricePln) {
+    a.totalActiveValue += o.pricePln;
+    a.prices.push(o.pricePln);
+  }
+}
+
+// Agent historical: ile zniknęło ofert per agent (sprzedanych/wycofanych)
+const agentHistorical = new Map();
+for (const e of removedEvents) {
+  // Trzeba znaleźć agentName z ostatniego snapshotu kiedy oferta istniała
+  // Najprostsze: zbierz z timeline pierwsze "offer_added" event
+  const timeline = timelines.get(e.signature) || [];
+  const added = timeline.find((t) => t.type === "offer_added");
+  const agentName = added?.agentName?.trim() || "—";
+  if (!agentHistorical.has(agentName)) {
+    agentHistorical.set(agentName, { removed: 0, avgDaysToRemoval: [] });
+  }
+  const ag = agentHistorical.get(agentName);
+  ag.removed++;
+  if (e.daysOnMarket != null) ag.avgDaysToRemoval.push(e.daysOnMarket);
+}
+
+const agents = Array.from(agentMap.values())
+  .map((a) => {
+    const hist = agentHistorical.get(a.name) || { removed: 0, avgDaysToRemoval: [] };
+    return {
+      name: a.name,
+      activeOffers: a.activeOffers,
+      avgActivePrice: mean(a.prices),
+      medianActivePrice: median(a.prices),
+      totalActiveValue: a.totalActiveValue,
+      removedOffers: hist.removed,
+      avgDaysToRemoval: hist.avgDaysToRemoval.length ? mean(hist.avgDaysToRemoval) : null,
+    };
+  })
+  .sort((a, b) => b.activeOffers - a.activeOffers);
+
+// === Geo: city + district ===
+const geoByCity = bucketBy(sale, (o) => o.city);
+const geoByDistrict = bucketBy(
+  sale.filter((o) => o.district),
+  (o) => `${o.district} (${o.city})`,
+);
+
+// === Recent events (30 dni) ===
+const thirtyDaysAgo = new Date(Date.now() - 30 * 86_400_000).toISOString().slice(0, 10);
+const recentEvents = events
+  .filter((e) => e.date >= thirtyDaysAgo)
+  .sort((a, b) => b.date.localeCompare(a.date))
+  .slice(0, 100);
 
 const analytics = {
   generatedAt: new Date().toISOString(),
@@ -153,10 +221,19 @@ const analytics = {
     byRooms: bucketBy(sale.filter((o) => o.rooms), (o) => `${o.rooms} pok.`),
   },
   priceChanges,
-  timeOnMarket,
+  timeOnMarket: timeOnMarket.slice(0, 50),
+  velocity,
+  agents,
+  geo: {
+    byCity: geoByCity,
+    byDistrict: geoByDistrict,
+  },
+  recentEvents,
+  totalEventsLogged: events.length,
 };
 
 fs.writeFileSync(path.join(ROOT, "data", "analytics.json"), JSON.stringify(analytics, null, 2) + "\n");
+
 console.log(
-  `Analytics: ${kpi.totalOffers} ofert, ${priceChanges.length} zmian cen, ${timeSeries.length} dni historii.`,
+  `Analytics: ${kpi.totalOffers} ofert · ${events.length} eventów history · ${agents.length} agentów · ${velocityBuckets.length} buckets velocity`,
 );

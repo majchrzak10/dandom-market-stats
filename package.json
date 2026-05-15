@@ -8,6 +8,7 @@
     "snapshot": "node scripts/snapshot.mjs",
     "analyze": "node scripts/analyze.mjs",
     "build-dashboard": "node scripts/build-dashboard.mjs",
+    "history": "node scripts/offer-history.mjs",
     "all": "npm run snapshot && npm run analyze && npm run build-dashboard"
   },
   "dependencies": {

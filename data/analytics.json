@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T13:16:31.915Z",
+  "generatedAt": "2026-05-15T13:22:04.494Z",
   "kpi": {
     "date": "2026-05-15",
     "totalOffers": 53,
@@ -1437,6 +1437,6 @@
     ]
   },
   "recentEvents": [],
-  "totalEventsLogged": 213,
-  "bootstrapEvents": 213
+  "totalEventsLogged": 266,
+  "bootstrapEvents": 266
 }

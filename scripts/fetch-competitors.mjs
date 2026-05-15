@@ -9,6 +9,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { fetchOtodomSnapshot } from "../lib/competitors/otodom.mjs";
+import { fetchOlxSnapshot } from "../lib/competitors/olx.mjs";
+import { dedupeCompetitorOffers } from "../lib/competitors/dedupe.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -37,14 +39,29 @@ async function main() {
 
   console.log(`Pobieram konkurencję dla: ${cities.join(", ")}`);
 
+  let otodom = [];
+  let olx = [];
+
   try {
-    const otodom = await fetchOtodomSnapshot({ cities });
+    otodom = await fetchOtodomSnapshot({ cities });
     await save("otodom", otodom);
   } catch (err) {
     console.error("[otodom] Błąd:", err.message);
   }
 
-  // OLX zostawiam jako TODO - inna struktura, dodam w kolejnej iteracji
+  try {
+    olx = await fetchOlxSnapshot({ cities });
+    await save("olx", olx);
+  } catch (err) {
+    console.error("[olx] Błąd:", err.message);
+  }
+
+  // Deduplikacja: scal otodom + olx w jedną unikalną listę
+  if (otodom.length > 0 || olx.length > 0) {
+    const { unique, stats } = dedupeCompetitorOffers({ otodom, olx });
+    await save("combined", unique);
+    console.log("[dedupe]", JSON.stringify(stats, null, 2));
+  }
 }
 
 main().catch((err) => {

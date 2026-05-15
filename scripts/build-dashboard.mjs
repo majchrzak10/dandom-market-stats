@@ -147,7 +147,8 @@ const html = `<!DOCTYPE html>
     <section class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-8" id="market-kpi"></section>
 
     <section class="bg-white rounded-2xl shadow-sm p-5 mb-8">
-      <h2 class="text-base font-semibold mb-1">Benchmark: my vs otodom</h2>
+      <h2 class="text-base font-semibold mb-1">Benchmark: my vs konkurencja</h2>
+      <p class="text-xs text-stone-500 mb-1" id="benchmark-sources"></p>
       <p class="text-xs text-stone-500 mb-3">
         Niebieskie = nasze ceny niższe niż rynek · Pomarańczowe = wyższe. Porównujemy tylko wspólne kategorie/miasta.
       </p>
@@ -319,7 +320,7 @@ ${
 }
 
 // === Tab 2: Rynek ===
-const bench = A.benchmark?.otodom;
+const bench = A.benchmark?.competitor;
 if (bench) {
   const ourCount = bench.comparison.reduce((sum, c) => sum + c.ourCount, 0);
   const theirCount = bench.totalCompetitorOffers;
@@ -327,7 +328,7 @@ if (bench) {
   const avgDiff = bench.comparison.filter(c => c.pricePerM2DiffPct != null).reduce((sum, c, _, arr) => sum + c.pricePerM2DiffPct / arr.length, 0);
 
   document.getElementById("market-kpi").innerHTML = [
-    { label: "Otodom w regionie", value: theirCount },
+    { label: "Konkurencja w regionie", value: theirCount },
     { label: "Nasze (porównywalne)", value: ourCount },
     { label: "Nasz udział", value: sharePct + "%" },
     { label: "Średnia różnica cen/m²", value: (avgDiff > 0 ? "+" : "") + avgDiff.toFixed(1) + "%" },
@@ -338,6 +339,16 @@ if (bench) {
     </div>
   \`).join("");
 
+  // Pokaż breakdown źródeł
+  const sources = A.benchmark.sourceCounts || {};
+  const srcLines = Object.entries(sources)
+    .map(([k, v]) => \`\${k}: <b>\${v}</b>\`)
+    .join(" · ");
+  if (srcLines) {
+    document.getElementById("benchmark-sources").innerHTML =
+      \`Źródła: \${srcLines}. Duplikaty wykryte przez externalUrl + heurystykę miasto+powierzchnia+cena.\`;
+  }
+
   document.getElementById("benchmark-content").innerHTML = \`
     <table class="w-full text-sm responsive-table">
       <thead class="text-stone-500 text-left border-b border-stone-200">
@@ -345,7 +356,7 @@ if (bench) {
           <th class="pb-2">Kategoria</th>
           <th class="pb-2">Miasto</th>
           <th class="pb-2 text-right">Nasze</th>
-          <th class="pb-2 text-right">Otodom</th>
+          <th class="pb-2 text-right">Konkurencja</th>
           <th class="pb-2 text-right">Mediana zł/m² my</th>
           <th class="pb-2 text-right">Mediana zł/m² oni</th>
           <th class="pb-2 text-right">Różnica</th>
@@ -360,7 +371,7 @@ if (bench) {
               <td class="py-2" data-label="Kategoria">\${c.category}</td>
               <td class="py-2" data-label="Miasto">\${c.city}</td>
               <td class="py-2 text-right" data-label="Nasze">\${c.ourCount}</td>
-              <td class="py-2 text-right" data-label="Otodom">\${c.competitorCount}</td>
+              <td class="py-2 text-right" data-label="Konkurencja">\${c.competitorCount}</td>
               <td class="py-2 text-right" data-label="Mediana zł/m² my">\${fmtPLN(c.ourMedianPricePerM2)}</td>
               <td class="py-2 text-right" data-label="Mediana zł/m² oni">\${fmtPLN(c.competitorMedianPricePerM2)}</td>
               <td class="py-2 text-right font-semibold \${cls}" data-label="Różnica">\${diff == null ? "—" : (diff > 0 ? "+" : "") + diff + "%"}</td>
@@ -385,7 +396,7 @@ if (bench) {
       labels: cities,
       datasets: [
         { label: "Nasze", data: cities.map(c => byCity[c].ours), backgroundColor: "#800020" },
-        { label: "Otodom", data: cities.map(c => byCity[c].theirs), backgroundColor: "#a8a29e" },
+        { label: "Konkurencja", data: cities.map(c => byCity[c].theirs), backgroundColor: "#a8a29e" },
       ],
     },
     options: { plugins: { legend: { position: "bottom" } }, responsive: true },

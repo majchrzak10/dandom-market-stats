@@ -23,7 +23,7 @@ const SNAP_DIR = path.join(ROOT, "data", "snapshots");
 const EVENTS_DIR = path.join(ROOT, "data", "events");
 const COMPETITORS_DIR = path.join(ROOT, "data", "competitors");
 
-const CATEGORY_MAP_OTODOM = { FLAT: "MIESZKANIE", HOUSE: "DOM", PLOT: "DZIAŁKA" };
+const ESTATE_TO_CATEGORY = { FLAT: "MIESZKANIE", HOUSE: "DOM", PLOT: "DZIAŁKA" };
 
 const VELOCITY_BUCKETS = [
   { label: "0–7 dni (świeże)", min: 0, max: 7 },
@@ -259,7 +259,7 @@ function buildBenchmark(ourOffers, competitorOffers, sourceLabel) {
   }
 
   const ourGrouped = group(ourOffers);
-  const compGrouped = group(competitorOffers, (o) => CATEGORY_MAP_OTODOM[o.estate]);
+  const compGrouped = group(competitorOffers, (o) => ESTATE_TO_CATEGORY[o.estate]);
 
   const comparison = [];
   for (const [key, ours] of ourGrouped) {
@@ -294,14 +294,31 @@ function buildBenchmark(ourOffers, competitorOffers, sourceLabel) {
   };
 }
 
-const otodomSnapshot = loadLatestCompetitorSnapshot("otodom");
-const benchmarkOtodom = otodomSnapshot ? buildBenchmark(offers, otodomSnapshot.offers, "otodom") : null;
+// Używamy zdedupliowanej kombinacji otodom+olx jako głównego pool-a konkurencji.
+// Fallback do samego otodom gdy combined nie istnieje (przejściowe).
+const combinedSnapshot =
+  loadLatestCompetitorSnapshot("combined") ||
+  loadLatestCompetitorSnapshot("otodom");
+
+const benchmarkCombined = combinedSnapshot
+  ? buildBenchmark(offers, combinedSnapshot.offers, "konkurencja")
+  : null;
+
+// Breakdown źródeł w combined pool
+const sourceCounts = combinedSnapshot
+  ? combinedSnapshot.offers.reduce((acc, o) => {
+      const key = (o.sources || [o.source]).sort().join("+");
+      acc[key] = (acc[key] || 0) + 1;
+      return acc;
+    }, {})
+  : {};
 
 const analytics = {
   generatedAt: new Date().toISOString(),
   kpi,
   benchmark: {
-    otodom: benchmarkOtodom,
+    competitor: benchmarkCombined,
+    sourceCounts,
   },
   timeSeries,
   segmentation: {

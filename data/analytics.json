@@ -16,54 +16,54 @@
     }
   },
   "benchmark": {
-    "otodom": {
-      "source": "otodom",
-      "totalCompetitorOffers": 161,
+    "competitor": {
+      "source": "konkurencja",
+      "totalCompetitorOffers": 194,
       "comparison": [
         {
           "category": "MIESZKANIE",
           "city": "ROGOŹNO",
           "ourCount": 5,
-          "competitorCount": 22,
+          "competitorCount": 32,
           "ourMedianPrice": 209000,
-          "competitorMedianPrice": 295000,
-          "priceDiffPct": -29.2,
+          "competitorMedianPrice": 297000,
+          "priceDiffPct": -29.6,
           "ourMedianPricePerM2": 5354,
-          "competitorMedianPricePerM2": 5218,
-          "pricePerM2DiffPct": 2.6
+          "competitorMedianPricePerM2": 5472,
+          "pricePerM2DiffPct": -2.2
         },
         {
           "category": "MIESZKANIE",
           "city": "WĄGROWIEC",
           "ourCount": 4,
-          "competitorCount": 30,
+          "competitorCount": 35,
           "ourMedianPrice": 329000,
-          "competitorMedianPrice": 304452,
+          "competitorMedianPrice": 304304,
           "priceDiffPct": 8.1,
           "ourMedianPricePerM2": 7221,
-          "competitorMedianPricePerM2": 7142,
-          "pricePerM2DiffPct": 1.1
+          "competitorMedianPricePerM2": 7125,
+          "pricePerM2DiffPct": 1.3
         },
         {
           "category": "DOM",
           "city": "ROGOŹNO",
           "ourCount": 3,
-          "competitorCount": 11,
+          "competitorCount": 12,
           "ourMedianPrice": 399000,
-          "competitorMedianPrice": 511004,
-          "priceDiffPct": -21.9,
+          "competitorMedianPrice": 520502,
+          "priceDiffPct": -23.3,
           "ourMedianPricePerM2": 2865,
-          "competitorMedianPricePerM2": 5203,
-          "pricePerM2DiffPct": -44.9
+          "competitorMedianPricePerM2": 5298,
+          "pricePerM2DiffPct": -45.9
         },
         {
           "category": "DOM",
           "city": "WĄGROWIEC",
           "ourCount": 2,
-          "competitorCount": 17,
+          "competitorCount": 21,
           "ourMedianPrice": 609500,
-          "competitorMedianPrice": 860000,
-          "priceDiffPct": -29.1,
+          "competitorMedianPrice": 850000,
+          "priceDiffPct": -28.3,
           "ourMedianPricePerM2": 3614,
           "competitorMedianPricePerM2": 4993,
           "pricePerM2DiffPct": -27.6
@@ -81,6 +81,18 @@
           "pricePerM2DiffPct": 56.9
         },
         {
+          "category": "DZIAŁKA",
+          "city": "ROGOŹNO",
+          "ourCount": 1,
+          "competitorCount": 6,
+          "ourMedianPrice": 142920,
+          "competitorMedianPrice": 87500,
+          "priceDiffPct": 63.3,
+          "ourMedianPricePerM2": 120,
+          "competitorMedianPricePerM2": 109,
+          "pricePerM2DiffPct": 10.1
+        },
+        {
           "category": "DOM",
           "city": "DZIEWCZA STRUGA",
           "ourCount": 1,
@@ -91,6 +103,18 @@
           "ourMedianPricePerM2": 2778,
           "competitorMedianPricePerM2": 2778,
           "pricePerM2DiffPct": 0
+        },
+        {
+          "category": "DZIAŁKA",
+          "city": "WĄGROWIEC",
+          "ourCount": 1,
+          "competitorCount": 7,
+          "ourMedianPrice": 260000,
+          "competitorMedianPrice": 115000,
+          "priceDiffPct": 126.1,
+          "ourMedianPricePerM2": 267,
+          "competitorMedianPricePerM2": 207,
+          "pricePerM2DiffPct": 29
         },
         {
           "category": "DOM",
@@ -129,6 +153,11 @@
           "pricePerM2DiffPct": 0
         }
       ]
+    },
+    "sourceCounts": {
+      "otodom": 145,
+      "olx+otodom": 16,
+      "olx": 33
     }
   },
   "timeSeries": [

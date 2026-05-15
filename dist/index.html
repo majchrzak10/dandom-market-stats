@@ -107,7 +107,8 @@
     <section class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-8" id="market-kpi"></section>
 
     <section class="bg-white rounded-2xl shadow-sm p-5 mb-8">
-      <h2 class="text-base font-semibold mb-1">Benchmark: my vs otodom</h2>
+      <h2 class="text-base font-semibold mb-1">Benchmark: my vs konkurencja</h2>
+      <p class="text-xs text-stone-500 mb-1" id="benchmark-sources"></p>
       <p class="text-xs text-stone-500 mb-3">
         Niebieskie = nasze ceny niższe niż rynek · Pomarańczowe = wyższe. Porównujemy tylko wspólne kategorie/miasta.
       </p>
@@ -147,54 +148,54 @@ const A = {
     }
   },
   "benchmark": {
-    "otodom": {
-      "source": "otodom",
-      "totalCompetitorOffers": 161,
+    "competitor": {
+      "source": "konkurencja",
+      "totalCompetitorOffers": 194,
       "comparison": [
         {
           "category": "MIESZKANIE",
           "city": "ROGOŹNO",
           "ourCount": 5,
-          "competitorCount": 22,
+          "competitorCount": 32,
           "ourMedianPrice": 209000,
-          "competitorMedianPrice": 295000,
-          "priceDiffPct": -29.2,
+          "competitorMedianPrice": 297000,
+          "priceDiffPct": -29.6,
           "ourMedianPricePerM2": 5354,
-          "competitorMedianPricePerM2": 5218,
-          "pricePerM2DiffPct": 2.6
+          "competitorMedianPricePerM2": 5472,
+          "pricePerM2DiffPct": -2.2
         },
         {
           "category": "MIESZKANIE",
           "city": "WĄGROWIEC",
           "ourCount": 4,
-          "competitorCount": 30,
+          "competitorCount": 35,
           "ourMedianPrice": 329000,
-          "competitorMedianPrice": 304452,
+          "competitorMedianPrice": 304304,
           "priceDiffPct": 8.1,
           "ourMedianPricePerM2": 7221,
-          "competitorMedianPricePerM2": 7142,
-          "pricePerM2DiffPct": 1.1
+          "competitorMedianPricePerM2": 7125,
+          "pricePerM2DiffPct": 1.3
         },
         {
           "category": "DOM",
           "city": "ROGOŹNO",
           "ourCount": 3,
-          "competitorCount": 11,
+          "competitorCount": 12,
           "ourMedianPrice": 399000,
-          "competitorMedianPrice": 511004,
-          "priceDiffPct": -21.9,
+          "competitorMedianPrice": 520502,
+          "priceDiffPct": -23.3,
           "ourMedianPricePerM2": 2865,
-          "competitorMedianPricePerM2": 5203,
-          "pricePerM2DiffPct": -44.9
+          "competitorMedianPricePerM2": 5298,
+          "pricePerM2DiffPct": -45.9
         },
         {
           "category": "DOM",
           "city": "WĄGROWIEC",
           "ourCount": 2,
-          "competitorCount": 17,
+          "competitorCount": 21,
           "ourMedianPrice": 609500,
-          "competitorMedianPrice": 860000,
-          "priceDiffPct": -29.1,
+          "competitorMedianPrice": 850000,
+          "priceDiffPct": -28.3,
           "ourMedianPricePerM2": 3614,
           "competitorMedianPricePerM2": 4993,
           "pricePerM2DiffPct": -27.6
@@ -212,6 +213,18 @@ const A = {
           "pricePerM2DiffPct": 56.9
         },
         {
+          "category": "DZIAŁKA",
+          "city": "ROGOŹNO",
+          "ourCount": 1,
+          "competitorCount": 6,
+          "ourMedianPrice": 142920,
+          "competitorMedianPrice": 87500,
+          "priceDiffPct": 63.3,
+          "ourMedianPricePerM2": 120,
+          "competitorMedianPricePerM2": 109,
+          "pricePerM2DiffPct": 10.1
+        },
+        {
           "category": "DOM",
           "city": "DZIEWCZA STRUGA",
           "ourCount": 1,
@@ -222,6 +235,18 @@ const A = {
           "ourMedianPricePerM2": 2778,
           "competitorMedianPricePerM2": 2778,
           "pricePerM2DiffPct": 0
+        },
+        {
+          "category": "DZIAŁKA",
+          "city": "WĄGROWIEC",
+          "ourCount": 1,
+          "competitorCount": 7,
+          "ourMedianPrice": 260000,
+          "competitorMedianPrice": 115000,
+          "priceDiffPct": 126.1,
+          "ourMedianPricePerM2": 267,
+          "competitorMedianPricePerM2": 207,
+          "pricePerM2DiffPct": 29
         },
         {
           "category": "DOM",
@@ -260,6 +285,11 @@ const A = {
           "pricePerM2DiffPct": 0
         }
       ]
+    },
+    "sourceCounts": {
+      "otodom": 145,
+      "olx+otodom": 16,
+      "olx": 33
     }
   },
   "timeSeries": [
@@ -3080,7 +3110,7 @@ if (A.recentEvents && A.recentEvents.length > 0) {
 
 
 // === Tab 2: Rynek ===
-const bench = A.benchmark?.otodom;
+const bench = A.benchmark?.competitor;
 if (bench) {
   const ourCount = bench.comparison.reduce((sum, c) => sum + c.ourCount, 0);
   const theirCount = bench.totalCompetitorOffers;
@@ -3088,7 +3118,7 @@ if (bench) {
   const avgDiff = bench.comparison.filter(c => c.pricePerM2DiffPct != null).reduce((sum, c, _, arr) => sum + c.pricePerM2DiffPct / arr.length, 0);
 
   document.getElementById("market-kpi").innerHTML = [
-    { label: "Otodom w regionie", value: theirCount },
+    { label: "Konkurencja w regionie", value: theirCount },
     { label: "Nasze (porównywalne)", value: ourCount },
     { label: "Nasz udział", value: sharePct + "%" },
     { label: "Średnia różnica cen/m²", value: (avgDiff > 0 ? "+" : "") + avgDiff.toFixed(1) + "%" },
@@ -3099,6 +3129,16 @@ if (bench) {
     </div>
   `).join("");
 
+  // Pokaż breakdown źródeł
+  const sources = A.benchmark.sourceCounts || {};
+  const srcLines = Object.entries(sources)
+    .map(([k, v]) => `${k}: <b>${v}</b>`)
+    .join(" · ");
+  if (srcLines) {
+    document.getElementById("benchmark-sources").innerHTML =
+      `Źródła: ${srcLines}. Duplikaty wykryte przez externalUrl + heurystykę miasto+powierzchnia+cena.`;
+  }
+
   document.getElementById("benchmark-content").innerHTML = `
     <table class="w-full text-sm responsive-table">
       <thead class="text-stone-500 text-left border-b border-stone-200">
@@ -3106,7 +3146,7 @@ if (bench) {
           <th class="pb-2">Kategoria</th>
           <th class="pb-2">Miasto</th>
           <th class="pb-2 text-right">Nasze</th>
-          <th class="pb-2 text-right">Otodom</th>
+          <th class="pb-2 text-right">Konkurencja</th>
           <th class="pb-2 text-right">Mediana zł/m² my</th>
           <th class="pb-2 text-right">Mediana zł/m² oni</th>
           <th class="pb-2 text-right">Różnica</th>
@@ -3121,7 +3161,7 @@ if (bench) {
               <td class="py-2" data-label="Kategoria">${c.category}</td>
               <td class="py-2" data-label="Miasto">${c.city}</td>
               <td class="py-2 text-right" data-label="Nasze">${c.ourCount}</td>
-              <td class="py-2 text-right" data-label="Otodom">${c.competitorCount}</td>
+              <td class="py-2 text-right" data-label="Konkurencja">${c.competitorCount}</td>
               <td class="py-2 text-right" data-label="Mediana zł/m² my">${fmtPLN(c.ourMedianPricePerM2)}</td>
               <td class="py-2 text-right" data-label="Mediana zł/m² oni">${fmtPLN(c.competitorMedianPricePerM2)}</td>
               <td class="py-2 text-right font-semibold ${cls}" data-label="Różnica">${diff == null ? "—" : (diff > 0 ? "+" : "") + diff + "%"}</td>
@@ -3146,7 +3186,7 @@ if (bench) {
       labels: cities,
       datasets: [
         { label: "Nasze", data: cities.map(c => byCity[c].ours), backgroundColor: "#800020" },
-        { label: "Otodom", data: cities.map(c => byCity[c].theirs), backgroundColor: "#a8a29e" },
+        { label: "Konkurencja", data: cities.map(c => byCity[c].theirs), backgroundColor: "#a8a29e" },
       ],
     },
     options: { plugins: { legend: { position: "bottom" } }, responsive: true },

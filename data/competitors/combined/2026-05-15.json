@@ -1,8 +1,8 @@
 {
-  "source": "otodom",
+  "source": "combined",
   "date": "2026-05-15",
-  "generatedAt": "2026-05-15T13:05:38.125Z",
-  "offerCount": 161,
+  "generatedAt": "2026-05-15T13:07:12.129Z",
+  "offerCount": 194,
   "offers": [
     {
       "source": "otodom",
@@ -22,7 +22,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-11 10:06:15",
       "pushedUpAt": "2026-05-11T10:06:15+02:00",
-      "href": "https://www.otodom.pl/pl/ad/2-pokoje-z-balkonem-47-5-m-centrum-wagrowca-duzy-potencjal-ID4Aqqk"
+      "href": "https://www.otodom.pl/pl/ad/2-pokoje-z-balkonem-47-5-m-centrum-wagrowca-duzy-potencjal-ID4Aqqk",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -42,7 +45,14 @@
       "agencyName": null,
       "dateCreated": "2026-05-09 14:51:17",
       "pushedUpAt": "2026-05-09T14:51:18+02:00",
-      "href": "https://www.otodom.pl/pl/ad/przestronne-mieszkanie-na-sprzedaz-ID4lodv"
+      "href": "https://www.otodom.pl/pl/ad/przestronne-mieszkanie-na-sprzedaz-ID4lodv",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1072196762",
+      "lat": 52.80789,
+      "lon": 17.1971
     },
     {
       "source": "otodom",
@@ -62,7 +72,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-05-09 13:08:11",
       "pushedUpAt": "2026-05-09T13:08:11+02:00",
-      "href": "https://www.otodom.pl/pl/ad/2-pokoje-na-ii-pietrze-w-bezczynszowym-bloku-ID4AP1W"
+      "href": "https://www.otodom.pl/pl/ad/2-pokoje-na-ii-pietrze-w-bezczynszowym-bloku-ID4AP1W",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -82,7 +95,10 @@
       "agencyName": "Dominum Sp. z o.o.",
       "dateCreated": "2026-05-04 21:11:48",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/komfortowe-mieszkanie-na-sprzedaz-ID4Bcg8"
+      "href": "https://www.otodom.pl/pl/ad/komfortowe-mieszkanie-na-sprzedaz-ID4Bcg8",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -102,7 +118,10 @@
       "agencyName": "Dominum Sp. z o.o.",
       "dateCreated": "2026-05-04 21:11:48",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-3-pokojowe-48m2-idealne-dla-par-ID4Bcg9"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-3-pokojowe-48m2-idealne-dla-par-ID4Bcg9",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -122,7 +141,10 @@
       "agencyName": "Nieruchomości Furman oddz. Wągrowiec",
       "dateCreated": "2026-05-04 12:59:29",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-3-pokoje-odrebna-kuchnia-parter-balkon-piwnica-ID4BbE3"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-3-pokoje-odrebna-kuchnia-parter-balkon-piwnica-ID4BbE3",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -142,7 +164,14 @@
       "agencyName": null,
       "dateCreated": "2026-04-24 13:05:40",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/bez-czynszu-48-7-m-duza-loggia-zielen-wysoki-parter-wagrowiec-ID4B4vJ"
+      "href": "https://www.otodom.pl/pl/ad/bez-czynszu-48-7-m-duza-loggia-zielen-wysoki-parter-wagrowiec-ID4B4vJ",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1069767665",
+      "lat": 52.80789,
+      "lon": 17.1971
     },
     {
       "source": "otodom",
@@ -162,7 +191,10 @@
       "agencyName": "Jack-Bud Polska Sp. z o.o. Sp.k.",
       "dateCreated": "2024-04-24 10:08:59",
       "pushedUpAt": null,
-      "href": null
+      "href": null,
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -182,7 +214,14 @@
       "agencyName": "Nieruchomości Tectum",
       "dateCreated": "2026-04-18 12:21:24",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/3-pokojowe-mieszkanie-bezczynszowe-na-sprzedaz-w-wagrowcu-ID4AZ8D"
+      "href": "https://www.otodom.pl/pl/ad/3-pokojowe-mieszkanie-bezczynszowe-na-sprzedaz-w-wagrowcu-ID4AZ8D",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1067822587",
+      "lat": 52.799118,
+      "lon": 17.21375
     },
     {
       "source": "otodom",
@@ -202,7 +241,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2026-04-15 14:19:23",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/lokal-mieszkalny-z-ogrodkiem-wagrowiec-ID4AViL"
+      "href": "https://www.otodom.pl/pl/ad/lokal-mieszkalny-z-ogrodkiem-wagrowiec-ID4AViL",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -222,7 +264,10 @@
       "agencyName": "ARASZKIEWICZ NIERUCHOMOŚCI",
       "dateCreated": "2026-03-19 12:34:02",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/2-pokojowe-m-przy-jeziorze-ul-kosciuszki-ID4AzVo"
+      "href": "https://www.otodom.pl/pl/ad/2-pokojowe-m-przy-jeziorze-ul-kosciuszki-ID4AzVo",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -242,7 +287,10 @@
       "agencyName": "Nieruchomości Furman oddz. Wągrowiec",
       "dateCreated": "2026-03-08 14:42:44",
       "pushedUpAt": "2026-03-08T14:42:44+01:00",
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-3-pokojowe-wagrowiec-ul-klasztorna-ID4zM8L"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-3-pokojowe-wagrowiec-ul-klasztorna-ID4zM8L",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -262,7 +310,10 @@
       "agencyName": "FWK Nieruchomości",
       "dateCreated": "2026-02-09 12:13:40",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/przytulne-2-pokoje-na-osadzie-ID4A1pN"
+      "href": "https://www.otodom.pl/pl/ad/przytulne-2-pokoje-na-osadzie-ID4A1pN",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -282,7 +333,10 @@
       "agencyName": "Nieruchomości Tectum",
       "dateCreated": "2026-01-12 14:17:47",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/3-pokojowe-mieszkanie-na-parterze-w-bloku-w-wagrowcu-na-sprzedaz-ID4zEgG"
+      "href": "https://www.otodom.pl/pl/ad/3-pokojowe-mieszkanie-na-parterze-w-bloku-w-wagrowcu-na-sprzedaz-ID4zEgG",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -302,7 +356,10 @@
       "agencyName": "Nieruchomości Tectum",
       "dateCreated": "2025-11-24 11:59:10",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-59-54-m-wagrowiec-ID4z7ln"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-59-54-m-wagrowiec-ID4z7ln",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -322,7 +379,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2025-10-22 13:05:16",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/poranna-kawa-na-wlasnym-tarasie-3-pokoje-czekaja-ID4yGO9"
+      "href": "https://www.otodom.pl/pl/ad/poranna-kawa-na-wlasnym-tarasie-3-pokoje-czekaja-ID4yGO9",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -342,7 +402,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2025-08-27 11:06:26",
       "pushedUpAt": "2025-08-27T11:06:26+02:00",
-      "href": "https://www.otodom.pl/pl/ad/nowe-mieszkanie-nad-nielba-wagrowiec-iii-etap-ID4dUIy"
+      "href": "https://www.otodom.pl/pl/ad/nowe-mieszkanie-nad-nielba-wagrowiec-iii-etap-ID4dUIy",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -362,7 +425,10 @@
       "agencyName": "FWK Nieruchomości",
       "dateCreated": "2025-05-09 14:42:16",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/centrum-wagrowca-2-pokoje-z-potencjalem-ID4vjnk"
+      "href": "https://www.otodom.pl/pl/ad/centrum-wagrowca-2-pokoje-z-potencjalem-ID4vjnk",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -382,7 +448,10 @@
       "agencyName": "Phinance S.A.",
       "dateCreated": "2025-04-28 22:35:41",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/idealne-na-wynajem-parking-w-cenie-podlogowka-ID4v9N7"
+      "href": "https://www.otodom.pl/pl/ad/idealne-na-wynajem-parking-w-cenie-podlogowka-ID4v9N7",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -402,7 +471,10 @@
       "agencyName": "Nieruchomości Furman oddz. Wągrowiec",
       "dateCreated": "2025-04-17 17:22:52",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/przestronne-mieszkanie-z-podworkiem-wagrowiec-ID4v10p"
+      "href": "https://www.otodom.pl/pl/ad/przestronne-mieszkanie-z-podworkiem-wagrowiec-ID4v10p",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -422,7 +494,10 @@
       "agencyName": "Phinance S.A.",
       "dateCreated": "2025-01-24 18:35:08",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/winda-parking-podlogowka-nowa-inwestycja-ID4uAk7"
+      "href": "https://www.otodom.pl/pl/ad/winda-parking-podlogowka-nowa-inwestycja-ID4uAk7",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -442,7 +517,10 @@
       "agencyName": "Phinance S.A.",
       "dateCreated": "2025-01-24 18:35:07",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/nowe-osiedle-rolety-podlogowka-winda-ID4uAk6"
+      "href": "https://www.otodom.pl/pl/ad/nowe-osiedle-rolety-podlogowka-winda-ID4uAk6",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -462,7 +540,10 @@
       "agencyName": "Phinance S.A.",
       "dateCreated": "2025-01-24 18:35:07",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/nowa-inwestycja-wygodne-uklady-wysoki-standard-ID4uAk4"
+      "href": "https://www.otodom.pl/pl/ad/nowa-inwestycja-wygodne-uklady-wysoki-standard-ID4uAk4",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -482,7 +563,10 @@
       "agencyName": "Phinance S.A.",
       "dateCreated": "2025-01-24 18:35:07",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/nowa-inwestycja-wygodne-uklady-wysoki-standard-ID4uAk5"
+      "href": "https://www.otodom.pl/pl/ad/nowa-inwestycja-wygodne-uklady-wysoki-standard-ID4uAk5",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -502,7 +586,10 @@
       "agencyName": "Phinance S.A.",
       "dateCreated": "2025-01-14 22:35:00",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/nowa-inwestycja-wygodne-uklady-wysoki-standard-ID4uoXb"
+      "href": "https://www.otodom.pl/pl/ad/nowa-inwestycja-wygodne-uklady-wysoki-standard-ID4uoXb",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -522,7 +609,10 @@
       "agencyName": "Phinance S.A.",
       "dateCreated": "2025-01-14 22:34:59",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/nowa-inwestycja-wygodne-uklady-wysoki-standard-ID4uoX9"
+      "href": "https://www.otodom.pl/pl/ad/nowa-inwestycja-wygodne-uklady-wysoki-standard-ID4uoX9",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -542,7 +632,10 @@
       "agencyName": "Phinance S.A.",
       "dateCreated": "2024-12-30 15:37:29",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/2-wygodne-pokoje-balkon-parking-ID4u3F1"
+      "href": "https://www.otodom.pl/pl/ad/2-wygodne-pokoje-balkon-parking-ID4u3F1",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -562,7 +655,10 @@
       "agencyName": "Phinance S.A.",
       "dateCreated": "2024-12-30 15:37:28",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/2-wygodne-pokoje-balkon-parking-ID4u3EZ"
+      "href": "https://www.otodom.pl/pl/ad/2-wygodne-pokoje-balkon-parking-ID4u3EZ",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -582,7 +678,10 @@
       "agencyName": "Phinance S.A.",
       "dateCreated": "2024-12-30 15:37:28",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/2-wygodne-pokoje-balkon-parking-ID4u3EX"
+      "href": "https://www.otodom.pl/pl/ad/2-wygodne-pokoje-balkon-parking-ID4u3EX",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -602,7 +701,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2024-11-18 13:12:31",
       "pushedUpAt": "2024-11-18T13:12:31+01:00",
-      "href": "https://www.otodom.pl/pl/ad/nowoczesne-mieszkanie-deweloperskie-iii-etap-ID47Xlm"
+      "href": "https://www.otodom.pl/pl/ad/nowoczesne-mieszkanie-deweloperskie-iii-etap-ID47Xlm",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -622,7 +724,14 @@
       "agencyName": null,
       "dateCreated": "1999-02-29 00:00:01",
       "pushedUpAt": "2026-05-11T10:06:15+02:00",
-      "href": "https://www.otodom.plhpr//pl/ad/2-pokoje-z-balkonem-47-5-m-centrum-wagrowca-duzy-potencjal-ID4Aqqk"
+      "href": "https://www.otodom.plhpr//pl/ad/2-pokoje-z-balkonem-47-5-m-centrum-wagrowca-duzy-potencjal-ID4Aqqk",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1059607696",
+      "lat": 52.815826,
+      "lon": 17.205288
     },
     {
       "source": "otodom",
@@ -642,7 +751,10 @@
       "agencyName": "Choiński Kroll Nieruchomości",
       "dateCreated": "2026-05-15 01:06:01",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dom-w-pieknej-okolicy-jeziora-las-rzeka-0-ID4BlKd"
+      "href": "https://www.otodom.pl/pl/ad/dom-w-pieknej-okolicy-jeziora-las-rzeka-0-ID4BlKd",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -662,7 +774,14 @@
       "agencyName": null,
       "dateCreated": "2026-05-08 20:14:01",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/kamienica-w-srodku-miasta-nad-rzeka-ID4Bgwi"
+      "href": "https://www.otodom.pl/pl/ad/kamienica-w-srodku-miasta-nad-rzeka-ID4Bgwi",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1072089776",
+      "lat": 52.80419,
+      "lon": 17.20421
     },
     {
       "source": "otodom",
@@ -682,7 +801,14 @@
       "agencyName": null,
       "dateCreated": "2026-04-30 20:45:41",
       "pushedUpAt": "2026-04-30T20:45:41+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dom-88-m-wagrowiec-ID4ASGN"
+      "href": "https://www.otodom.pl/pl/ad/dom-88-m-wagrowiec-ID4ASGN",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1066294424",
+      "lat": 52.80789,
+      "lon": 17.1971
     },
     {
       "source": "otodom",
@@ -702,7 +828,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-04-29 12:01:37",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dom-144-m-wagrowiec-ID4B8m8"
+      "href": "https://www.otodom.pl/pl/ad/dom-144-m-wagrowiec-ID4B8m8",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -722,7 +851,10 @@
       "agencyName": null,
       "dateCreated": "2026-04-27 21:02:13",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dom-w-zabudowie-blizniaczej-128m2-wagrowiec-ID4B6Wy"
+      "href": "https://www.otodom.pl/pl/ad/dom-w-zabudowie-blizniaczej-128m2-wagrowiec-ID4B6Wy",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -742,7 +874,14 @@
       "agencyName": "Nieruchomości Furman oddz. Wągrowiec",
       "dateCreated": "2026-04-24 14:29:23",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/nowy-dom-parterowy-wagrowiec-ul-leszczynowa-ID4B4Eg"
+      "href": "https://www.otodom.pl/pl/ad/nowy-dom-parterowy-wagrowiec-ul-leszczynowa-ID4B4Eg",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1069177447",
+      "lat": 52.81235,
+      "lon": 17.173489
     },
     {
       "source": "otodom",
@@ -762,7 +901,14 @@
       "agencyName": "Nieruchomości Furman oddz. Wągrowiec",
       "dateCreated": "2026-04-16 22:44:05",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/parterowy-dom-w-miescie-ID4AXXg"
+      "href": "https://www.otodom.pl/pl/ad/parterowy-dom-w-miescie-ID4AXXg",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1067593705",
+      "lat": 52.8134,
+      "lon": 17.186447
     },
     {
       "source": "otodom",
@@ -782,7 +928,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-04-10 11:50:10",
       "pushedUpAt": "2026-04-10T11:50:10+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dom-w-bliskiej-okolicy-jeziora-wagrowiec-ID4AmJo"
+      "href": "https://www.otodom.pl/pl/ad/dom-w-bliskiej-okolicy-jeziora-wagrowiec-ID4AmJo",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -802,7 +951,10 @@
       "agencyName": "Park Home Sp. z o.o.",
       "dateCreated": "2026-04-03 01:26:56",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dom-w-prestizowej-i-spokojnej-dzielnicy-wagrowca-ID4AMMb"
+      "href": "https://www.otodom.pl/pl/ad/dom-w-prestizowej-i-spokojnej-dzielnicy-wagrowca-ID4AMMb",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -822,7 +974,10 @@
       "agencyName": "Regionalne Nieruchomości",
       "dateCreated": "2026-03-22 03:24:56",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/nowy-dom-115m-wagrowiec-ID4AC4H"
+      "href": "https://www.otodom.pl/pl/ad/nowy-dom-115m-wagrowiec-ID4AC4H",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -842,7 +997,14 @@
       "agencyName": "Dominum Sp. z o.o.",
       "dateCreated": "2026-03-18 12:31:01",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/komfortowy-dom-z-basenem-i-ogrodem-zimowym-ID4AyTG"
+      "href": "https://www.otodom.pl/pl/ad/komfortowy-dom-z-basenem-i-ogrodem-zimowym-ID4AyTG",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1061569187",
+      "lat": 52.804855,
+      "lon": 17.219872
     },
     {
       "source": "otodom",
@@ -862,7 +1024,14 @@
       "agencyName": "Nieruchomości Apartament Piła",
       "dateCreated": "2025-12-29 13:18:14",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/obnizka-ceny-komfortowy-dom-w-wagrowcu-ID4sQP6"
+      "href": "https://www.otodom.pl/pl/ad/obnizka-ceny-komfortowy-dom-w-wagrowcu-ID4sQP6",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "950524132",
+      "lat": 52.81372,
+      "lon": 17.18973
     },
     {
       "source": "otodom",
@@ -882,7 +1051,10 @@
       "agencyName": "FWK Nieruchomości",
       "dateCreated": "2025-12-22 16:19:07",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dom-z-duza-dzialka-w-spokojnej-czesci-wagrowca-ID4zt0J"
+      "href": "https://www.otodom.pl/pl/ad/dom-z-duza-dzialka-w-spokojnej-czesci-wagrowca-ID4zt0J",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -902,7 +1074,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2025-10-05 15:42:55",
       "pushedUpAt": "2025-10-05T15:42:55+02:00",
-      "href": "https://www.otodom.pl/pl/ad/na-sprzedaz-dom-wagrowiec-ul-przybyszewskiego-ID4w6Bi"
+      "href": "https://www.otodom.pl/pl/ad/na-sprzedaz-dom-wagrowiec-ul-przybyszewskiego-ID4w6Bi",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -922,7 +1097,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2025-09-30 12:10:18",
       "pushedUpAt": "2025-09-30T12:10:19+02:00",
-      "href": "https://www.otodom.pl/pl/ad/hotel-w-centrum-miasta-dochod-od-pierwszego-dnia-ID4xRas"
+      "href": "https://www.otodom.pl/pl/ad/hotel-w-centrum-miasta-dochod-od-pierwszego-dnia-ID4xRas",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -942,7 +1120,10 @@
       "agencyName": "JMK Kosmaczewscy Nieruchomości",
       "dateCreated": "2024-09-20 16:20:44",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/kamienica-na-sprzedaz-ul-kolejowa-ID4sArd"
+      "href": "https://www.otodom.pl/pl/ad/kamienica-na-sprzedaz-ul-kolejowa-ID4sArd",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -962,7 +1143,10 @@
       "agencyName": "Choiński Kroll Nieruchomości",
       "dateCreated": "1999-02-29 00:00:01",
       "pushedUpAt": null,
-      "href": "https://www.otodom.plhpr//pl/ad/dom-w-pieknej-okolicy-jeziora-las-rzeka-0-ID4BlKd"
+      "href": "https://www.otodom.plhpr//pl/ad/dom-w-pieknej-okolicy-jeziora-las-rzeka-0-ID4BlKd",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -982,7 +1166,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-13 09:07:16",
       "pushedUpAt": "2026-05-13T09:07:16+02:00",
-      "href": "https://www.otodom.pl/pl/ad/syndyk-sprzeda-26-45-udzialu-w-nieruchomosci-drogowej-ID4AMXl"
+      "href": "https://www.otodom.pl/pl/ad/syndyk-sprzeda-26-45-udzialu-w-nieruchomosci-drogowej-ID4AMXl",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1002,7 +1189,14 @@
       "agencyName": null,
       "dateCreated": "2026-05-12 15:01:45",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-w-wagrowcu-ID4AOaA"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-w-wagrowcu-ID4AOaA",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1069850376",
+      "lat": 52.80789,
+      "lon": 17.1971
     },
     {
       "source": "otodom",
@@ -1022,7 +1216,10 @@
       "agencyName": "Nieruchomości Furman oddz. Wągrowiec",
       "dateCreated": "2026-04-24 14:43:11",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-uslugowa-nad-rzeka-wagrowiec-berdychowo-ID4B4Hf"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-uslugowa-nad-rzeka-wagrowiec-berdychowo-ID4B4Hf",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1042,7 +1239,14 @@
       "agencyName": "Heller Nieruchomości",
       "dateCreated": "2026-04-16 10:16:19",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-uslugowa-miasto-ul-berdychowska-plan-miejscowy-ID4AXaY"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-uslugowa-miasto-ul-berdychowska-plan-miejscowy-ID4AXaY",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1067443567",
+      "lat": 52.80044,
+      "lon": 17.202131
     },
     {
       "source": "otodom",
@@ -1062,7 +1266,10 @@
       "agencyName": null,
       "dateCreated": "2026-03-30 17:20:22",
       "pushedUpAt": "2026-03-30T17:20:23+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-w-centrum-wagrowca-ID4Aj0S"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-w-centrum-wagrowca-ID4Aj0S",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1082,7 +1289,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2026-03-24 17:16:45",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-inwestycyjna-mpzp-wagrowiec-ID4AEC5"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-inwestycyjna-mpzp-wagrowiec-ID4AEC5",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1102,7 +1312,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2026-02-11 13:16:00",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-pod-dzialalnosc-gospodarcza-wraz-z-budynkiem-wagrowiec-ID4A3yQ"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-pod-dzialalnosc-gospodarcza-wraz-z-budynkiem-wagrowiec-ID4A3yQ",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1122,7 +1335,10 @@
       "agencyName": "Nieruchomości Tectum",
       "dateCreated": "2025-12-11 20:11:28",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-pod-wagrowcem-na-sprzedaz-ID4zlXE"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-pod-wagrowcem-na-sprzedaz-ID4zlXE",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1142,7 +1358,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2025-12-04 10:50:41",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/atrakcyjna-dzialka-budowlana-pod-inwestcje-wagrowiec-ID4zfMn"
+      "href": "https://www.otodom.pl/pl/ad/atrakcyjna-dzialka-budowlana-pod-inwestcje-wagrowiec-ID4zfMn",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1162,7 +1381,14 @@
       "agencyName": "Heller Nieruchomości",
       "dateCreated": "2025-10-30 13:35:52",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/rekreacja-zielen-staw-plan-msc-ID4yNYB"
+      "href": "https://www.otodom.pl/pl/ad/rekreacja-zielen-staw-plan-msc-ID4yNYB",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1035487379",
+      "lat": 52.804775,
+      "lon": 17.180449
     },
     {
       "source": "otodom",
@@ -1182,7 +1408,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2022-06-23 21:54:58",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/atrakcyjna-dzialka-w-miejscowosci-nowe-pow-861m2-ID4hivd"
+      "href": "https://www.otodom.pl/pl/ad/atrakcyjna-dzialka-w-miejscowosci-nowe-pow-861m2-ID4hivd",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1202,7 +1431,14 @@
       "agencyName": null,
       "dateCreated": "1999-02-29 00:00:01",
       "pushedUpAt": "2026-05-13T09:07:16+02:00",
-      "href": "https://www.otodom.plhpr//pl/ad/syndyk-sprzeda-26-45-udzialu-w-nieruchomosci-drogowej-ID4AMXl"
+      "href": "https://www.otodom.plhpr//pl/ad/syndyk-sprzeda-26-45-udzialu-w-nieruchomosci-drogowej-ID4AMXl",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1065426193",
+      "lat": 52.80789,
+      "lon": 17.1971
     },
     {
       "source": "otodom",
@@ -1222,7 +1458,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-05-09 13:09:04",
       "pushedUpAt": "2026-05-09T13:09:04+02:00",
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-na-parterze-z-balkonem-ID4Agt0"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-na-parterze-z-balkonem-ID4Agt0",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1242,7 +1481,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-05-08 15:05:14",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-2-pokojowe-w-karolewie-gm-rogozno-ID4Bgcl"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-2-pokojowe-w-karolewie-gm-rogozno-ID4Bgcl",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1262,7 +1504,10 @@
       "agencyName": "FWK Nieruchomości",
       "dateCreated": "2026-05-08 13:39:09",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/nowoczesne-i-w-pelni-wyposazone-nowe-rogozno-ID4Bg3s"
+      "href": "https://www.otodom.pl/pl/ad/nowoczesne-i-w-pelni-wyposazone-nowe-rogozno-ID4Bg3s",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1282,7 +1527,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-03 22:44:50",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/atrakcyjne-mieszkanie-2-pokojowe-z-balkonem-i-winda-ID4Bb8v"
+      "href": "https://www.otodom.pl/pl/ad/atrakcyjne-mieszkanie-2-pokojowe-z-balkonem-i-winda-ID4Bb8v",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1302,7 +1550,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-04-28 14:15:45",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/rogozno-ul-strzelecka-ostatnie-mieszkanie-ID4B7zx"
+      "href": "https://www.otodom.pl/pl/ad/rogozno-ul-strzelecka-ostatnie-mieszkanie-ID4B7zx",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1322,7 +1573,10 @@
       "agencyName": "DomVisio",
       "dateCreated": "2026-04-27 09:26:30",
       "pushedUpAt": "2026-04-27T09:26:30+02:00",
-      "href": "https://www.otodom.pl/pl/ad/wyjatkowe-mieszkanie-w-rogoznie-blisko-jeziora-ID4rxLH"
+      "href": "https://www.otodom.pl/pl/ad/wyjatkowe-mieszkanie-w-rogoznie-blisko-jeziora-ID4rxLH",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1342,7 +1596,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2026-04-24 13:05:26",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-50-m-rogozno-ID4B4x1"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-50-m-rogozno-ID4B4x1",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1362,7 +1619,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2026-04-24 09:15:23",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-65-m-rogozno-ID4B495"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-65-m-rogozno-ID4B495",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1382,7 +1642,10 @@
       "agencyName": "Nieruchomości Tectum",
       "dateCreated": "2026-04-10 10:13:47",
       "pushedUpAt": "2026-04-10T10:13:47+02:00",
-      "href": "https://www.otodom.pl/pl/ad/3-pokojowe-bezczynszowe-mieszkanie-z-garazem-na-sprzedaz-w-rogoznie-ID4zlX8"
+      "href": "https://www.otodom.pl/pl/ad/3-pokojowe-bezczynszowe-mieszkanie-z-garazem-na-sprzedaz-w-rogoznie-ID4zlX8",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1402,7 +1665,10 @@
       "agencyName": null,
       "dateCreated": "2026-04-09 19:10:28",
       "pushedUpAt": "2026-04-09T19:10:28+02:00",
-      "href": "https://www.otodom.pl/pl/ad/willa-boguniewska-mieszkanie-z-miejscem-postojowym-gotowe-to-odbioru-ID49Fyh"
+      "href": "https://www.otodom.pl/pl/ad/willa-boguniewska-mieszkanie-z-miejscem-postojowym-gotowe-to-odbioru-ID49Fyh",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1422,7 +1688,10 @@
       "agencyName": null,
       "dateCreated": "2026-04-08 09:30:01",
       "pushedUpAt": "2026-04-08T09:30:01+02:00",
-      "href": "https://www.otodom.pl/pl/ad/nowe-rogozno-m41-3-pokojowe-59-45-m2-winda-balkon-ID4wDZ8"
+      "href": "https://www.otodom.pl/pl/ad/nowe-rogozno-m41-3-pokojowe-59-45-m2-winda-balkon-ID4wDZ8",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1442,7 +1711,10 @@
       "agencyName": "POLSKA GIEŁDA NIERUCHOMOŚCI",
       "dateCreated": "2026-04-02 11:55:08",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/rogozno-duze-mieszkanie-na-sprzedaz-ID4AM5o"
+      "href": "https://www.otodom.pl/pl/ad/rogozno-duze-mieszkanie-na-sprzedaz-ID4AM5o",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1462,7 +1734,10 @@
       "agencyName": null,
       "dateCreated": "2026-03-17 16:30:03",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/2-pokoje-z-balkonem-41-m-winda-rogozno-centrum-ID4AxJO"
+      "href": "https://www.otodom.pl/pl/ad/2-pokoje-z-balkonem-41-m-winda-rogozno-centrum-ID4AxJO",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1482,7 +1757,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-03-10 12:35:17",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-35-30-m-rogozno-ID4Arxm"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-35-30-m-rogozno-ID4Arxm",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1502,7 +1780,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-02-27 14:15:35",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-w-bloku-na-parterze-ID4Aihv"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-w-bloku-na-parterze-ID4Aihv",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1522,7 +1803,10 @@
       "agencyName": "Nieruchomości Apartament Piła",
       "dateCreated": "2026-02-16 20:18:13",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-do-wlasnej-aranzacji-ID4A8Ta"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-do-wlasnej-aranzacji-ID4A8Ta",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1542,7 +1826,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2026-01-26 12:43:23",
       "pushedUpAt": "2026-01-26T12:43:23+01:00",
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-41-27-m-rogozno-ID4ztcp"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-41-27-m-rogozno-ID4ztcp",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1562,7 +1849,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2026-01-24 11:52:51",
       "pushedUpAt": "2026-01-24T11:52:51+01:00",
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-48-m-rogozno-ID4zaS4"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-48-m-rogozno-ID4zaS4",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1582,7 +1872,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2025-11-17 22:04:03",
       "pushedUpAt": "2025-11-17T22:04:03+01:00",
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-40-m-rogozno-ID4tvVt"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-40-m-rogozno-ID4tvVt",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1602,7 +1895,10 @@
       "agencyName": "FWK Nieruchomości",
       "dateCreated": "2025-10-21 09:53:54",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/mieszkanie-rogozno-42-65-m2-do-remontu-ID4yFru"
+      "href": "https://www.otodom.pl/pl/ad/mieszkanie-rogozno-42-65-m2-do-remontu-ID4yFru",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1622,7 +1918,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2025-10-02 14:55:23",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/stylowe-mieszkanie-po-remoncie-ID4ypjf"
+      "href": "https://www.otodom.pl/pl/ad/stylowe-mieszkanie-po-remoncie-ID4ypjf",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1642,7 +1941,10 @@
       "agencyName": "FWK Nieruchomości",
       "dateCreated": "2025-05-21 13:22:13",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/3-pokoje-po-remoncie-bezczynszowe-gotowe-do-zamieszkania-ID4vu1M"
+      "href": "https://www.otodom.pl/pl/ad/3-pokoje-po-remoncie-bezczynszowe-gotowe-do-zamieszkania-ID4vu1M",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1662,7 +1964,10 @@
       "agencyName": "Nieruchomości Kaczmarek",
       "dateCreated": "2024-12-13 15:43:37",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/3-pokoje-rogozno-ID4tUhE"
+      "href": "https://www.otodom.pl/pl/ad/3-pokoje-rogozno-ID4tUhE",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1682,7 +1987,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "1999-02-29 00:00:01",
       "pushedUpAt": "2026-05-09T13:09:04+02:00",
-      "href": "https://www.otodom.plhpr//pl/ad/mieszkanie-na-parterze-z-balkonem-ID4Agt0"
+      "href": "https://www.otodom.plhpr//pl/ad/mieszkanie-na-parterze-z-balkonem-ID4Agt0",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1702,7 +2010,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-15 10:52:11",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/domy-w-zabudowie-blizniaczej-rogozno-ID4BlYu"
+      "href": "https://www.otodom.pl/pl/ad/domy-w-zabudowie-blizniaczej-rogozno-ID4BlYu",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1722,7 +2033,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-12 15:00:46",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/wyjatkowy-dom-z-ogrodem-w-rogoznie-ID4Bjdu"
+      "href": "https://www.otodom.pl/pl/ad/wyjatkowy-dom-z-ogrodem-w-rogoznie-ID4Bjdu",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1742,7 +2056,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-11 11:01:24",
       "pushedUpAt": "2026-05-11T11:01:24+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dom-z-duza-dzialka-w-nienawiszczu-ID4zBxJ"
+      "href": "https://www.otodom.pl/pl/ad/dom-z-duza-dzialka-w-nienawiszczu-ID4zBxJ",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1762,7 +2079,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-11 08:06:27",
       "pushedUpAt": "2026-05-11T08:06:27+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dom-rogozno-94m2-dzialka-1290m2-ID4luP5"
+      "href": "https://www.otodom.pl/pl/ad/dom-rogozno-94m2-dzialka-1290m2-ID4luP5",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1782,7 +2102,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-05-09 13:09:39",
       "pushedUpAt": "2026-05-09T13:09:39+02:00",
-      "href": "https://www.otodom.pl/pl/ad/nowoczesny-dom-jednorodzinny-z-garazem-ID4zLZm"
+      "href": "https://www.otodom.pl/pl/ad/nowoczesny-dom-jednorodzinny-z-garazem-ID4zLZm",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1802,7 +2125,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-07 20:46:02",
       "pushedUpAt": "2026-05-07T20:46:03+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dom-rekreacyjny-w-spokojnej-okolicy-nienawiszcz-cena-do-negocjacji-ID4yA9S"
+      "href": "https://www.otodom.pl/pl/ad/dom-rekreacyjny-w-spokojnej-okolicy-nienawiszcz-cena-do-negocjacji-ID4yA9S",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1822,7 +2148,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-05 14:25:13",
       "pushedUpAt": "2026-05-05T14:25:13+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dom-blizniak-w-budowie-2-x-145-m2-dz-2000-m2-nienawiszcz-bezposrednio-ID4B0ic"
+      "href": "https://www.otodom.pl/pl/ad/dom-blizniak-w-budowie-2-x-145-m2-dz-2000-m2-nienawiszcz-bezposrednio-ID4B0ic",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1842,7 +2171,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-05 07:49:27",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/rekreacyjny-murowany-domek-w-nienawiszczu-ID46w8U"
+      "href": "https://www.otodom.pl/pl/ad/rekreacyjny-murowany-domek-w-nienawiszczu-ID46w8U",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1862,7 +2194,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-03 20:26:52",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dom-jednorodzinny-z-ogrodem-tarasem-i-basenem-ID4yj7U"
+      "href": "https://www.otodom.pl/pl/ad/dom-jednorodzinny-z-ogrodem-tarasem-i-basenem-ID4yj7U",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1882,7 +2217,10 @@
       "agencyName": null,
       "dateCreated": "2026-04-30 11:51:59",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/grzybowo-skoki-dom-sso-5-pokojowy-w-lesnej-oazie-ID4B9lf"
+      "href": "https://www.otodom.pl/pl/ad/grzybowo-skoki-dom-sso-5-pokojowy-w-lesnej-oazie-ID4B9lf",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1902,7 +2240,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-04-29 14:52:38",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/segment-z-dzialka-ruda-k-rogozna-ID4B8Cm"
+      "href": "https://www.otodom.pl/pl/ad/segment-z-dzialka-ruda-k-rogozna-ID4B8Cm",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1922,7 +2263,14 @@
       "agencyName": "Wyspa nieruchomości",
       "dateCreated": "2026-04-23 21:02:43",
       "pushedUpAt": "2026-04-23T21:02:43+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dwa-poziomy-mieszkalne-pelne-wyposazenie-garaz-ID4AYXL"
+      "href": "https://www.otodom.pl/pl/ad/dwa-poziomy-mieszkalne-pelne-wyposazenie-garaz-ID4AYXL",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1069053553",
+      "lat": 52.751217,
+      "lon": 16.981647
     },
     {
       "source": "otodom",
@@ -1942,7 +2290,10 @@
       "agencyName": "HOME",
       "dateCreated": "2026-04-23 11:02:00",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/willa-nad-zakolem-rzeki-ID4B3ab"
+      "href": "https://www.otodom.pl/pl/ad/willa-nad-zakolem-rzeki-ID4B3ab",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1962,7 +2313,10 @@
       "agencyName": "Nieruchomości Apartament Piła",
       "dateCreated": "2026-04-20 10:18:34",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dom-hale-biuro-idealne-pod-dzialalnosc-ID4AZUA"
+      "href": "https://www.otodom.pl/pl/ad/dom-hale-biuro-idealne-pod-dzialalnosc-ID4AZUA",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -1982,7 +2336,10 @@
       "agencyName": null,
       "dateCreated": "2026-04-08 09:30:11",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/osiedle-lesne-86-72m2-dzialka-195m2-fotowoltaika-pompa-ciepla-ID4zVPj"
+      "href": "https://www.otodom.pl/pl/ad/osiedle-lesne-86-72m2-dzialka-195m2-fotowoltaika-pompa-ciepla-ID4zVPj",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2002,7 +2359,10 @@
       "agencyName": null,
       "dateCreated": "2026-04-08 09:26:04",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/osiedle-lesne-92-12m2-dzialka-185m2-fotowoltaika-pompa-ciepla-ID4APKQ"
+      "href": "https://www.otodom.pl/pl/ad/osiedle-lesne-92-12m2-dzialka-185m2-fotowoltaika-pompa-ciepla-ID4APKQ",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2022,7 +2382,10 @@
       "agencyName": "POLSKA GIEŁDA NIERUCHOMOŚCI",
       "dateCreated": "2026-04-02 12:00:50",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/urokliwy-dom-caloroczny-w-lesie-nienawiszcz-blisko-jeziora-ID4AM5P"
+      "href": "https://www.otodom.pl/pl/ad/urokliwy-dom-caloroczny-w-lesie-nienawiszcz-blisko-jeziora-ID4AM5P",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2042,7 +2405,10 @@
       "agencyName": "POLSKA GIEŁDA NIERUCHOMOŚCI",
       "dateCreated": "2026-04-01 17:38:45",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/twoj-dom-wsrod-natury-dzialka-800m-przy-rzece-welnie-ID4ALyF"
+      "href": "https://www.otodom.pl/pl/ad/twoj-dom-wsrod-natury-dzialka-800m-przy-rzece-welnie-ID4ALyF",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2062,7 +2428,10 @@
       "agencyName": "Nieruchomości Kaczmarek",
       "dateCreated": "2026-03-30 23:45:15",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/nowa-inwestycja-domy-dwulokalowe-w-jaraczu-gmin-ID4AJO4"
+      "href": "https://www.otodom.pl/pl/ad/nowa-inwestycja-domy-dwulokalowe-w-jaraczu-gmin-ID4AJO4",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2082,7 +2451,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-02-19 12:02:02",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dom-w-tarnowie-ID4Abgf"
+      "href": "https://www.otodom.pl/pl/ad/dom-w-tarnowie-ID4Abgf",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2102,7 +2474,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2026-01-24 11:53:02",
       "pushedUpAt": "2026-01-24T11:53:03+01:00",
-      "href": "https://www.otodom.pl/pl/ad/dom-63-m-rogozno-ID4zaXG"
+      "href": "https://www.otodom.pl/pl/ad/dom-63-m-rogozno-ID4zaXG",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2122,7 +2497,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2026-01-02 12:35:21",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dom-przy-lesie-ID4zxfd"
+      "href": "https://www.otodom.pl/pl/ad/dom-przy-lesie-ID4zxfd",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2142,7 +2520,10 @@
       "agencyName": "FWK Nieruchomości",
       "dateCreated": "2025-10-13 12:06:00",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/duzy-dom-z-ogrodem-w-garbatce-ID4yyhB"
+      "href": "https://www.otodom.pl/pl/ad/duzy-dom-z-ogrodem-w-garbatce-ID4yyhB",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2162,7 +2543,10 @@
       "agencyName": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
       "dateCreated": "2025-07-10 14:16:25",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dom-jednorodzinny-w-rogoznie-ID4xdx8"
+      "href": "https://www.otodom.pl/pl/ad/dom-jednorodzinny-w-rogoznie-ID4xdx8",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2182,7 +2566,10 @@
       "agencyName": null,
       "dateCreated": "1999-02-29 00:00:01",
       "pushedUpAt": null,
-      "href": "https://www.otodom.plhpr//pl/ad/domy-w-zabudowie-blizniaczej-rogozno-ID4BlYu"
+      "href": "https://www.otodom.plhpr//pl/ad/domy-w-zabudowie-blizniaczej-rogozno-ID4BlYu",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2202,7 +2589,10 @@
       "agencyName": "Małgorzata Krawczyk Nieruchomości",
       "dateCreated": "2026-05-15 12:51:04",
       "pushedUpAt": "2026-05-15T12:51:04+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-w-poblizu-jezior-jezior-ID4yqtH"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-w-poblizu-jezior-jezior-ID4yqtH",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2222,7 +2612,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-11 11:03:58",
       "pushedUpAt": "2026-05-11T11:03:59+02:00",
-      "href": "https://www.otodom.pl/pl/ad/sprzedam-dzialke-jaracz-k-obornik-wlkp-ID4yMDM"
+      "href": "https://www.otodom.pl/pl/ad/sprzedam-dzialke-jaracz-k-obornik-wlkp-ID4yMDM",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2242,7 +2635,10 @@
       "agencyName": null,
       "dateCreated": "2026-05-10 14:43:32",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-rogozno-825-m-media-pozwolenie-planowana-s11-ID4Bh7p"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-rogozno-825-m-media-pozwolenie-planowana-s11-ID4Bh7p",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2262,7 +2658,10 @@
       "agencyName": "Kancelaria Prawna Promesa Home",
       "dateCreated": "2026-05-01 21:56:17",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/nienawiszcz-dzialki-blisko-jeziora-regularny-ksztalt-mpzp-super-cena-ID4BayL"
+      "href": "https://www.otodom.pl/pl/ad/nienawiszcz-dzialki-blisko-jeziora-regularny-ksztalt-mpzp-super-cena-ID4BayL",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2282,7 +2681,10 @@
       "agencyName": "Kancelaria Prawna Promesa Home",
       "dateCreated": "2026-05-01 21:54:05",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-1002m2-szybki-dojazd-do-murowanej-gosliny-las-jezioro-mpzp-ID4BayJ"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-1002m2-szybki-dojazd-do-murowanej-gosliny-las-jezioro-mpzp-ID4BayJ",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2302,7 +2704,10 @@
       "agencyName": null,
       "dateCreated": "2026-04-30 16:57:36",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-rekreacyjna-blisko-lasu-i-jeziora-ID4B9Pm"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-rekreacyjna-blisko-lasu-i-jeziora-ID4B9Pm",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2322,7 +2727,14 @@
       "agencyName": "Dominum Sp. z o.o.",
       "dateCreated": "2026-04-25 00:34:52",
       "pushedUpAt": "2026-04-25T00:34:53+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dzialka-rod-350-m-z-domkiem-i-lazienka-ID4AvHo"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-rod-350-m-z-domkiem-i-lazienka-ID4AvHo",
+      "sources": [
+        "otodom",
+        "olx"
+      ],
+      "olxId": "1061161413",
+      "lat": 52.75216,
+      "lon": 16.99231
     },
     {
       "source": "otodom",
@@ -2342,7 +2754,10 @@
       "agencyName": null,
       "dateCreated": "2026-04-23 12:31:37",
       "pushedUpAt": "2026-04-23T12:31:37+02:00",
-      "href": "https://www.otodom.pl/pl/ad/urokliwa-zadrzewiona-dzialka-budowlana-wokol-lasow-i-jezior-mpzp-ID4z8EW"
+      "href": "https://www.otodom.pl/pl/ad/urokliwa-zadrzewiona-dzialka-budowlana-wokol-lasow-i-jezior-mpzp-ID4z8EW",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2362,7 +2777,10 @@
       "agencyName": "Intrum Spółka z ograniczoną odpowiedzialnością",
       "dateCreated": "2026-04-22 13:55:33",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/grunt-mozliwe-mieszkania-i-uslugi-ID4B2oS"
+      "href": "https://www.otodom.pl/pl/ad/grunt-mozliwe-mieszkania-i-uslugi-ID4B2oS",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2382,7 +2800,10 @@
       "agencyName": "Wyspa nieruchomości",
       "dateCreated": "2026-04-17 23:40:19",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/2-82-ha-ziemia-rolna-parkowo-klasa-iii-ID4AYZo"
+      "href": "https://www.otodom.pl/pl/ad/2-82-ha-ziemia-rolna-parkowo-klasa-iii-ID4AYZo",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2402,7 +2823,10 @@
       "agencyName": "EASY-HOME Agencja Nieruchomości",
       "dateCreated": "2026-04-17 15:51:46",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/cudowne-miejsce-w-poblizu-jeziora-i-lasu-ID4AYEo"
+      "href": "https://www.otodom.pl/pl/ad/cudowne-miejsce-w-poblizu-jeziora-i-lasu-ID4AYEo",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2422,7 +2846,10 @@
       "agencyName": "FWK Nieruchomości",
       "dateCreated": "2026-04-17 08:51:58",
       "pushedUpAt": "2026-04-17T08:51:59+02:00",
-      "href": "https://www.otodom.pl/pl/ad/zbuduj-dom-i-zaoszczedz-nawet-50-000-zl-roznowice-bez-podatku-pc-ID4AX74"
+      "href": "https://www.otodom.pl/pl/ad/zbuduj-dom-i-zaoszczedz-nawet-50-000-zl-roznowice-bez-podatku-pc-ID4AX74",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2442,7 +2869,10 @@
       "agencyName": "Find Home Łukasz Dasiewicz",
       "dateCreated": "2026-04-14 08:26:04",
       "pushedUpAt": "2026-04-14T08:26:04+02:00",
-      "href": "https://www.otodom.pl/pl/ad/ladne-dzialki-las-jezioro-nienawiszcz-promocja-ID40XkF"
+      "href": "https://www.otodom.pl/pl/ad/ladne-dzialki-las-jezioro-nienawiszcz-promocja-ID40XkF",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2462,7 +2892,10 @@
       "agencyName": "Movinest - Biuro Nieruchomości",
       "dateCreated": "2026-04-13 14:46:50",
       "pushedUpAt": "2026-04-13T14:46:51+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dzialki-budowlane-rogozno-ID4Awkf"
+      "href": "https://www.otodom.pl/pl/ad/dzialki-budowlane-rogozno-ID4Awkf",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2482,7 +2915,10 @@
       "agencyName": "DomVisio",
       "dateCreated": "2026-04-13 12:04:11",
       "pushedUpAt": "2026-04-13T12:04:11+02:00",
-      "href": "https://www.otodom.pl/pl/ad/idealna-dzialka-pod-twoj-nowy-dom-ID4A8yf"
+      "href": "https://www.otodom.pl/pl/ad/idealna-dzialka-pod-twoj-nowy-dom-ID4A8yf",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2502,7 +2938,10 @@
       "agencyName": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
       "dateCreated": "2026-04-10 21:32:10",
       "pushedUpAt": "2026-04-10T21:32:10+02:00",
-      "href": "https://www.otodom.pl/pl/ad/dzialka-w-poblizu-jeziora-faktura-vat-ID4AF2R"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-w-poblizu-jeziora-faktura-vat-ID4AF2R",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2522,7 +2961,10 @@
       "agencyName": "Invest Realty",
       "dateCreated": "2026-04-04 12:38:42",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/miejscowosc-stare-gmina-rogozno-ID4ANFz"
+      "href": "https://www.otodom.pl/pl/ad/miejscowosc-stare-gmina-rogozno-ID4ANFz",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2542,7 +2984,10 @@
       "agencyName": "Nieruchomości Kaczmarek",
       "dateCreated": "2026-03-30 23:45:15",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/jaracz-mpzp-880-m2-ID4AJO7"
+      "href": "https://www.otodom.pl/pl/ad/jaracz-mpzp-880-m2-ID4AJO7",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2562,7 +3007,10 @@
       "agencyName": "Senger&Partners Nieruchomosci",
       "dateCreated": "2026-03-27 11:14:05",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/idealna-dzialka-do-zabudowy-jaracz-628m-polecam-ID4AHai"
+      "href": "https://www.otodom.pl/pl/ad/idealna-dzialka-do-zabudowy-jaracz-628m-polecam-ID4AHai",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2582,7 +3030,10 @@
       "agencyName": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
       "dateCreated": "2026-03-25 09:39:14",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-w-poblizu-jeziora-faktura-vat-ID4AF2Q"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-w-poblizu-jeziora-faktura-vat-ID4AF2Q",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2602,7 +3053,10 @@
       "agencyName": "Nieruchomości Apartament Piła",
       "dateCreated": "2026-03-23 13:21:39",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-1170-m-w-jaraczu-blisko-natury-ID4AD0n"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-1170-m-w-jaraczu-blisko-natury-ID4AD0n",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2622,7 +3076,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2026-03-12 09:39:33",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/atrakcyjna-dzialka-budowlana-miedzylesie-ul-golebia-rogozno-ID4AtpR"
+      "href": "https://www.otodom.pl/pl/ad/atrakcyjna-dzialka-budowlana-miedzylesie-ul-golebia-rogozno-ID4AtpR",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2642,7 +3099,10 @@
       "agencyName": "Nieruchomości Apartament Piła",
       "dateCreated": "2026-03-09 21:18:43",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/okazja-dzialka-z-wydanym-pozwoleniem-na-budowe-ID4Ar26"
+      "href": "https://www.otodom.pl/pl/ad/okazja-dzialka-z-wydanym-pozwoleniem-na-budowe-ID4Ar26",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2662,7 +3122,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2026-03-09 18:17:53",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-dwa-budynki-mieszkalne-boguniewo-ID4AqTg"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-dwa-budynki-mieszkalne-boguniewo-ID4AqTg",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2682,7 +3145,10 @@
       "agencyName": "Aptacy Nieruchomości",
       "dateCreated": "2026-02-08 23:12:41",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-z-pozwoleniem-na-budowe-nienawiszcz-ID4A17X"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-z-pozwoleniem-na-budowe-nienawiszcz-ID4A17X",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2702,7 +3168,10 @@
       "agencyName": "Nieruchomości Furman oddział Czarnków i Chodzież",
       "dateCreated": "2026-02-06 09:57:28",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/na-sprzedaz-dzialka-w-tarnowie-ID4zZui"
+      "href": "https://www.otodom.pl/pl/ad/na-sprzedaz-dzialka-w-tarnowie-ID4zZui",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2722,7 +3191,10 @@
       "agencyName": "Małgorzata Krawczyk Nieruchomości",
       "dateCreated": "2026-01-23 22:00:33",
       "pushedUpAt": "2026-01-23T22:00:34+01:00",
-      "href": "https://www.otodom.pl/pl/ad/ziemia-orna-z-potencjalem-ID4yoHp"
+      "href": "https://www.otodom.pl/pl/ad/ziemia-orna-z-potencjalem-ID4yoHp",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2742,7 +3214,10 @@
       "agencyName": "MySpot",
       "dateCreated": "2026-01-03 17:50:54",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-rolna-10140-m2-nienawiszcz-gm-rogozno-ID4zy0k"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-rolna-10140-m2-nienawiszcz-gm-rogozno-ID4zy0k",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2762,7 +3237,10 @@
       "agencyName": "Senger&Partners Nieruchomosci",
       "dateCreated": "2025-12-19 10:02:44",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/idealna-dzialka-do-zabudowy-jaracz-1400m-polecam-ID4zri5"
+      "href": "https://www.otodom.pl/pl/ad/idealna-dzialka-do-zabudowy-jaracz-1400m-polecam-ID4zri5",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2782,7 +3260,10 @@
       "agencyName": "Nieruchomości Kaczmarek",
       "dateCreated": "2025-12-12 10:46:01",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/grudna-dzialka-budowlana-ID4zmbJ"
+      "href": "https://www.otodom.pl/pl/ad/grudna-dzialka-budowlana-ID4zmbJ",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2802,7 +3283,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2025-10-27 12:25:28",
       "pushedUpAt": "2025-10-27T12:25:28+01:00",
-      "href": "https://www.otodom.pl/pl/ad/piekna-dzialka-budowlana-w-okolicy-jeziora-rogozinskiego-rogozno-ID4yHR5"
+      "href": "https://www.otodom.pl/pl/ad/piekna-dzialka-budowlana-w-okolicy-jeziora-rogozinskiego-rogozno-ID4yHR5",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2822,7 +3306,10 @@
       "agencyName": "PRO.DOM NIERUCHOMOŚCI",
       "dateCreated": "2025-10-23 15:02:57",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-jezioro-rogozinskie-rogozno-ID4yI7V"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-budowlana-jezioro-rogozinskie-rogozno-ID4yI7V",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2842,7 +3329,10 @@
       "agencyName": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
       "dateCreated": "2025-10-22 15:27:17",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialki-budowlane-ID4yH3U"
+      "href": "https://www.otodom.pl/pl/ad/dzialki-budowlane-ID4yH3U",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2862,7 +3352,10 @@
       "agencyName": "Senger&Partners Nieruchomosci",
       "dateCreated": "2025-10-06 23:03:30",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/156-18706-ogs-ID4ysUW"
+      "href": "https://www.otodom.pl/pl/ad/156-18706-ogs-ID4ysUW",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2882,7 +3375,10 @@
       "agencyName": "GRACJAN-NIERUCHOMOŚCI",
       "dateCreated": "2025-09-30 11:15:34",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-pod-zespol-budynkow-ID4ymzu"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-pod-zespol-budynkow-ID4ymzu",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2902,7 +3398,10 @@
       "agencyName": "GRACJAN-NIERUCHOMOŚCI",
       "dateCreated": "2025-09-30 11:15:33",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-pod-zespol-budynkow-ID4ymzs"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-pod-zespol-budynkow-ID4ymzs",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2922,7 +3421,10 @@
       "agencyName": "Małgorzata Krawczyk Nieruchomości",
       "dateCreated": "1999-02-29 00:00:01",
       "pushedUpAt": "2026-05-15T12:51:04+02:00",
-      "href": "https://www.otodom.plhpr//pl/ad/dzialka-budowlana-w-poblizu-jezior-jezior-ID4yqtH"
+      "href": "https://www.otodom.plhpr//pl/ad/dzialka-budowlana-w-poblizu-jezior-jezior-ID4yqtH",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2942,7 +3444,10 @@
       "agencyName": "GRACJAN-NIERUCHOMOŚCI",
       "dateCreated": "2025-09-16 13:22:10",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/atrakcyjna-dzialak-budowlana-w-jaraczu-ID4y9PI"
+      "href": "https://www.otodom.pl/pl/ad/atrakcyjna-dzialak-budowlana-w-jaraczu-ID4y9PI",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2962,7 +3467,10 @@
       "agencyName": "GRACJAN-NIERUCHOMOŚCI",
       "dateCreated": "2025-09-12 15:04:28",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/duza-dzialka-z-warunkami-zabudowy-ID4y6IT"
+      "href": "https://www.otodom.pl/pl/ad/duza-dzialka-z-warunkami-zabudowy-ID4y6IT",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -2982,7 +3490,10 @@
       "agencyName": "Nieruchomości FORMA",
       "dateCreated": "2025-08-10 23:45:51",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/atrakcyjna-dzialka-w-centrum-rogozna-z-dostepem-do-ID4xDNX"
+      "href": "https://www.otodom.pl/pl/ad/atrakcyjna-dzialka-w-centrum-rogozna-z-dostepem-do-ID4xDNX",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3002,7 +3513,10 @@
       "agencyName": "FWK Nieruchomości",
       "dateCreated": "2025-07-31 10:56:10",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/spokoj-zielen-i-przestrzen-na-twoj-wlasny-dom-ID4xuLO"
+      "href": "https://www.otodom.pl/pl/ad/spokoj-zielen-i-przestrzen-na-twoj-wlasny-dom-ID4xuLO",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3022,7 +3536,10 @@
       "agencyName": "Kuśnierska Nieruchomości",
       "dateCreated": "2025-07-21 10:54:16",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-z-warunkami-zabudowy-w-malowniczej-ID4xlUl"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-z-warunkami-zabudowy-w-malowniczej-ID4xlUl",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3042,7 +3559,10 @@
       "agencyName": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
       "dateCreated": "2025-06-02 19:35:22",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-rolna-ID4vFyi"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-rolna-ID4vFyi",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3062,7 +3582,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2025-03-25 11:55:38",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-4-300-m-studzieniec-ID4wBC9"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-4-300-m-studzieniec-ID4wBC9",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3082,7 +3605,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2025-03-24 16:30:12",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-2-600-m-rogozno-ID4wAKr"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-2-600-m-rogozno-ID4wAKr",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3102,7 +3628,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2025-03-19 11:16:37",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-3-835-m-prusce-ID4wwdz"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-3-835-m-prusce-ID4wwdz",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3122,7 +3651,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2025-03-06 08:55:33",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-1-020-m-rogozno-ID4wgUS"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-1-020-m-rogozno-ID4wgUS",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3142,7 +3674,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2025-02-26 15:35:40",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-11-603-m-garbatka-ID4w96p"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-11-603-m-garbatka-ID4w96p",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3162,7 +3697,10 @@
       "agencyName": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
       "dateCreated": "2025-02-07 16:32:24",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/grunty-przemyslowe-przy-s-11-mozliwosc-ID4uQbA"
+      "href": "https://www.otodom.pl/pl/ad/grunty-przemyslowe-przy-s-11-mozliwosc-ID4uQbA",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3182,7 +3720,10 @@
       "agencyName": "SOHO Nieruchomości Katarzyna Wajnert",
       "dateCreated": "2024-11-04 18:13:01",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/dzialka-4-368-m-prusce-ID4tiuF"
+      "href": "https://www.otodom.pl/pl/ad/dzialka-4-368-m-prusce-ID4tiuF",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3202,7 +3743,10 @@
       "agencyName": "Handom Nieruchomości",
       "dateCreated": "2024-07-17 12:33:57",
       "pushedUpAt": null,
-      "href": "https://www.otodom.pl/pl/ad/rogozno-sudzieniec-miedzylesie-dzialki-budowlne-ID4rAQO"
+      "href": "https://www.otodom.pl/pl/ad/rogozno-sudzieniec-miedzylesie-dzialki-budowlne-ID4rAQO",
+      "sources": [
+        "otodom"
+      ]
     },
     {
       "source": "otodom",
@@ -3222,7 +3766,868 @@
       "agencyName": "GRACJAN-NIERUCHOMOŚCI",
       "dateCreated": "1999-02-29 00:00:01",
       "pushedUpAt": null,
-      "href": "https://www.otodom.plhpr//pl/ad/atrakcyjna-dzialak-budowlana-w-jaraczu-ID4y9PI"
+      "href": "https://www.otodom.plhpr//pl/ad/atrakcyjna-dzialak-budowlana-w-jaraczu-ID4y9PI",
+      "sources": [
+        "otodom"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1050752208",
+      "title": "Obiekt na sprzedaż",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 1100000,
+      "pricePerM2": 2032,
+      "areaM2": 541.24,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-01-21T15:35:32+01:00",
+      "pushedUpAt": "2026-04-22T10:21:31+02:00",
+      "href": "https://www.olx.pl/d/oferta/obiekt-na-sprzedaz-CID3-ID196QEg.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1070438621",
+      "title": "Sprzedaż - mieszkanie, 2 pokoje z balkonem, – 42 m², Wągrowiec",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 420000,
+      "pricePerM2": 10000,
+      "areaM2": 42,
+      "rooms": 2,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-04-30T17:38:05+02:00",
+      "pushedUpAt": "2026-04-30T17:42:48+02:00",
+      "href": "https://www.olx.pl/d/oferta/sprzedaz-mieszkanie-2-pokoje-z-balkonem-42-m-wagrowiec-CID3-ID1arrZ3.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1060741619",
+      "title": "Mieszkanie z wyposażeniem i klimatyzacją",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 265000,
+      "pricePerM2": 5907,
+      "areaM2": 44.86,
+      "rooms": 2,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": false,
+      "agencyName": null,
+      "dateCreated": "2026-03-14T15:25:57+01:00",
+      "pushedUpAt": "2026-04-17T21:29:53+02:00",
+      "href": "https://www.olx.pl/d/oferta/mieszkanie-z-wyposazeniem-i-klimatyzacja-CID3-ID19MLlN.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1067337119",
+      "title": "Nowy Wągrowiec B2.M7 - 2 Pokoje, Balkon, Winda, Fotowoltaika",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 304304,
+      "pricePerM2": 7700,
+      "areaM2": 39.52,
+      "rooms": 2,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": false,
+      "agencyName": null,
+      "dateCreated": "2026-04-15T16:16:00+02:00",
+      "pushedUpAt": "2026-04-15T16:16:00+02:00",
+      "href": "https://www.olx.pl/d/oferta/nowy-wagrowiec-b2-m7-2-pokoje-balkon-winda-fotowoltaika-CID3-ID1aer8P.html",
+      "lat": 52.80848,
+      "lon": 17.19966,
+      "externalUrl": "https://www.otodom.pl/pl/oferta/nowy-wagrowiec-b2-m7-2-pokoje-balkon-winda-fotowoltaika-ID4A4sJ",
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1023543165",
+      "title": "Mieszkanie na sprzedaż 38m",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 230000,
+      "pricePerM2": 6053,
+      "areaM2": 38,
+      "rooms": 2,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2025-09-01T10:17:03+02:00",
+      "pushedUpAt": "2026-04-24T12:45:50+02:00",
+      "href": "https://www.olx.pl/d/oferta/mieszkanie-na-sprzedaz-38m-CID3-ID17gGkJ.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1072758918",
+      "title": "Dom Na Sprzedaż Wiatrowo Las Gm. Wągrowiec",
+      "estate": "HOUSE",
+      "transaction": "SELL",
+      "pricePln": 834000,
+      "pricePerM2": 4976,
+      "areaM2": 167.59,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": false,
+      "agencyName": null,
+      "dateCreated": "2026-05-12T13:41:50+02:00",
+      "pushedUpAt": "2026-05-12T13:41:50+02:00",
+      "href": "https://www.olx.pl/d/oferta/dom-na-sprzedaz-wiatrowo-las-gm-wagrowiec-CID3-ID1aBbBc.html",
+      "lat": 52.78381,
+      "lon": 17.132898,
+      "externalUrl": "https://www.otodom.pl/pl/oferta/dom-na-sprzedaz-wiatrowo-las-gm-wagrowiec-ID4Bj5J",
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1028605710",
+      "title": "Dom  z  tarasem  w elitarnej dzielnicy na Osadzie w Wągrowcu.",
+      "estate": "HOUSE",
+      "transaction": "SELL",
+      "pricePln": 1100000,
+      "pricePerM2": 5140,
+      "areaM2": 214,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2025-09-25T20:16:03+02:00",
+      "pushedUpAt": "2026-05-14T20:21:06+02:00",
+      "href": "https://www.olx.pl/d/oferta/dom-z-tarasem-w-elitarnej-dzielnicy-na-osadzie-w-wagrowcu-CID3-ID17BWkG.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1064782571",
+      "title": "Sprzedam prawy segment do zamieszkania",
+      "estate": "HOUSE",
+      "transaction": "SELL",
+      "pricePln": 569000,
+      "pricePerM2": 7487,
+      "areaM2": 76,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-04-02T20:26:27+02:00",
+      "pushedUpAt": "2026-05-10T00:19:20+02:00",
+      "href": "https://www.olx.pl/d/oferta/sprzedam-prawy-segment-do-zamieszkania-CID3-ID1a3IAr.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "951115265",
+      "title": "Sprzedam udział 1/2 w kamienicy w centrum Wągrowca",
+      "estate": "HOUSE",
+      "transaction": "SELL",
+      "pricePln": 630000,
+      "pricePerM2": 727,
+      "areaM2": 866,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2024-10-10T21:13:21+02:00",
+      "pushedUpAt": "2026-04-23T11:45:37+02:00",
+      "href": "https://www.olx.pl/d/oferta/sprzedam-udzial-1-2-w-kamienicy-w-centrum-wagrowca-CID3-ID12mMvN.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1070217763",
+      "title": "*media*decyzja o warunkach zabudowy*dobra lokalizacja",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 299000,
+      "pricePerM2": 481,
+      "areaM2": 621,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-04-29T14:06:45+02:00",
+      "pushedUpAt": "2026-04-29T14:15:36+02:00",
+      "href": "https://www.olx.pl/d/oferta/mediadecyzja-o-warunkach-zabudowydobra-lokalizacja-CID3-ID1aqvvP.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "917215721",
+      "title": "Działka budowlana",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 285000,
+      "pricePerM2": 351,
+      "areaM2": 813,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2024-05-09T17:52:40+02:00",
+      "pushedUpAt": "2026-05-12T10:53:13+02:00",
+      "href": "https://www.olx.pl/d/oferta/dzialka-budowlana-CID3-ID104xHX.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "936581234",
+      "title": "Działka budowlana pod miastem z mediami i lasem",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 115000,
+      "pricePerM2": 192,
+      "areaM2": 600,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2024-08-09T08:28:32+02:00",
+      "pushedUpAt": "2026-05-02T11:02:10+02:00",
+      "href": "https://www.olx.pl/d/oferta/dzialka-budowlana-pod-miastem-z-mediami-i-lasem-CID3-ID11nNyV.html",
+      "lat": 52.78303,
+      "lon": 17.130238,
+      "externalUrl": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-pod-miastem-z-mediami-i-lasem-ID4rVJY",
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1016904506",
+      "title": "Działka ROD 255m²Wągrowiec ul. Gnieźnieńska",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 57000,
+      "pricePerM2": 204,
+      "areaM2": 280,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2025-07-29T19:31:28+02:00",
+      "pushedUpAt": "2026-05-10T19:19:49+02:00",
+      "href": "https://www.olx.pl/d/oferta/dzialka-rod-255mwagrowiec-ul-gnieznienska-CID3-ID16OPjA.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1071126193",
+      "title": "Działka ROD na ul. Gnieźnienskiej. 410m2!!! NOWA CENA!!",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 39000,
+      "pricePerM2": 95,
+      "areaM2": 410,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-05-04T18:45:41+02:00",
+      "pushedUpAt": "2026-05-11T18:48:10+02:00",
+      "href": "https://www.olx.pl/d/oferta/dzialka-rod-na-ul-gnieznienskiej-410m2-nowa-cena-CID3-ID1aukQW.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1071367801",
+      "title": "Działała budowlana w Wągrowcu ul. Przemysłowa",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 398700,
+      "pricePerM2": 450,
+      "areaM2": 886,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-05-05T21:08:20+02:00",
+      "pushedUpAt": "2026-05-05T21:12:12+02:00",
+      "href": "https://www.olx.pl/d/oferta/dzialala-budowlana-w-wagrowcu-ul-przemyslowa-CID3-ID1awlHP.html",
+      "lat": 52.8095,
+      "lon": 17.209084,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1029074241",
+      "title": "Działka RODO nad Nielbą, Wągrowiec",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 62000,
+      "pricePerM2": 207,
+      "areaM2": 300,
+      "rooms": null,
+      "floor": null,
+      "city": "Wągrowiec",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2025-09-28T16:05:38+02:00",
+      "pushedUpAt": "2026-04-19T21:36:31+02:00",
+      "href": "https://www.olx.pl/d/oferta/dzialka-rodo-nad-nielba-wagrowiec-CID3-ID17DTdD.html",
+      "lat": 52.80789,
+      "lon": 17.1971,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1071327890",
+      "title": "Mieszkanie na sprzedaż Rogoźno",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 360000,
+      "pricePerM2": 6792,
+      "areaM2": 53,
+      "rooms": 3,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-05-05T18:13:50+02:00",
+      "pushedUpAt": "2026-05-14T18:19:06+02:00",
+      "href": "https://www.olx.pl/d/oferta/mieszkanie-na-sprzedaz-rogozno-CID3-ID1awbk6.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1069523496",
+      "title": "Na sprzedaż mieszkanie 32 m² – Rogoźno | po odświeżeniu | gotowe do zamieszkania",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 197000,
+      "pricePerM2": 6156,
+      "areaM2": 32,
+      "rooms": 1,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-04-26T13:51:25+02:00",
+      "pushedUpAt": "2026-05-10T13:53:23+02:00",
+      "href": "https://www.olx.pl/d/oferta/na-sprzedaz-mieszkanie-32-m-rogozno-po-odswiezeniu-gotowe-do-zamieszkania-CID3-ID1anBUY.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1052965731",
+      "title": "Mieszkanie 27m2 Blaszak Pom.Gospodarcze",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 200000,
+      "pricePerM2": 7407,
+      "areaM2": 27,
+      "rooms": 1,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-02-02T17:53:55+01:00",
+      "pushedUpAt": "2026-04-23T12:15:46+02:00",
+      "href": "https://www.olx.pl/d/oferta/mieszkanie-27m2-blaszak-pom-gospodarcze-CID3-ID19g8uf.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1069132666",
+      "title": "Przestronne mieszkanie 81 m² z garażem i dodatkowymi pomieszczeniami – świetna lokalizacja!",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 380000,
+      "pricePerM2": 4691,
+      "areaM2": 81,
+      "rooms": 3,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-04-24T11:14:03+02:00",
+      "pushedUpAt": "2026-05-08T11:17:32+02:00",
+      "href": "https://www.olx.pl/d/oferta/przestronne-mieszkanie-81-m-z-garazem-i-dodatkowymi-pomieszczeniami-swietna-lokalizacja-CID3-ID1alYfg.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1073348335",
+      "title": "Mieszkanie z ogrodem w Rogoźnie",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 559000,
+      "pricePerM2": 7241,
+      "areaM2": 77.2,
+      "rooms": 3,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": false,
+      "agencyName": null,
+      "dateCreated": "2026-05-14T13:33:25+02:00",
+      "pushedUpAt": "2026-05-14T13:38:25+02:00",
+      "href": "https://www.olx.pl/d/oferta/mieszkanie-z-ogrodem-w-rogoznie-CID3-ID1aDEWW.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1073046481",
+      "title": "3-pokojowe mieszkanie w centrum Rogoźna",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 300000,
+      "pricePerM2": 6186,
+      "areaM2": 48.5,
+      "rooms": 3,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-05-13T16:47:16+02:00",
+      "pushedUpAt": "2026-05-13T17:08:26+02:00",
+      "href": "https://www.olx.pl/d/oferta/3-pokojowe-mieszkanie-w-centrum-rogozna-CID3-ID1aCopj.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "991815589",
+      "title": "Mieszkanie na sprzedaż",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 400000,
+      "pricePerM2": 5298,
+      "areaM2": 75.5,
+      "rooms": 3,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2025-03-26T15:43:38+01:00",
+      "pushedUpAt": "2026-04-17T21:31:13+02:00",
+      "href": "https://www.olx.pl/d/oferta/mieszkanie-na-sprzedaz-CID3-ID157yxD.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1071666783",
+      "title": "Mieszkanie na sprzedaż Rogoźno",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 195000,
+      "pricePerM2": 5735,
+      "areaM2": 34,
+      "rooms": 2,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-05-07T09:05:43+02:00",
+      "pushedUpAt": "2026-05-07T09:14:51+02:00",
+      "href": "https://www.olx.pl/d/oferta/mieszkanie-na-sprzedaz-rogozno-CID3-ID1avBu7.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1066583496",
+      "title": "Mieszkanie w centrum, ogródek, 2 garaże - Rogoźno (sprzedaż bez pośredników)",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 255000,
+      "pricePerM2": 7635,
+      "areaM2": 33.4,
+      "rooms": 1,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-04-12T15:01:36+02:00",
+      "pushedUpAt": "2026-04-12T15:09:18+02:00",
+      "href": "https://www.olx.pl/d/oferta/mieszkanie-w-centrum-ogrodek-2-garaze-rogozno-sprzedaz-bez-posrednikow-CID3-ID1abh5C.html",
+      "lat": 52.751404,
+      "lon": 16.9943,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1052587951",
+      "title": "Mieszkanie gotowe do użytku, 3-pokojowe w centrum. 63,8m2",
+      "estate": "FLAT",
+      "transaction": "SELL",
+      "pricePln": 355000,
+      "pricePerM2": 5564,
+      "areaM2": 63.8,
+      "rooms": 3,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-01-31T17:34:45+01:00",
+      "pushedUpAt": "2026-05-04T14:37:45+02:00",
+      "href": "https://www.olx.pl/d/oferta/mieszkanie-gotowe-do-uzytku-3-pokojowe-w-centrum-63-8m2-CID3-ID19eyd1.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1073591404",
+      "title": "Lokal z dwoma mieszkaniami pod klucz w zabudowie bliźniaczej",
+      "estate": "HOUSE",
+      "transaction": "SELL",
+      "pricePln": 550000,
+      "pricePerM2": 5392,
+      "areaM2": 102,
+      "rooms": null,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": false,
+      "agencyName": null,
+      "dateCreated": "2026-05-15T11:17:24+02:00",
+      "pushedUpAt": "2026-05-15T11:32:09+02:00",
+      "href": "https://www.olx.pl/d/oferta/lokal-z-dwoma-mieszkaniami-pod-klucz-w-zabudowie-blizniaczej-CID3-ID1aEGao.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "923060776",
+      "title": "Dzialki  budowlane z  NOWYM PLANEM",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 94999,
+      "pricePerM2": 110,
+      "areaM2": 861,
+      "rooms": null,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2024-06-05T11:59:55+02:00",
+      "pushedUpAt": "2026-05-11T07:38:10+02:00",
+      "href": "https://www.olx.pl/d/oferta/dzialki-budowlane-z-nowym-planem-CID3-ID10t4h2.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1019435734",
+      "title": "Działka budowlana, Rogoźno, Zachodnia + Projekt/Pozwolenie/Media",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 169000,
+      "pricePerM2": 205,
+      "areaM2": 825,
+      "rooms": null,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2025-08-11T15:20:24+02:00",
+      "pushedUpAt": "2026-04-23T11:55:51+02:00",
+      "href": "https://www.olx.pl/d/oferta/dzialka-budowlana-rogozno-zachodnia-projekt-pozwolenie-media-CID3-ID16ZrNQ.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1045120431",
+      "title": "Sprzedam działki budowlane",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 80000,
+      "pricePerM2": 80,
+      "areaM2": 1000,
+      "rooms": null,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2025-12-17T18:22:35+01:00",
+      "pushedUpAt": "2026-05-08T17:24:09+02:00",
+      "href": "https://www.olx.pl/d/oferta/sprzedam-dzialki-budowlane-CID3-ID18Jdz9.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1051777136",
+      "title": "Działka budowlana w Rogoźnie",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 138000,
+      "pricePerM2": 148,
+      "areaM2": 932,
+      "rooms": null,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": false,
+      "agencyName": null,
+      "dateCreated": "2026-01-27T11:12:55+01:00",
+      "pushedUpAt": "2026-05-11T09:44:31+02:00",
+      "href": "https://www.olx.pl/d/oferta/dzialka-budowlana-w-rogoznie-CID3-ID19b9hm.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1072808612",
+      "title": "Działki Budowlane Międzylesie Warunki Zabudowy",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 63410,
+      "pricePerM2": 85,
+      "areaM2": 746,
+      "rooms": null,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-05-12T17:21:16+02:00",
+      "pushedUpAt": "2026-05-12T17:25:46+02:00",
+      "href": "https://www.olx.pl/d/oferta/dzialki-budowlane-miedzylesie-warunki-zabudowy-CID3-ID1aBovI.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
+    },
+    {
+      "source": "olx",
+      "externalId": "1071089263",
+      "title": "Sprzedam działkę Rod",
+      "estate": "PLOT",
+      "transaction": "SELL",
+      "pricePln": 32000,
+      "pricePerM2": 107,
+      "areaM2": 300,
+      "rooms": null,
+      "floor": null,
+      "city": "Rogoźno",
+      "street": "",
+      "province": "Wielkopolskie",
+      "isPrivate": true,
+      "agencyName": null,
+      "dateCreated": "2026-05-04T15:48:59+02:00",
+      "pushedUpAt": "2026-05-04T15:53:33+02:00",
+      "href": "https://www.olx.pl/d/oferta/sprzedam-dzialke-rod-CID3-ID1aubfh.html",
+      "lat": 52.75185,
+      "lon": 16.99472,
+      "externalUrl": null,
+      "sources": [
+        "olx"
+      ]
     }
   ]
 }

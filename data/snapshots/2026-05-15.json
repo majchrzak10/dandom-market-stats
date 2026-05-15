@@ -1,8 +1,8 @@
 {
   "date": "2026-05-15",
-  "generatedAt": "2026-05-15T12:06:55.857Z",
+  "generatedAt": "2026-05-15T12:31:59.568Z",
   "source": "/home/runner/work/dandom-market-stats/dandom-market-stats/strona-dan-dom/asari-export",
-  "offerCount": 55,
+  "offerCount": 53,
   "offers": [
     {
       "signature": "128/6093/OGS",
@@ -549,23 +549,6 @@
       "firstSeenAt": "2026-03-24"
     },
     {
-      "signature": "401/6093/OMS",
-      "title": "Zielony Dębiec mieszkanie z widokiem",
-      "category": "MIESZKANIE",
-      "transaction": "SPRZEDAŻ",
-      "city": "POZNAŃ",
-      "district": "os. Dębina",
-      "locationLabel": "os. Dębina, POZNAŃ",
-      "pricePln": 569000,
-      "pricePerM2": 8670,
-      "areaM2": 65.63,
-      "rooms": 3,
-      "floor": 8,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": null,
-      "firstSeenAt": "2026-03-24"
-    },
-    {
       "signature": "403/6093/OMS",
       "title": "Mieszkanie w bloku na parterze",
       "category": "MIESZKANIE",
@@ -666,23 +649,6 @@
       "agentName": "Danuta Majchrzak",
       "listedAt": null,
       "firstSeenAt": "2026-03-24"
-    },
-    {
-      "signature": "234/6093/OGS",
-      "title": "Działka budowlana- Rogoźno",
-      "category": "DZIAŁKA",
-      "transaction": "SPRZEDAŻ",
-      "city": "ROGOŹNO",
-      "district": "Leśna",
-      "locationLabel": "Leśna, ROGOŹNO",
-      "pricePln": 129000,
-      "pricePerM2": 160,
-      "areaM2": 808,
-      "rooms": null,
-      "floor": null,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": null,
-      "firstSeenAt": "2026-04-02"
     },
     {
       "signature": "301/6093/ODS",

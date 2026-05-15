@@ -21,6 +21,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const SNAP_DIR = path.join(ROOT, "data", "snapshots");
 const EVENTS_DIR = path.join(ROOT, "data", "events");
+const COMPETITORS_DIR = path.join(ROOT, "data", "competitors");
+
+const CATEGORY_MAP_OTODOM = { FLAT: "MIESZKANIE", HOUSE: "DOM", PLOT: "DZIAŁKA" };
 
 const VELOCITY_BUCKETS = [
   { label: "0–7 dni (świeże)", min: 0, max: 7 },
@@ -211,9 +214,82 @@ const recentEvents = events
   .sort((a, b) => b.date.localeCompare(a.date))
   .slice(0, 100);
 
+// === Benchmark vs konkurencja ===
+function loadLatestCompetitorSnapshot(source) {
+  const dir = path.join(COMPETITORS_DIR, source);
+  if (!fs.existsSync(dir)) return null;
+  const files = fs
+    .readdirSync(dir)
+    .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .sort();
+  if (files.length === 0) return null;
+  return JSON.parse(fs.readFileSync(path.join(dir, files[files.length - 1]), "utf8"));
+}
+
+function buildBenchmark(ourOffers, competitorOffers, sourceLabel) {
+  if (!competitorOffers || competitorOffers.length === 0) return null;
+
+  // Grupowanie obu po (category, city)
+  function group(offers, mapCategory) {
+    const m = new Map();
+    for (const o of offers) {
+      const cat = mapCategory ? mapCategory(o) : o.category;
+      const city = (o.city || "").toUpperCase();
+      if (!cat || !city || !o.pricePln) continue;
+      const k = `${cat}|${city}`;
+      if (!m.has(k)) m.set(k, { category: cat, city, prices: [], pricesPerM2: [] });
+      const b = m.get(k);
+      b.prices.push(o.pricePln);
+      if (o.pricePerM2) b.pricesPerM2.push(o.pricePerM2);
+    }
+    return m;
+  }
+
+  const ourGrouped = group(ourOffers);
+  const compGrouped = group(competitorOffers, (o) => CATEGORY_MAP_OTODOM[o.estate]);
+
+  const comparison = [];
+  for (const [key, ours] of ourGrouped) {
+    const theirs = compGrouped.get(key);
+    if (!theirs) continue;
+    const ourMedPrice = median(ours.prices);
+    const theirMedPrice = median(theirs.prices);
+    const ourMedPerM2 = median(ours.pricesPerM2);
+    const theirMedPerM2 = median(theirs.pricesPerM2);
+    comparison.push({
+      category: ours.category,
+      city: ours.city,
+      ourCount: ours.prices.length,
+      competitorCount: theirs.prices.length,
+      ourMedianPrice: ourMedPrice,
+      competitorMedianPrice: theirMedPrice,
+      priceDiffPct: ourMedPrice && theirMedPrice
+        ? Math.round(((ourMedPrice - theirMedPrice) / theirMedPrice) * 1000) / 10
+        : null,
+      ourMedianPricePerM2: ourMedPerM2,
+      competitorMedianPricePerM2: theirMedPerM2,
+      pricePerM2DiffPct: ourMedPerM2 && theirMedPerM2
+        ? Math.round(((ourMedPerM2 - theirMedPerM2) / theirMedPerM2) * 1000) / 10
+        : null,
+    });
+  }
+
+  return {
+    source: sourceLabel,
+    totalCompetitorOffers: competitorOffers.length,
+    comparison: comparison.sort((a, b) => b.ourCount - a.ourCount),
+  };
+}
+
+const otodomSnapshot = loadLatestCompetitorSnapshot("otodom");
+const benchmarkOtodom = otodomSnapshot ? buildBenchmark(offers, otodomSnapshot.offers, "otodom") : null;
+
 const analytics = {
   generatedAt: new Date().toISOString(),
   kpi,
+  benchmark: {
+    otodom: benchmarkOtodom,
+  },
   timeSeries,
   segmentation: {
     byCategory: bucketBy(sale, (o) => o.category),

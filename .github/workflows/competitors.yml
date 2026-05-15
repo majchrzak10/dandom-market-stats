@@ -1,0 +1,40 @@
+name: Competitors snapshot
+
+# Osobny workflow od głównego — żeby awaria scrapera (rate limit, captcha,
+# zmiana struktury otodom) NIE blokowała głównych statystyk dan-dom.
+
+on:
+  schedule:
+    - cron: "0 5 * * *"  # 5:00 UTC, zanim odpali główny workflow o 6:30
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+      - run: npm ci
+
+      - name: Fetch konkurencja (otodom)
+        env:
+          COMPETITOR_CITIES: ${{ vars.COMPETITOR_CITIES || 'wagrowiec,rogozno' }}
+        run: node scripts/fetch-competitors.mjs
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/competitors/
+          if git diff --cached --quiet; then
+            echo "Brak nowych danych."
+          else
+            git commit -m "chore(competitors): otodom $(date -u +%Y-%m-%d) [skip ci]"
+            git push origin HEAD
+          fi

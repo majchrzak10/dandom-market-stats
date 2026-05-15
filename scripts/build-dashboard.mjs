@@ -101,6 +101,12 @@ const html = `<!DOCTYPE html>
     </div>
   </section>
 
+  <section class="bg-white rounded-2xl shadow-sm p-6 mb-10" id="benchmark-section">
+    <h2 class="text-lg font-semibold mb-1">Benchmark vs konkurencja (otodom)</h2>
+    <p class="text-stone-500 text-sm mb-4" id="benchmark-summary"></p>
+    <div id="benchmark-content" class="text-stone-500">Dane konkurencji jeszcze się pobierają.</div>
+  </section>
+
   <section class="bg-white rounded-2xl shadow-sm p-6 mb-10">
     <h2 class="text-lg font-semibold mb-4">Ostatnie 30 dni — zdarzenia</h2>
     <div id="recent-events" class="text-stone-500">Pojawi się po pierwszych diff-ach (jutro).</div>
@@ -202,6 +208,48 @@ document.getElementById("tom-table").innerHTML = A.timeOnMarket.slice(0, 10).map
     <td class="py-2 text-right font-semibold">\${t.daysOnMarket ?? "—"}</td>
   </tr>
 \`).join("");
+
+if (A.benchmark?.otodom) {
+  const b = A.benchmark.otodom;
+  document.getElementById("benchmark-summary").textContent =
+    \`Otodom: \${b.totalCompetitorOffers} ofert w regionie. Porównanie tam gdzie mamy wspólne kategorie/miasta.\`;
+  document.getElementById("benchmark-content").innerHTML = \`
+    <table class="w-full text-sm">
+      <thead class="text-stone-500 text-left border-b">
+        <tr>
+          <th class="pb-2">Kategoria</th>
+          <th class="pb-2">Miasto</th>
+          <th class="pb-2 text-right">Nasze oferty</th>
+          <th class="pb-2 text-right">Otodom</th>
+          <th class="pb-2 text-right">Mediana zł/m² my</th>
+          <th class="pb-2 text-right">Mediana zł/m² oni</th>
+          <th class="pb-2 text-right">Różnica</th>
+        </tr>
+      </thead>
+      <tbody>
+        \${b.comparison.map(c => {
+          const diff = c.pricePerM2DiffPct;
+          const cls = diff == null ? "text-stone-500" : diff < -5 ? "text-blue-700" : diff > 5 ? "text-amber-700" : "text-stone-600";
+          return \`
+            <tr class="border-b last:border-0">
+              <td class="py-2">\${c.category}</td>
+              <td class="py-2">\${c.city}</td>
+              <td class="py-2 text-right">\${c.ourCount}</td>
+              <td class="py-2 text-right">\${c.competitorCount}</td>
+              <td class="py-2 text-right">\${fmtPLN(c.ourMedianPricePerM2)}</td>
+              <td class="py-2 text-right">\${fmtPLN(c.competitorMedianPricePerM2)}</td>
+              <td class="py-2 text-right font-semibold \${cls}">\${diff == null ? "—" : (diff > 0 ? "+" : "") + diff + "%"}</td>
+            </tr>
+          \`;
+        }).join("")}
+      </tbody>
+    </table>
+    <p class="text-xs text-stone-500 mt-4">
+      Wartość ujemna (niebieska) = nasze ceny niższe niż rynek. Dodatnia (pomarańczowa) = wyższe.
+      Porównujemy tylko ten same kategorie i miasta gdzie obie strony mają oferty.
+    </p>
+  \`;
+}
 
 const eventTypeMap = {
   offer_added: { label: "Nowa", badge: "badge-added" },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T10:12:13.626Z",
+  "generatedAt": "2026-05-19T12:13:04.210Z",
   "kpi": {
     "date": "2026-05-19",
     "totalOffers": 51,
@@ -14,6 +14,54 @@
       "MIESZKANIE": 12,
       "OBIEKT": 1
     }
+  },
+  "history": {
+    "trackingStartDate": "2026-05-15",
+    "earliestListedAt": "2021-10-29",
+    "months": [
+      {
+        "key": "2026-05",
+        "year": 2026,
+        "month": 5,
+        "end": "2026-05-31",
+        "total": 52,
+        "sale": 51,
+        "byCategory": {
+          "DZIAŁKA": 23,
+          "DOM": 16,
+          "MIESZKANIE": 12,
+          "OBIEKT": 1
+        },
+        "medianPrice": 320000,
+        "avgPrice": 427501,
+        "medianPricePerM2": 2600,
+        "avgDaysOnMarket": 240,
+        "medianDaysOnMarket": 138,
+        "topCities": [
+          {
+            "city": "ROGOŹNO",
+            "count": 11
+          },
+          {
+            "city": "WĄGROWIEC",
+            "count": 7
+          },
+          {
+            "city": "GARBATKA",
+            "count": 3
+          },
+          {
+            "city": "ŁAZISKA",
+            "count": 3
+          },
+          {
+            "city": "NIENAWISZCZ",
+            "count": 2
+          }
+        ],
+        "beforeTracking": false
+      }
+    ]
   },
   "benchmark": {
     "competitor": {

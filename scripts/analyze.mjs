@@ -16,6 +16,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadAllEvents, buildOfferTimelines } from "../lib/events-loader.mjs";
+import { buildMonthlyHistory } from "../lib/history-builder.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -329,9 +330,16 @@ const sourceCounts = combinedSnapshot
     }, {})
   : {};
 
+const history = buildMonthlyHistory({
+  events,
+  currentOffers: offers,
+  snapshots,
+});
+
 const analytics = {
   generatedAt: new Date().toISOString(),
   kpi,
+  history,
   benchmark: {
     competitor: benchmarkCombined,
     sourceCounts,
@@ -358,5 +366,5 @@ const analytics = {
 fs.writeFileSync(path.join(ROOT, "data", "analytics.json"), JSON.stringify(analytics, null, 2) + "\n");
 
 console.log(
-  `Analytics: ${kpi.totalOffers} ofert · ${events.length} eventów history · ${agents.length} agentów · ${velocityBuckets.length} buckets velocity`,
+  `Analytics: ${kpi.totalOffers} ofert · ${events.length} eventów history · ${agents.length} agentów · ${velocityBuckets.length} buckets velocity · ${history.months.length} miesięcy historii`,
 );

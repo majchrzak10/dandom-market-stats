@@ -44,6 +44,7 @@
   <nav class="border-b border-stone-200 mb-8 flex gap-2 overflow-x-auto">
     <button class="tab-btn active" data-tab="my-offers">📊 Nasze oferty</button>
     <button class="tab-btn" data-tab="market">🌍 Rynek i konkurencja</button>
+    <button class="tab-btn" data-tab="history">📈 Historia</button>
   </nav>
 
   <!-- ============ TAB 1: NASZE OFERTY ============ -->
@@ -127,11 +128,81 @@
     </section>
 
   </div>
+
+  <!-- ============ TAB 3: HISTORIA ============ -->
+  <div class="tab-panel" id="tab-history">
+
+    <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 mb-6 text-sm text-stone-600">
+      Tracking zaczął się <span id="tracking-start" class="font-semibold"></span>.
+      Wykresy pokazują stan portfela na koniec każdego miesiąca — z każdym kolejnym miesiącem historia rośnie.
+    </div>
+
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+      <div class="bg-white rounded-2xl shadow-sm p-5">
+        <h2 class="text-base font-semibold mb-1">Liczba aktywnych ofert</h2>
+        <p class="text-xs text-stone-500 mb-3">Łącznie + breakdown per kategoria.</p>
+        <canvas id="hist-count-chart"></canvas>
+      </div>
+      <div class="bg-white rounded-2xl shadow-sm p-5">
+        <h2 class="text-base font-semibold mb-1">Miks kategorii w czasie</h2>
+        <p class="text-xs text-stone-500 mb-3">Udział % typów nieruchomości w portfelu.</p>
+        <canvas id="hist-category-mix-chart"></canvas>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+      <div class="bg-white rounded-2xl shadow-sm p-5">
+        <h2 class="text-base font-semibold mb-1">Mediana ceny (sprzedaż)</h2>
+        <p class="text-xs text-stone-500 mb-3">Aktualna cena ofert aktywnych w danym miesiącu. Mediana zwykle stabilniejsza niż średnia.</p>
+        <canvas id="hist-price-chart"></canvas>
+      </div>
+      <div class="bg-white rounded-2xl shadow-sm p-5">
+        <h2 class="text-base font-semibold mb-1">Mediana zł/m² (sprzedaż)</h2>
+        <p class="text-xs text-stone-500 mb-3">Lepszy wskaźnik trendu cenowego niż sama cena.</p>
+        <canvas id="hist-pricepm2-chart"></canvas>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+      <div class="bg-white rounded-2xl shadow-sm p-5">
+        <h2 class="text-base font-semibold mb-1">Średni czas na rynku</h2>
+        <p class="text-xs text-stone-500 mb-3">Dni od daty wprowadzenia (param 5 Asari) do końca miesiąca.</p>
+        <canvas id="hist-days-chart"></canvas>
+      </div>
+      <div class="bg-white rounded-2xl shadow-sm p-5">
+        <h2 class="text-base font-semibold mb-1">Top 5 miejscowości</h2>
+        <p class="text-xs text-stone-500 mb-3">Liczba ofert w największych miastach miesiąc po miesiącu.</p>
+        <canvas id="hist-cities-chart"></canvas>
+      </div>
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-sm p-5 mb-8">
+      <h2 class="text-base font-semibold mb-3">Tabela miesięczna</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead class="text-stone-500 text-left border-b border-stone-200">
+            <tr>
+              <th class="pb-2">Miesiąc</th>
+              <th class="pb-2 text-right">Aktywnych</th>
+              <th class="pb-2 text-right">DOM</th>
+              <th class="pb-2 text-right">MIESZKANIE</th>
+              <th class="pb-2 text-right">DZIAŁKA</th>
+              <th class="pb-2 text-right">Mediana ceny</th>
+              <th class="pb-2 text-right">Mediana zł/m²</th>
+              <th class="pb-2 text-right">Śr. dni</th>
+            </tr>
+          </thead>
+          <tbody id="hist-table"></tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
 </div>
 
 <script>
 const A = {
-  "generatedAt": "2026-05-19T10:12:13.626Z",
+  "generatedAt": "2026-05-19T12:13:04.210Z",
   "kpi": {
     "date": "2026-05-19",
     "totalOffers": 51,
@@ -146,6 +217,54 @@ const A = {
       "MIESZKANIE": 12,
       "OBIEKT": 1
     }
+  },
+  "history": {
+    "trackingStartDate": "2026-05-15",
+    "earliestListedAt": "2021-10-29",
+    "months": [
+      {
+        "key": "2026-05",
+        "year": 2026,
+        "month": 5,
+        "end": "2026-05-31",
+        "total": 52,
+        "sale": 51,
+        "byCategory": {
+          "DZIAŁKA": 23,
+          "DOM": 16,
+          "MIESZKANIE": 12,
+          "OBIEKT": 1
+        },
+        "medianPrice": 320000,
+        "avgPrice": 427501,
+        "medianPricePerM2": 2600,
+        "avgDaysOnMarket": 240,
+        "medianDaysOnMarket": 138,
+        "topCities": [
+          {
+            "city": "ROGOŹNO",
+            "count": 11
+          },
+          {
+            "city": "WĄGROWIEC",
+            "count": 7
+          },
+          {
+            "city": "GARBATKA",
+            "count": 3
+          },
+          {
+            "city": "ŁAZISKA",
+            "count": 3
+          },
+          {
+            "city": "NIENAWISZCZ",
+            "count": 2
+          }
+        ],
+        "beforeTracking": false
+      }
+    ]
   },
   "benchmark": {
     "competitor": {
@@ -1789,6 +1908,177 @@ if (bench) {
     },
     options: { plugins: { legend: { position: "bottom" } }, responsive: true },
   });
+}
+
+// === TAB 3: HISTORIA ===
+const H = A.history;
+if (H && H.months && H.months.length > 0) {
+  document.getElementById("tracking-start").textContent = H.trackingStartDate || "—";
+
+  const labels = H.months.map(m => m.key);
+
+  const CAT_COLORS = {
+    DOM: "#800020",
+    MIESZKANIE: "#b8860b",
+    "DZIAŁKA": "#5d7e3f",
+    OBIEKT: "#4a6fa5",
+  };
+
+  // 1. Liczba aktywnych ofert — line z breakdown per kategoria
+  const categories = Array.from(new Set(H.months.flatMap(m => Object.keys(m.byCategory))));
+  const totalDataset = {
+    label: "Łącznie",
+    data: H.months.map(m => m.total),
+    borderColor: "#1c1917",
+    backgroundColor: "transparent",
+    borderWidth: 2.5,
+    tension: 0.25,
+    fill: false,
+  };
+  const catDatasets = categories.map(cat => ({
+    label: cat,
+    data: H.months.map(m => m.byCategory[cat] || 0),
+    borderColor: CAT_COLORS[cat] || "#78716c",
+    backgroundColor: "transparent",
+    borderWidth: 1.5,
+    tension: 0.25,
+    fill: false,
+  }));
+  new Chart(document.getElementById("hist-count-chart"), {
+    type: "line",
+    data: { labels, datasets: [totalDataset, ...catDatasets] },
+    options: {
+      responsive: true,
+      plugins: { legend: { position: "bottom", labels: { boxWidth: 12, font: { size: 11 } } } },
+      scales: { y: { beginAtZero: true } },
+    },
+  });
+
+  // 2. Miks kategorii — stacked area %
+  new Chart(document.getElementById("hist-category-mix-chart"), {
+    type: "line",
+    data: {
+      labels,
+      datasets: categories.map(cat => ({
+        label: cat,
+        data: H.months.map(m => {
+          const total = m.total || 1;
+          return Math.round(((m.byCategory[cat] || 0) / total) * 1000) / 10;
+        }),
+        borderColor: CAT_COLORS[cat] || "#78716c",
+        backgroundColor: (CAT_COLORS[cat] || "#78716c") + "60",
+        fill: true,
+        tension: 0.25,
+      })),
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { position: "bottom", labels: { boxWidth: 12, font: { size: 11 } } },
+        tooltip: { callbacks: { label: (ctx) => ctx.dataset.label + ": " + ctx.parsed.y + "%" } },
+      },
+      scales: { y: { stacked: true, beginAtZero: true, max: 100, ticks: { callback: v => v + "%" } } },
+    },
+  });
+
+  // 3. Mediana ceny
+  new Chart(document.getElementById("hist-price-chart"), {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        { label: "Mediana", data: H.months.map(m => m.medianPrice), borderColor: "#800020", backgroundColor: "rgba(128,0,32,0.1)", tension: 0.25, fill: true, borderWidth: 2 },
+        { label: "Średnia", data: H.months.map(m => m.avgPrice), borderColor: "#a8a29e", backgroundColor: "transparent", tension: 0.25, fill: false, borderWidth: 1.5, borderDash: [4, 4] },
+      ],
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { position: "bottom" },
+        tooltip: { callbacks: { label: (ctx) => ctx.dataset.label + ": " + fmtPLN(ctx.parsed.y) } },
+      },
+      scales: { y: { ticks: { callback: v => fmtPLN(v) } } },
+    },
+  });
+
+  // 4. Mediana zł/m²
+  new Chart(document.getElementById("hist-pricepm2-chart"), {
+    type: "line",
+    data: {
+      labels,
+      datasets: [{ label: "Mediana zł/m²", data: H.months.map(m => m.medianPricePerM2), borderColor: "#5d7e3f", backgroundColor: "rgba(93,126,63,0.15)", tension: 0.25, fill: true, borderWidth: 2 }],
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: (ctx) => fmtPLN(ctx.parsed.y) + "/m²" } },
+      },
+      scales: { y: { ticks: { callback: v => fmtPLN(v) } } },
+    },
+  });
+
+  // 5. Średni czas na rynku
+  new Chart(document.getElementById("hist-days-chart"), {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        { label: "Średnia", data: H.months.map(m => m.avgDaysOnMarket), borderColor: "#b8860b", backgroundColor: "rgba(184,134,11,0.15)", tension: 0.25, fill: true, borderWidth: 2 },
+        { label: "Mediana", data: H.months.map(m => m.medianDaysOnMarket), borderColor: "#78716c", backgroundColor: "transparent", tension: 0.25, fill: false, borderWidth: 1.5, borderDash: [4, 4] },
+      ],
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { position: "bottom" },
+        tooltip: { callbacks: { label: (ctx) => ctx.dataset.label + ": " + ctx.parsed.y + " dni" } },
+      },
+      scales: { y: { beginAtZero: true, ticks: { callback: v => v + " dni" } } },
+    },
+  });
+
+  // 6. Top miasta — multiline (top N w ostatnim miesiącu)
+  const lastMonth = H.months[H.months.length - 1];
+  const topCityNames = lastMonth.topCities.map(c => c.city);
+  const cityColors = ["#800020", "#b8860b", "#5d7e3f", "#4a6fa5", "#8c4a6a"];
+  new Chart(document.getElementById("hist-cities-chart"), {
+    type: "line",
+    data: {
+      labels,
+      datasets: topCityNames.map((city, i) => ({
+        label: city,
+        data: H.months.map(m => {
+          const found = m.topCities.find(c => c.city === city);
+          return found ? found.count : 0;
+        }),
+        borderColor: cityColors[i % cityColors.length],
+        backgroundColor: "transparent",
+        tension: 0.25,
+        fill: false,
+        borderWidth: 1.8,
+      })),
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { position: "bottom", labels: { boxWidth: 12, font: { size: 11 } } } },
+      scales: { y: { beginAtZero: true } },
+    },
+  });
+
+  // Tabela
+  document.getElementById("hist-table").innerHTML = H.months.slice().reverse().map(m => `
+    <tr class="border-b border-stone-100 last:border-0">
+      <td class="py-2 font-medium">${m.key}</td>
+      <td class="py-2 text-right font-semibold">${m.total}</td>
+      <td class="py-2 text-right">${m.byCategory.DOM || 0}</td>
+      <td class="py-2 text-right">${m.byCategory.MIESZKANIE || 0}</td>
+      <td class="py-2 text-right">${m.byCategory["DZIAŁKA"] || 0}</td>
+      <td class="py-2 text-right">${fmtPLN(m.medianPrice)}</td>
+      <td class="py-2 text-right">${fmtPLN(m.medianPricePerM2)}</td>
+      <td class="py-2 text-right">${m.avgDaysOnMarket ?? "—"}</td>
+    </tr>
+  `).join("");
 }
 </script>
 </body>

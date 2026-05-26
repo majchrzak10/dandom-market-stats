@@ -1,0 +1,37 @@
+name: Mirror to backup repo
+
+# Pushuje cały main na dandom-market-stats-backup po każdym commicie + raz w tygodniu
+# jako safety net. Backup repo jest read-only przez GitHub UI, write tylko przez ten workflow.
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 4 * * 0"  # niedziela 4:00 UTC
+  workflow_dispatch:
+
+# Pozwalamy tylko jednemu mirror'owi naraz — żeby push'e się nie zderzały.
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # pełna historia, nie tylko HEAD
+
+      - name: Setup SSH for backup repo
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.BACKUP_DEPLOY_KEY }}
+
+      - name: Push to backup
+        run: |
+          git remote add backup git@github.com:majchrzak10/dandom-market-stats-backup.git
+          # Zwykły fast-forward push. Jeśli backup się rozjedzie (ktoś go ruszył ręcznie),
+          # workflow padnie i dostaniesz alert — wtedy świadomie rozstrzygasz konflikt.
+          git push backup main
+          git push backup --tags || true

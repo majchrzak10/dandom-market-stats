@@ -38,6 +38,24 @@ jobs:
           ASARI_DATA_DIR: ${{ github.workspace }}/strona-dan-dom/asari-export
         run: npm run all
 
+      - name: Sanity check — wykryj nagły spadek liczby ofert (>30%)
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+            const dir = 'data/snapshots';
+            const files = fs.readdirSync(dir).filter(f => /^\d{4}-\d{2}-\d{2}\.json\$/.test(f)).sort();
+            if (files.length < 2) { console.log('Za mało snapshotów do porównania.'); process.exit(0); }
+            const curr = JSON.parse(fs.readFileSync(path.join(dir, files.at(-1))));
+            const prev = JSON.parse(fs.readFileSync(path.join(dir, files.at(-2))));
+            const drop = (prev.offerCount - curr.offerCount) / prev.offerCount;
+            console.log(\`Prev: \${prev.offerCount}, Curr: \${curr.offerCount}, drop: \${(drop*100).toFixed(1)}%\`);
+            if (drop > 0.3) {
+              console.error(\`::error::Spadek ofert >30% (\${(drop*100).toFixed(1)}%) — sprawdź czy Asari nie wystawia uszkodzonej paczki.\`);
+              process.exit(1);
+            }
+          "
+
       - name: Commit snapshot + dashboard
         run: |
           git config user.name "github-actions[bot]"

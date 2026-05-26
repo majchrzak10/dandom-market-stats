@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T10:31:43.849Z",
+  "generatedAt": "2026-05-26T11:55:43.585Z",
   "kpi": {
     "date": "2026-05-26",
     "totalOffers": 58,
@@ -8,6 +8,7 @@
     "avgPrice": 474860,
     "medianPrice": 321838,
     "avgPricePerM2": 3480,
+    "totalActiveValue": 26905164,
     "byCategory": {
       "DZIAŁKA": 23,
       "DOM": 18,

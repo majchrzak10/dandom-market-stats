@@ -11,7 +11,7 @@ analyze.mjs      → liczy KPI, time-on-market, zmiany cen → data/analytics.js
 build-dashboard.mjs → generuje dist/index.html (Chart.js + Tailwind)
 ```
 
-GitHub Actions uruchamia `npm run all` codziennie o 6:00 UTC i deployuje `dist/` na GitHub Pages.
+GitHub Actions: `competitors.yml` (scrape konkurencji) o 5:00 UTC i `daily.yml` (`npm run all`) o 6:30 UTC. Oba commitują wynik na main; dashboard żywi się z `dist/`.
 
 ## Fazy
 

@@ -102,6 +102,7 @@ const kpi = {
   avgPrice: mean(sale.map((o) => o.pricePln).filter(Boolean)),
   medianPrice: median(sale.map((o) => o.pricePln).filter(Boolean)),
   avgPricePerM2: mean(sale.map((o) => o.pricePerM2).filter(Boolean)),
+  totalActiveValue: offers.reduce((sum, o) => sum + (o.pricePln || 0), 0),
   byCategory: offers.reduce((acc, o) => {
     acc[o.category] = (acc[o.category] || 0) + 1;
     return acc;

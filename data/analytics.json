@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T13:49:42.120Z",
+  "generatedAt": "2026-05-27T08:08:59.943Z",
   "kpi": {
     "date": "2026-05-26",
     "totalOffers": 58,
@@ -71,27 +71,27 @@
         "key": "2026-05-28",
         "start": "2026-05-15",
         "end": "2026-05-28",
-        "total": 717,
-        "sale": 717,
+        "total": 670,
+        "sale": 670,
         "byCategory": {
-          "MIESZKANIE": 238,
+          "MIESZKANIE": 215,
           "INWESTYCJA": 1,
-          "DOM": 207,
-          "DZIAŁKA": 271
+          "DOM": 196,
+          "DZIAŁKA": 258
         },
         "medianPrice": 320000,
-        "avgPrice": 595742,
-        "medianPricePerM2": 2557,
-        "avgDaysOnMarket": 44,
-        "medianDaysOnMarket": 2,
+        "avgPrice": 560899,
+        "medianPricePerM2": 2443,
+        "avgDaysOnMarket": 46,
+        "medianDaysOnMarket": 1,
         "topCities": [
           {
             "city": "WĄGROWIEC",
-            "count": 429
+            "count": 389
           },
           {
             "city": "ROGOŹNO",
-            "count": 177
+            "count": 170
           },
           {
             "city": "NIENAWISZCZ",
@@ -114,25 +114,25 @@
   "benchmark": {
     "competitor": {
       "source": "konkurencja",
-      "totalCompetitorOffers": 717,
+      "totalCompetitorOffers": 670,
       "comparison": [
         {
           "category": "MIESZKANIE",
           "city": "WĄGROWIEC",
           "ourCount": 6,
-          "competitorCount": 159,
+          "competitorCount": 138,
           "ourMedianPrice": 319500,
           "competitorMedianPrice": 315000,
           "priceDiffPct": 1.4,
           "ourMedianPricePerM2": 7498,
-          "competitorMedianPricePerM2": 5978,
-          "pricePerM2DiffPct": 25.4
+          "competitorMedianPricePerM2": 6016,
+          "pricePerM2DiffPct": 24.6
         },
         {
           "category": "MIESZKANIE",
           "city": "ROGOŹNO",
           "ourCount": 6,
-          "competitorCount": 76,
+          "competitorCount": 74,
           "ourMedianPrice": 234000,
           "competitorMedianPrice": 291500,
           "priceDiffPct": -19.7,
@@ -144,25 +144,25 @@
           "category": "DOM",
           "city": "ROGOŹNO",
           "ourCount": 4,
-          "competitorCount": 40,
+          "competitorCount": 38,
           "ourMedianPrice": 464500,
-          "competitorMedianPrice": 485000,
-          "priceDiffPct": -4.2,
+          "competitorMedianPrice": 494500,
+          "priceDiffPct": -6.1,
           "ourMedianPricePerM2": 4337,
-          "competitorMedianPricePerM2": 3895,
-          "pricePerM2DiffPct": 11.3
+          "competitorMedianPricePerM2": 3900,
+          "pricePerM2DiffPct": 11.2
         },
         {
           "category": "DOM",
           "city": "WĄGROWIEC",
           "ourCount": 4,
-          "competitorCount": 139,
+          "competitorCount": 130,
           "ourMedianPrice": 764500,
-          "competitorMedianPrice": 490000,
-          "priceDiffPct": 56,
+          "competitorMedianPrice": 499000,
+          "priceDiffPct": 53.2,
           "ourMedianPricePerM2": 4927,
-          "competitorMedianPricePerM2": 2745,
-          "pricePerM2DiffPct": 79.5
+          "competitorMedianPricePerM2": 2770,
+          "pricePerM2DiffPct": 77.9
         },
         {
           "category": "DZIAŁKA",
@@ -228,13 +228,13 @@
           "category": "DZIAŁKA",
           "city": "ROGOŹNO",
           "ourCount": 1,
-          "competitorCount": 45,
+          "competitorCount": 42,
           "ourMedianPrice": 142920,
-          "competitorMedianPrice": 142920,
-          "priceDiffPct": 0,
+          "competitorMedianPrice": 133123,
+          "priceDiffPct": 7.4,
           "ourMedianPricePerM2": 120,
-          "competitorMedianPricePerM2": 90,
-          "pricePerM2DiffPct": 33.3
+          "competitorMedianPricePerM2": 86,
+          "pricePerM2DiffPct": 39.5
         },
         {
           "category": "DZIAŁKA",
@@ -276,13 +276,13 @@
           "category": "DZIAŁKA",
           "city": "WĄGROWIEC",
           "ourCount": 1,
-          "competitorCount": 119,
+          "competitorCount": 109,
           "ourMedianPrice": 260000,
-          "competitorMedianPrice": 260000,
-          "priceDiffPct": 0,
+          "competitorMedianPrice": 259000,
+          "priceDiffPct": 0.4,
           "ourMedianPricePerM2": 267,
-          "competitorMedianPricePerM2": 103,
-          "pricePerM2DiffPct": 159.2
+          "competitorMedianPricePerM2": 100,
+          "pricePerM2DiffPct": 167
         },
         {
           "category": "DOM",
@@ -353,13 +353,13 @@
       "nieruchomosci-online+olx+otodom": 7,
       "olx": 35,
       "nieruchomosci-online+olx": 1,
-      "nieruchomosci-online": 504
+      "nieruchomosci-online": 457
     }
   },
   "competitorAgents": {
-    "total": 717,
+    "total": 670,
     "private": 61,
-    "unknown": 513,
+    "unknown": 466,
     "knownAgent": 143,
     "byAgency": [
       {
@@ -1223,6 +1223,65 @@
       "total": 717,
       "private": 61,
       "unknown": 513,
+      "knownAgent": 143,
+      "topAgencies": [
+        {
+          "name": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
+          "count": 23,
+          "isOurs": true
+        },
+        {
+          "name": "FWK Nieruchomości",
+          "count": 14,
+          "isOurs": false
+        },
+        {
+          "name": "PRO.DOM NIERUCHOMOŚCI",
+          "count": 13,
+          "isOurs": false
+        },
+        {
+          "name": "SOHO Nieruchomości Katarzyna Wajnert",
+          "count": 13,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości Furman oddz. Wągrowiec",
+          "count": 10,
+          "isOurs": false
+        },
+        {
+          "name": "Phinance S.A.",
+          "count": 10,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości Tectum",
+          "count": 8,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości Apartament Piła",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Dominum Sp. z o.o.",
+          "count": 4,
+          "isOurs": false
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "total": 670,
+      "private": 61,
+      "unknown": 466,
       "knownAgent": 143,
       "topAgencies": [
         {

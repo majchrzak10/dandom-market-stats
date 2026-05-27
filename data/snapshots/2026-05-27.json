@@ -1,6 +1,6 @@
 {
   "date": "2026-05-27",
-  "generatedAt": "2026-05-27T08:09:32.672Z",
+  "generatedAt": "2026-05-27T10:26:21.922Z",
   "source": "/home/runner/work/dandom-market-stats/dandom-market-stats/strona-dan-dom/asari-export",
   "offerCount": 59,
   "offers": [
@@ -799,7 +799,7 @@
       "floor": 2,
       "agentName": "Danuta Majchrzak",
       "listedAt": "2026-04-28",
-      "lastModifiedAt": "2026-05-18",
+      "lastModifiedAt": "2026-05-27",
       "firstSeenAt": "2026-04-28"
     },
     {
@@ -1122,7 +1122,7 @@
       "floor": null,
       "agentName": "Danuta Majchrzak",
       "listedAt": "2026-05-21",
-      "lastModifiedAt": "2026-05-26",
+      "lastModifiedAt": "2026-05-27",
       "firstSeenAt": "2026-05-26"
     }
   ]

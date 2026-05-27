@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T10:26:22.119Z",
+  "generatedAt": "2026-05-27T10:34:17.663Z",
   "kpi": {
     "date": "2026-05-27",
     "totalOffers": 59,
@@ -1771,6 +1771,18 @@
     },
     {
       "type": "price_changed",
+      "date": "2026-05-27",
+      "signature": "272/6093/ODS",
+      "title": "Dom jednorodzinny w Rogoźnie",
+      "city": "ROGOŹNO",
+      "from": 530000,
+      "to": 490000,
+      "diff": -40000,
+      "diffPct": -7.5,
+      "currentlyActive": true
+    },
+    {
+      "type": "price_changed",
       "date": "2026-05-20",
       "signature": "410/6093/OMS",
       "title": "2 pokoje na II piętrze w bezczynszowym bloku",
@@ -2826,6 +2838,17 @@
     },
     {
       "type": "price_changed",
+      "date": "2026-05-27",
+      "signature": "272/6093/ODS",
+      "title": "Dom jednorodzinny w Rogoźnie",
+      "city": "ROGOŹNO",
+      "from": 530000,
+      "to": 490000,
+      "diff": -40000,
+      "diffPct": -7.5
+    },
+    {
+      "type": "price_changed",
       "date": "2026-05-25",
       "signature": "228/6093/OGS",
       "title": "Twoje miejsce na wypoczynek - jezioro i piękny las",
@@ -3077,6 +3100,23 @@
       "firstSeenAt": "2026-05-26"
     },
     {
+      "type": "offer_added",
+      "date": "2026-05-27",
+      "effectiveDate": "2026-05-21",
+      "isBootstrap": false,
+      "signature": "311/6093/ODS",
+      "title": "Zaprojektuj od zera: Dom z potencjałem Wągrowiec",
+      "city": "WĄGROWIEC",
+      "category": "DOM",
+      "transaction": "SPRZEDAŻ",
+      "pricePln": 459000,
+      "areaM2": 130,
+      "rooms": 6,
+      "agentName": "Danuta Majchrzak",
+      "listedAt": "2026-05-21",
+      "firstSeenAt": "2026-05-26"
+    },
+    {
       "type": "price_changed",
       "date": "2026-05-20",
       "signature": "410/6093/OMS",
@@ -3139,6 +3179,6 @@
       "firstSeenAt": "2026-05-20"
     }
   ],
-  "totalEventsLogged": 297,
+  "totalEventsLogged": 299,
   "bootstrapEvents": 268
 }

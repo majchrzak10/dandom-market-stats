@@ -3952,5 +3952,33 @@
     "isPrivate": true,
     "fetchedAt": "2026-05-31T07:40:35.455Z",
     "reason": "no-agent-link"
+  },
+  "26717383": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-06-07T07:49:29.783Z",
+    "reason": "no-agent-link"
+  },
+  "26721006": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-06-07T07:49:21.841Z",
+    "reason": "no-agent-link"
+  },
+  "26724011": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-06-07T07:49:13.894Z",
+    "reason": "no-agent-link"
+  },
+  "26727609": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-06-07T07:49:35.722Z",
+    "reason": "no-agent-link"
   }
 }

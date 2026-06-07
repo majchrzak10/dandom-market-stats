@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T09:05:03.973Z",
+  "generatedAt": "2026-06-07T07:49:41.922Z",
   "kpi": {
     "date": "2026-06-06",
     "totalOffers": 66,
@@ -163,8 +163,8 @@
         "medianPrice": 320000,
         "avgPrice": 569119,
         "medianPricePerM2": 2538,
-        "avgDaysOnMarket": 5,
-        "medianDaysOnMarket": 5,
+        "avgDaysOnMarket": 4,
+        "medianDaysOnMarket": 4,
         "topCities": [
           {
             "city": "WĄGROWIEC",
@@ -421,10 +421,95 @@
   },
   "competitorAgents": {
     "total": 543,
-    "private": 0,
-    "unknown": 543,
-    "knownAgent": 0,
-    "byAgency": []
+    "private": 4,
+    "unknown": 439,
+    "knownAgent": 100,
+    "byAgency": [
+      {
+        "name": "Nieruchomości Tectum",
+        "count": 23,
+        "totalValue": 11931381,
+        "isOurs": false
+      },
+      {
+        "name": "DAN - DOM Danuta Majchrzak",
+        "count": 22,
+        "totalValue": 11043560,
+        "isOurs": true
+      },
+      {
+        "name": "Nieruchomości - FURMAN",
+        "count": 14,
+        "totalValue": 6640900,
+        "isOurs": false
+      },
+      {
+        "name": "FWK Nieruchomości",
+        "count": 11,
+        "totalValue": 4526325,
+        "isOurs": false
+      },
+      {
+        "name": "Phinance Nieruchomości",
+        "count": 9,
+        "totalValue": 2680586,
+        "isOurs": false
+      },
+      {
+        "name": "FREEDOM NIERUCHOMOŚCI",
+        "count": 4,
+        "totalValue": 2099130,
+        "isOurs": false
+      },
+      {
+        "name": "Biuro Obrotu Nieruchomościami Izabela Polcyn",
+        "count": 4,
+        "totalValue": 680300,
+        "isOurs": false
+      },
+      {
+        "name": "Metrohouse Poznań",
+        "count": 4,
+        "totalValue": 8040810,
+        "isOurs": false
+      },
+      {
+        "name": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
+        "count": 3,
+        "totalValue": 9260000,
+        "isOurs": false
+      },
+      {
+        "name": "NIERUCHOMOŚCI APARTAMENT Sp. Z o. O.",
+        "count": 2,
+        "totalValue": 3040000,
+        "isOurs": false
+      },
+      {
+        "name": "Choiński Kroll Nieruchomości",
+        "count": 1,
+        "totalValue": 860000,
+        "isOurs": false
+      },
+      {
+        "name": "Park Home Sp. Z o.o.",
+        "count": 1,
+        "totalValue": 1050000,
+        "isOurs": false
+      },
+      {
+        "name": "PGN POLSKA",
+        "count": 1,
+        "totalValue": 295000,
+        "isOurs": false
+      },
+      {
+        "name": "BON WINOGRADY",
+        "count": 1,
+        "totalValue": 225000,
+        "isOurs": false
+      }
+    ]
   },
   "competitorAgentsHistory": [
     {
@@ -1732,6 +1817,65 @@
       "unknown": 543,
       "knownAgent": 0,
       "topAgencies": []
+    },
+    {
+      "date": "2026-06-07",
+      "total": 543,
+      "private": 4,
+      "unknown": 439,
+      "knownAgent": 100,
+      "topAgencies": [
+        {
+          "name": "Nieruchomości Tectum",
+          "count": 23,
+          "isOurs": false
+        },
+        {
+          "name": "DAN - DOM Danuta Majchrzak",
+          "count": 22,
+          "isOurs": true
+        },
+        {
+          "name": "Nieruchomości - FURMAN",
+          "count": 14,
+          "isOurs": false
+        },
+        {
+          "name": "FWK Nieruchomości",
+          "count": 11,
+          "isOurs": false
+        },
+        {
+          "name": "Phinance Nieruchomości",
+          "count": 9,
+          "isOurs": false
+        },
+        {
+          "name": "FREEDOM NIERUCHOMOŚCI",
+          "count": 4,
+          "isOurs": false
+        },
+        {
+          "name": "Biuro Obrotu Nieruchomościami Izabela Polcyn",
+          "count": 4,
+          "isOurs": false
+        },
+        {
+          "name": "Metrohouse Poznań",
+          "count": 4,
+          "isOurs": false
+        },
+        {
+          "name": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
+          "count": 3,
+          "isOurs": false
+        },
+        {
+          "name": "NIERUCHOMOŚCI APARTAMENT Sp. Z o. O.",
+          "count": 2,
+          "isOurs": false
+        }
+      ]
     }
   ],
   "timeSeries": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T09:46:32.469Z",
+  "generatedAt": "2026-06-21T08:23:31.081Z",
   "kpi": {
     "date": "2026-06-20",
     "totalOffers": 65,
@@ -246,8 +246,8 @@
         "medianPrice": 320000,
         "avgPrice": 606298,
         "medianPricePerM2": 2532,
-        "avgDaysOnMarket": 42,
-        "medianDaysOnMarket": 5,
+        "avgDaysOnMarket": 41,
+        "medianDaysOnMarket": 4,
         "topCities": [
           {
             "city": "WĄGROWIEC",
@@ -533,15 +533,25 @@
   },
   "competitorAgents": {
     "total": 653,
-    "private": 59,
-    "unknown": 481,
-    "knownAgent": 113,
+    "private": 60,
+    "unknown": 416,
+    "knownAgent": 177,
     "byAgency": [
       {
         "name": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
-        "count": 29,
-        "totalValue": 18758000,
-        "isOurs": true
+        "count": 39,
+        "totalValue": 25217560,
+        "isOurs": true,
+        "variants": [
+          "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
+          "DAN - DOM Danuta Majchrzak"
+        ]
+      },
+      {
+        "name": "Nieruchomości Tectum",
+        "count": 26,
+        "totalValue": 12328101,
+        "isOurs": false
       },
       {
         "name": "PRO.DOM NIERUCHOMOŚCI",
@@ -556,21 +566,33 @@
         "isOurs": false
       },
       {
+        "name": "FWK Nieruchomości",
+        "count": 9,
+        "totalValue": 3927325,
+        "isOurs": false
+      },
+      {
         "name": "Phinance S.A.",
         "count": 8,
         "totalValue": 2517604,
         "isOurs": false
       },
       {
-        "name": "Nieruchomości Tectum",
-        "count": 6,
-        "totalValue": 1613720,
+        "name": "Nieruchomości - FURMAN",
+        "count": 8,
+        "totalValue": 3245900,
         "isOurs": false
       },
       {
         "name": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
         "count": 5,
         "totalValue": 9919000,
+        "isOurs": false
+      },
+      {
+        "name": "Biuro Obrotu Nieruchomościami Izabela Polcyn",
+        "count": 5,
+        "totalValue": 1020300,
         "isOurs": false
       },
       {
@@ -583,6 +605,18 @@
         "name": "Nieruchomości Apartament Piła",
         "count": 4,
         "totalValue": 3444330,
+        "isOurs": false
+      },
+      {
+        "name": "FREEDOM NIERUCHOMOŚCI",
+        "count": 4,
+        "totalValue": 2099130,
+        "isOurs": false
+      },
+      {
+        "name": "Metrohouse Poznań",
+        "count": 4,
+        "totalValue": 8040810,
         "isOurs": false
       },
       {
@@ -601,6 +635,12 @@
         "name": "Senger&Partners Nieruchomosci",
         "count": 3,
         "totalValue": 799555,
+        "isOurs": false
+      },
+      {
+        "name": "Phinance Nieruchomości",
+        "count": 3,
+        "totalValue": 866424,
         "isOurs": false
       },
       {
@@ -739,6 +779,12 @@
         "name": "Handom Nieruchomości",
         "count": 1,
         "totalValue": 117900,
+        "isOurs": false
+      },
+      {
+        "name": "BON WINOGRADY",
+        "count": 1,
+        "totalValue": 225000,
         "isOurs": false
       }
     ]
@@ -2872,6 +2918,65 @@
         {
           "name": "Nieruchomości Kaczmarek",
           "count": 3,
+          "isOurs": false
+        }
+      ]
+    },
+    {
+      "date": "2026-06-21",
+      "total": 653,
+      "private": 60,
+      "unknown": 416,
+      "knownAgent": 177,
+      "topAgencies": [
+        {
+          "name": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
+          "count": 39,
+          "isOurs": true
+        },
+        {
+          "name": "Nieruchomości Tectum",
+          "count": 26,
+          "isOurs": false
+        },
+        {
+          "name": "PRO.DOM NIERUCHOMOŚCI",
+          "count": 11,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości Furman oddz. Wągrowiec",
+          "count": 9,
+          "isOurs": false
+        },
+        {
+          "name": "FWK Nieruchomości",
+          "count": 9,
+          "isOurs": false
+        },
+        {
+          "name": "Phinance S.A.",
+          "count": 8,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości - FURMAN",
+          "count": 8,
+          "isOurs": false
+        },
+        {
+          "name": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Biuro Obrotu Nieruchomościami Izabela Polcyn",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Dominum Sp. z o.o.",
+          "count": 4,
           "isOurs": false
         }
       ]
@@ -5073,86 +5178,6 @@
       "agentName": "Danuta Majchrzak",
       "listedAt": "2026-05-22",
       "firstSeenAt": "2026-05-25"
-    },
-    {
-      "type": "offer_added",
-      "date": "2026-05-21",
-      "effectiveDate": "2026-05-21",
-      "isBootstrap": false,
-      "signature": "420/6093/OMS",
-      "title": "Przyjemna kawalerka - Lipowa, Wągrowiec",
-      "city": "WĄGROWIEC",
-      "category": "MIESZKANIE",
-      "transaction": "SPRZEDAŻ",
-      "pricePln": 205000,
-      "areaM2": 29.6,
-      "rooms": 1,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": "2026-05-21",
-      "firstSeenAt": "2026-05-21"
-    },
-    {
-      "type": "offer_added",
-      "date": "2026-05-27",
-      "effectiveDate": "2026-05-21",
-      "isBootstrap": false,
-      "signature": "311/6093/ODS",
-      "title": "Zaprojektuj od zera: Dom z potencjałem Wągrowiec",
-      "city": "WĄGROWIEC",
-      "category": "DOM",
-      "transaction": "SPRZEDAŻ",
-      "pricePln": 459000,
-      "areaM2": 130,
-      "rooms": 6,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": "2026-05-21",
-      "firstSeenAt": "2026-05-26"
-    },
-    {
-      "type": "offer_added",
-      "date": "2026-05-27",
-      "effectiveDate": "2026-05-21",
-      "isBootstrap": false,
-      "signature": "311/6093/ODS",
-      "title": "Zaprojektuj od zera: Dom z potencjałem Wągrowiec",
-      "city": "WĄGROWIEC",
-      "category": "DOM",
-      "transaction": "SPRZEDAŻ",
-      "pricePln": 459000,
-      "areaM2": 130,
-      "rooms": 6,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": "2026-05-21",
-      "firstSeenAt": "2026-05-26"
-    },
-    {
-      "type": "offer_added",
-      "date": "2026-05-27",
-      "effectiveDate": "2026-05-21",
-      "isBootstrap": false,
-      "signature": "311/6093/ODS",
-      "title": "Zaprojektuj od zera: Dom z potencjałem Wągrowiec",
-      "city": "WĄGROWIEC",
-      "category": "DOM",
-      "transaction": "SPRZEDAŻ",
-      "pricePln": 459000,
-      "areaM2": 130,
-      "rooms": 6,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": "2026-05-21",
-      "firstSeenAt": "2026-05-26"
-    },
-    {
-      "type": "offer_removed",
-      "date": "2026-06-20",
-      "signature": "420/6093/OMS",
-      "title": "Przyjemna kawalerka - Lipowa, Wągrowiec",
-      "city": "WĄGROWIEC",
-      "category": "MIESZKANIE",
-      "lastPricePln": 205000,
-      "listedAt": "2026-05-21",
-      "firstSeenAt": "2026-05-21",
-      "daysOnMarket": 30
     }
   ],
   "totalEventsLogged": 334,

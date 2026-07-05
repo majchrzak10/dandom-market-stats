@@ -157,14 +157,14 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-05-31T07:40:21.640Z",
+    "fetchedAt": "2026-07-05T07:19:31.891Z",
     "reason": "no-agent-link"
   },
   "1820411": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-05-31T07:40:15.471Z",
+    "fetchedAt": "2026-07-05T07:19:25.562Z",
     "reason": "no-agent-link"
   },
   "2001346": {
@@ -192,7 +192,7 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-05-31T07:40:08.820Z",
+    "fetchedAt": "2026-07-05T07:19:18.124Z",
     "reason": "no-agent-link"
   },
   "2324900": {
@@ -227,7 +227,7 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-05-31T07:40:01.786Z",
+    "fetchedAt": "2026-07-05T07:19:11.240Z",
     "reason": "no-agent-link"
   },
   "2744922": {
@@ -248,7 +248,7 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-05-31T07:39:55.779Z",
+    "fetchedAt": "2026-07-05T07:19:04.269Z",
     "reason": "no-agent-link"
   },
   "2969399": {
@@ -3897,9 +3897,9 @@
   "26678935": {
     "agentSlug": null,
     "agencyName": null,
-    "fetchedAt": "2026-05-27T08:57:02.279Z",
-    "reason": "no-agent-link",
-    "isPrivate": true
+    "isPrivate": true,
+    "fetchedAt": "2026-07-05T07:19:38.956Z",
+    "reason": "no-agent-link"
   },
   "26679152": {
     "agentSlug": "iwona-kulczynska",
@@ -3972,7 +3972,7 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-05-31T07:39:42.337Z",
+    "fetchedAt": "2026-07-05T07:18:56.973Z",
     "reason": "no-agent-link"
   },
   "26713759": {
@@ -3984,21 +3984,21 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-05-31T07:39:35.332Z",
+    "fetchedAt": "2026-07-05T07:18:36.562Z",
     "reason": "no-agent-link"
   },
   "26717143": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-05-31T07:40:28.540Z",
+    "fetchedAt": "2026-07-05T07:19:53.607Z",
     "reason": "no-agent-link"
   },
   "26717263": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-05-31T07:40:35.455Z",
+    "fetchedAt": "2026-07-05T07:19:45.910Z",
     "reason": "no-agent-link"
   },
   "26717383": {
@@ -4187,5 +4187,41 @@
     "isPrivate": true,
     "fetchedAt": "2026-06-28T08:41:25.571Z",
     "reason": "no-agent-link"
+  },
+  "26790086": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-07-05T07:18:30.829Z",
+    "reason": "no-agent-link"
+  },
+  "26793523": {
+    "agentSlug": "piotr-kloska",
+    "agencyName": "FREEDOM NIERUCHOMOŚCI",
+    "fetchedAt": "2026-07-05T07:18:23.786Z"
+  },
+  "26794853": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-07-05T07:19:59.998Z",
+    "reason": "no-agent-link"
+  },
+  "26798738": {
+    "agentSlug": "agnieszka-mysiak",
+    "agencyName": "Nieruchomości Tectum",
+    "fetchedAt": "2026-07-05T07:18:17.798Z"
+  },
+  "26799186": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-07-05T07:18:11.208Z",
+    "reason": "no-agent-link"
+  },
+  "26800625": {
+    "agentSlug": "joanna-wojtkowska",
+    "agencyName": "Goldberger Nieruchomości",
+    "fetchedAt": "2026-07-05T07:18:50.050Z"
   }
 }

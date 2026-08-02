@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T08:37:02.236Z",
+  "generatedAt": "2026-08-02T07:28:00.535Z",
   "kpi": {
     "date": "2026-08-01",
     "totalOffers": 76,
@@ -497,8 +497,8 @@
         "medianPrice": 320000,
         "avgPrice": 587197,
         "medianPricePerM2": 2538,
-        "avgDaysOnMarket": 35,
-        "medianDaysOnMarket": 5,
+        "avgDaysOnMarket": 34,
+        "medianDaysOnMarket": 4,
         "topCities": [
           {
             "city": "WĄGROWIEC",
@@ -761,20 +761,42 @@
   },
   "competitorAgents": {
     "total": 646,
-    "private": 41,
-    "unknown": 497,
-    "knownAgent": 108,
+    "private": 444,
+    "unknown": 29,
+    "knownAgent": 173,
     "byAgency": [
       {
         "name": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
-        "count": 30,
-        "totalValue": 17053000,
-        "isOurs": true
+        "count": 40,
+        "totalValue": 23842460,
+        "isOurs": true,
+        "variants": [
+          "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
+          "DAN - DOM Danuta Majchrzak"
+        ]
+      },
+      {
+        "name": "Nieruchomości Tectum",
+        "count": 26,
+        "totalValue": 12071331,
+        "isOurs": false
       },
       {
         "name": "PRO.DOM NIERUCHOMOŚCI",
         "count": 11,
         "totalValue": 12742032,
+        "isOurs": false
+      },
+      {
+        "name": "FWK Nieruchomości",
+        "count": 11,
+        "totalValue": 3680725,
+        "isOurs": false
+      },
+      {
+        "name": "Nieruchomości - FURMAN",
+        "count": 8,
+        "totalValue": 3186900,
         "isOurs": false
       },
       {
@@ -802,15 +824,21 @@
         "isOurs": false
       },
       {
-        "name": "Nieruchomości Tectum",
-        "count": 4,
-        "totalValue": 658720,
-        "isOurs": false
-      },
-      {
         "name": "Senger&Partners Nieruchomosci",
         "count": 4,
         "totalValue": 1378510,
+        "isOurs": false
+      },
+      {
+        "name": "Biuro Obrotu Nieruchomościami Izabela Polcyn",
+        "count": 4,
+        "totalValue": 568300,
+        "isOurs": false
+      },
+      {
+        "name": "Metrohouse Poznań",
+        "count": 4,
+        "totalValue": 8040810,
         "isOurs": false
       },
       {
@@ -853,6 +881,12 @@
         "name": "GRACJAN-NIERUCHOMOŚCI",
         "count": 2,
         "totalValue": 400000,
+        "isOurs": false
+      },
+      {
+        "name": "FREEDOM NIERUCHOMOŚCI",
+        "count": 2,
+        "totalValue": 1390000,
         "isOurs": false
       },
       {
@@ -979,6 +1013,30 @@
         "name": "Handom Nieruchomości",
         "count": 1,
         "totalValue": 117900,
+        "isOurs": false
+      },
+      {
+        "name": "Phinance Nieruchomości",
+        "count": 1,
+        "totalValue": 300354,
+        "isOurs": false
+      },
+      {
+        "name": "Partners International",
+        "count": 1,
+        "totalValue": 770000,
+        "isOurs": false
+      },
+      {
+        "name": "BON WINOGRADY",
+        "count": 1,
+        "totalValue": 225000,
+        "isOurs": false
+      },
+      {
+        "name": "VanDer Haus Nieruchomości",
+        "count": 1,
+        "totalValue": 165000,
         "isOurs": false
       }
     ]
@@ -5593,6 +5651,65 @@
           "isOurs": false
         }
       ]
+    },
+    {
+      "date": "2026-08-02",
+      "total": 646,
+      "private": 444,
+      "unknown": 29,
+      "knownAgent": 173,
+      "topAgencies": [
+        {
+          "name": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
+          "count": 40,
+          "isOurs": true
+        },
+        {
+          "name": "Nieruchomości Tectum",
+          "count": 26,
+          "isOurs": false
+        },
+        {
+          "name": "PRO.DOM NIERUCHOMOŚCI",
+          "count": 11,
+          "isOurs": false
+        },
+        {
+          "name": "FWK Nieruchomości",
+          "count": 11,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości - FURMAN",
+          "count": 8,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości Furman oddz. Wągrowiec",
+          "count": 6,
+          "isOurs": false
+        },
+        {
+          "name": "Phinance S.A.",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości Apartament Piła",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Senger&Partners Nieruchomosci",
+          "count": 4,
+          "isOurs": false
+        }
+      ]
     }
   ],
   "timeSeries": [
@@ -8081,57 +8198,6 @@
       "agentName": "Danuta Majchrzak",
       "listedAt": "2026-07-07",
       "firstSeenAt": "2026-07-10"
-    },
-    {
-      "type": "offer_added",
-      "date": "2026-07-02",
-      "effectiveDate": "2026-07-02",
-      "isBootstrap": false,
-      "signature": "251/6093/OGS",
-      "title": "Działka z możliwością zabudowy jednorodzinnej",
-      "city": "BRZEŹNO STARE",
-      "category": "DZIAŁKA",
-      "transaction": "SPRZEDAŻ",
-      "pricePln": 83980,
-      "areaM2": 988,
-      "rooms": null,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": "2026-07-02",
-      "firstSeenAt": "2026-07-02"
-    },
-    {
-      "type": "offer_added",
-      "date": "2026-07-04",
-      "effectiveDate": "2026-07-02",
-      "isBootstrap": false,
-      "signature": "432/6093/OMS",
-      "title": "3 pokoje w sercu Wągrowca Os. Niepodległości",
-      "city": "WĄGROWIEC",
-      "category": "MIESZKANIE",
-      "transaction": "SPRZEDAŻ",
-      "pricePln": 485000,
-      "areaM2": 63.8,
-      "rooms": 3,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": "2026-07-02",
-      "firstSeenAt": "2026-07-03"
-    },
-    {
-      "type": "offer_added",
-      "date": "2026-07-07",
-      "effectiveDate": "2026-07-02",
-      "isBootstrap": false,
-      "signature": "433/6093/OMS",
-      "title": "3 pokoje po remoncie - II p. ul. Średnia Wągrowiec",
-      "city": "WĄGROWIEC",
-      "category": "MIESZKANIE",
-      "transaction": "SPRZEDAŻ",
-      "pricePln": 335000,
-      "areaM2": 46.1,
-      "rooms": 3,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": "2026-07-02",
-      "firstSeenAt": "2026-07-06"
     }
   ],
   "totalEventsLogged": 389,

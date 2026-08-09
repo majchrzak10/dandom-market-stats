@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T07:25:42.385Z",
+  "generatedAt": "2026-08-09T04:59:00.514Z",
   "kpi": {
     "date": "2026-08-08",
     "totalOffers": 78,
@@ -580,8 +580,8 @@
         "medianPrice": 320000,
         "avgPrice": 589613,
         "medianPricePerM2": 2492,
-        "avgDaysOnMarket": 42,
-        "medianDaysOnMarket": 12,
+        "avgDaysOnMarket": 41,
+        "medianDaysOnMarket": 11,
         "topCities": [
           {
             "city": "WĄGROWIEC",
@@ -855,20 +855,42 @@
   },
   "competitorAgents": {
     "total": 643,
-    "private": 33,
-    "unknown": 498,
-    "knownAgent": 112,
+    "private": 44,
+    "unknown": 423,
+    "knownAgent": 176,
     "byAgency": [
       {
         "name": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
-        "count": 31,
-        "totalValue": 16637000,
-        "isOurs": true
+        "count": 41,
+        "totalValue": 23426460,
+        "isOurs": true,
+        "variants": [
+          "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
+          "DAN - DOM Danuta Majchrzak"
+        ]
+      },
+      {
+        "name": "Nieruchomości Tectum",
+        "count": 26,
+        "totalValue": 12065511,
+        "isOurs": false
       },
       {
         "name": "PRO.DOM NIERUCHOMOŚCI",
         "count": 13,
         "totalValue": 15342032,
+        "isOurs": false
+      },
+      {
+        "name": "FWK Nieruchomości",
+        "count": 10,
+        "totalValue": 3580825,
+        "isOurs": false
+      },
+      {
+        "name": "Nieruchomości - FURMAN",
+        "count": 8,
+        "totalValue": 3186900,
         "isOurs": false
       },
       {
@@ -896,15 +918,21 @@
         "isOurs": false
       },
       {
-        "name": "Nieruchomości Tectum",
-        "count": 4,
-        "totalValue": 658720,
-        "isOurs": false
-      },
-      {
         "name": "Senger&Partners Nieruchomosci",
         "count": 4,
         "totalValue": 1378510,
+        "isOurs": false
+      },
+      {
+        "name": "Biuro Obrotu Nieruchomościami Izabela Polcyn",
+        "count": 4,
+        "totalValue": 568300,
+        "isOurs": false
+      },
+      {
+        "name": "Metrohouse Poznań",
+        "count": 4,
+        "totalValue": 8040810,
         "isOurs": false
       },
       {
@@ -965,6 +993,12 @@
         "name": "GRACJAN-NIERUCHOMOŚCI",
         "count": 2,
         "totalValue": 400000,
+        "isOurs": false
+      },
+      {
+        "name": "FREEDOM NIERUCHOMOŚCI",
+        "count": 2,
+        "totalValue": 1390000,
         "isOurs": false
       },
       {
@@ -1073,6 +1107,30 @@
         "name": "Handom Nieruchomości",
         "count": 1,
         "totalValue": 117900,
+        "isOurs": false
+      },
+      {
+        "name": "Phinance Nieruchomości",
+        "count": 1,
+        "totalValue": 300354,
+        "isOurs": false
+      },
+      {
+        "name": "Partners International",
+        "count": 1,
+        "totalValue": 770000,
+        "isOurs": false
+      },
+      {
+        "name": "BON WINOGRADY",
+        "count": 1,
+        "totalValue": 225000,
+        "isOurs": false
+      },
+      {
+        "name": "VanDer Haus Nieruchomości",
+        "count": 1,
+        "totalValue": 165000,
         "isOurs": false
       }
     ]
@@ -6100,6 +6158,65 @@
           "isOurs": false
         }
       ]
+    },
+    {
+      "date": "2026-08-09",
+      "total": 643,
+      "private": 44,
+      "unknown": 423,
+      "knownAgent": 176,
+      "topAgencies": [
+        {
+          "name": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
+          "count": 41,
+          "isOurs": true
+        },
+        {
+          "name": "Nieruchomości Tectum",
+          "count": 26,
+          "isOurs": false
+        },
+        {
+          "name": "PRO.DOM NIERUCHOMOŚCI",
+          "count": 13,
+          "isOurs": false
+        },
+        {
+          "name": "FWK Nieruchomości",
+          "count": 10,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości - FURMAN",
+          "count": 8,
+          "isOurs": false
+        },
+        {
+          "name": "Phinance S.A.",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości Furman oddz. Wągrowiec",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości Apartament Piła",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Senger&Partners Nieruchomosci",
+          "count": 4,
+          "isOurs": false
+        }
+      ]
     }
   ],
   "timeSeries": [
@@ -8626,52 +8743,6 @@
       "to": 365000,
       "diff": -14000,
       "diffPct": -3.7
-    },
-    {
-      "type": "offer_added",
-      "date": "2026-07-10",
-      "effectiveDate": "2026-07-09",
-      "isBootstrap": false,
-      "signature": "252/6093/OGS",
-      "title": "Oaza spokoju w Rościnnie – działka, domek, jezioro",
-      "city": "ROŚCINNO",
-      "category": "DZIAŁKA",
-      "transaction": "SPRZEDAŻ",
-      "pricePln": 189000,
-      "areaM2": 891,
-      "rooms": null,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": "2026-07-09",
-      "firstSeenAt": "2026-07-09"
-    },
-    {
-      "type": "offer_added",
-      "date": "2026-07-11",
-      "effectiveDate": "2026-07-09",
-      "isBootstrap": false,
-      "signature": "434/6093/OMS",
-      "title": "Mieszkanie 4-pokojowe w centrum",
-      "city": "ROGOŹNO",
-      "category": "MIESZKANIE",
-      "transaction": "SPRZEDAŻ",
-      "pricePln": 290000,
-      "areaM2": 64.7,
-      "rooms": 4,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": "2026-07-09",
-      "firstSeenAt": "2026-07-10"
-    },
-    {
-      "type": "offer_removed",
-      "date": "2026-07-30",
-      "signature": "434/6093/OMS",
-      "title": "Mieszkanie 4-pokojowe w centrum",
-      "city": "ROGOŹNO",
-      "category": "MIESZKANIE",
-      "lastPricePln": 290000,
-      "listedAt": "2026-07-09",
-      "firstSeenAt": "2026-07-10",
-      "daysOnMarket": 21
     }
   ],
   "totalEventsLogged": 394,

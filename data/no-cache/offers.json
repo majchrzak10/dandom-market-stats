@@ -164,14 +164,14 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:19:31.891Z",
+    "fetchedAt": "2026-08-09T04:57:58.195Z",
     "reason": "no-agent-link"
   },
   "1820411": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:19:25.562Z",
+    "fetchedAt": "2026-08-09T04:57:52.222Z",
     "reason": "no-agent-link"
   },
   "2001346": {
@@ -199,7 +199,7 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:19:18.124Z",
+    "fetchedAt": "2026-08-09T04:57:46.009Z",
     "reason": "no-agent-link"
   },
   "2324900": {
@@ -234,7 +234,7 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:19:11.240Z",
+    "fetchedAt": "2026-08-09T04:57:40.060Z",
     "reason": "no-agent-link"
   },
   "2744922": {
@@ -255,7 +255,7 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:19:04.269Z",
+    "fetchedAt": "2026-08-09T04:57:33.555Z",
     "reason": "no-agent-link"
   },
   "2969399": {
@@ -3933,7 +3933,7 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:19:38.956Z",
+    "fetchedAt": "2026-08-09T04:58:05.390Z",
     "reason": "no-agent-link"
   },
   "26679152": {
@@ -4007,7 +4007,7 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:18:56.973Z",
+    "fetchedAt": "2026-08-09T04:57:11.849Z",
     "reason": "no-agent-link"
   },
   "26713759": {
@@ -4019,21 +4019,21 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:18:36.562Z",
+    "fetchedAt": "2026-08-09T04:56:35.835Z",
     "reason": "no-agent-link"
   },
   "26717143": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:19:53.607Z",
+    "fetchedAt": "2026-08-09T04:58:19.881Z",
     "reason": "no-agent-link"
   },
   "26717263": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:19:45.910Z",
+    "fetchedAt": "2026-08-09T04:58:12.508Z",
     "reason": "no-agent-link"
   },
   "26717383": {
@@ -4229,7 +4229,7 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:18:30.829Z",
+    "fetchedAt": "2026-08-09T04:56:56.650Z",
     "reason": "no-agent-link"
   },
   "26792202": {
@@ -4248,25 +4248,23 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:19:59.998Z",
+    "fetchedAt": "2026-08-09T04:58:46.687Z",
     "reason": "no-agent-link"
   },
   "26798738": {
     "agentSlug": "agnieszka-mysiak",
     "agencyName": "Nieruchomości Tectum",
-    "fetchedAt": "2026-07-05T07:18:17.798Z"
+    "fetchedAt": "2026-08-09T04:57:04.251Z"
   },
   "26799186": {
-    "agentSlug": null,
-    "agencyName": null,
-    "isPrivate": true,
-    "fetchedAt": "2026-07-05T07:18:11.208Z",
-    "reason": "no-agent-link"
+    "agentSlug": "marta-janusz",
+    "agencyName": "DAN - DOM Danuta Majchrzak",
+    "fetchedAt": "2026-08-09T04:56:43.400Z"
   },
   "26800625": {
     "agentSlug": "joanna-wojtkowska",
     "agencyName": "Goldberger Nieruchomości",
-    "fetchedAt": "2026-07-05T07:18:50.050Z"
+    "fetchedAt": "2026-08-09T04:57:18.574Z"
   },
   "26801420": {
     "agentSlug": null,
@@ -4464,5 +4462,38 @@
     "agentSlug": "iwona-kulczynska",
     "agencyName": "Nieruchomości - FURMAN",
     "fetchedAt": "2026-08-02T06:27:00.283Z"
+  },
+  "26869835": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-08-09T04:56:50.228Z",
+    "reason": "no-agent-link"
+  },
+  "26875262": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-08-09T04:58:53.203Z",
+    "reason": "no-agent-link"
+  },
+  "26879814": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-08-09T04:57:25.545Z",
+    "reason": "no-agent-link"
+  },
+  "26881746": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-08-09T04:58:38.972Z",
+    "reason": "no-agent-link"
+  },
+  "26884720": {
+    "agentSlug": "sara-srama",
+    "agencyName": "INVEST DOM",
+    "fetchedAt": "2026-08-09T04:58:33.092Z"
   }
 }

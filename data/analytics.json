@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T07:05:54.708Z",
+  "generatedAt": "2026-08-23T04:31:59.068Z",
   "kpi": {
     "date": "2026-08-22",
     "totalOffers": 76,
@@ -663,8 +663,8 @@
         "medianPrice": 320000,
         "avgPrice": 551624,
         "medianPricePerM2": 2538,
-        "avgDaysOnMarket": 42,
-        "medianDaysOnMarket": 12,
+        "avgDaysOnMarket": 41,
+        "medianDaysOnMarket": 11,
         "topCities": [
           {
             "city": "WĄGROWIEC",
@@ -939,15 +939,25 @@
   },
   "competitorAgents": {
     "total": 648,
-    "private": 41,
-    "unknown": 495,
-    "knownAgent": 112,
+    "private": 53,
+    "unknown": 420,
+    "knownAgent": 175,
     "byAgency": [
       {
         "name": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
-        "count": 32,
-        "totalValue": 14951347,
-        "isOurs": true
+        "count": 40,
+        "totalValue": 20061467,
+        "isOurs": true,
+        "variants": [
+          "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
+          "DAN - DOM Danuta Majchrzak"
+        ]
+      },
+      {
+        "name": "Nieruchomości Tectum",
+        "count": 29,
+        "totalValue": 13830511,
+        "isOurs": false
       },
       {
         "name": "Nieruchomości Furman oddz. Wągrowiec",
@@ -959,6 +969,18 @@
         "name": "PRO.DOM NIERUCHOMOŚCI",
         "count": 12,
         "totalValue": 14042032,
+        "isOurs": false
+      },
+      {
+        "name": "FWK Nieruchomości",
+        "count": 10,
+        "totalValue": 3580825,
+        "isOurs": false
+      },
+      {
+        "name": "Nieruchomości - FURMAN",
+        "count": 7,
+        "totalValue": 2940900,
         "isOurs": false
       },
       {
@@ -974,12 +996,6 @@
         "isOurs": false
       },
       {
-        "name": "Nieruchomości Tectum",
-        "count": 4,
-        "totalValue": 658720,
-        "isOurs": false
-      },
-      {
         "name": "Phinance S.A.",
         "count": 4,
         "totalValue": 1280060,
@@ -992,9 +1008,21 @@
         "isOurs": false
       },
       {
+        "name": "Metrohouse Poznań",
+        "count": 4,
+        "totalValue": 8040810,
+        "isOurs": false
+      },
+      {
         "name": "Nieruchomości Renoma",
         "count": 3,
         "totalValue": 672400,
+        "isOurs": false
+      },
+      {
+        "name": "Biuro Obrotu Nieruchomościami Izabela Polcyn",
+        "count": 3,
+        "totalValue": 468300,
         "isOurs": false
       },
       {
@@ -1031,6 +1059,12 @@
         "name": "GRACJAN-NIERUCHOMOŚCI",
         "count": 2,
         "totalValue": 400000,
+        "isOurs": false
+      },
+      {
+        "name": "FREEDOM NIERUCHOMOŚCI",
+        "count": 2,
+        "totalValue": 1390000,
         "isOurs": false
       },
       {
@@ -1145,6 +1179,30 @@
         "name": "Handom Nieruchomości",
         "count": 1,
         "totalValue": 117900,
+        "isOurs": false
+      },
+      {
+        "name": "Phinance Nieruchomości",
+        "count": 1,
+        "totalValue": 300354,
+        "isOurs": false
+      },
+      {
+        "name": "Partners International",
+        "count": 1,
+        "totalValue": 770000,
+        "isOurs": false
+      },
+      {
+        "name": "BON WINOGRADY",
+        "count": 1,
+        "totalValue": 225000,
+        "isOurs": false
+      },
+      {
+        "name": "VanDer Haus Nieruchomości",
+        "count": 1,
+        "totalValue": 165000,
         "isOurs": false
       }
     ]
@@ -6998,6 +7056,65 @@
           "isOurs": false
         }
       ]
+    },
+    {
+      "date": "2026-08-23",
+      "total": 648,
+      "private": 53,
+      "unknown": 420,
+      "knownAgent": 175,
+      "topAgencies": [
+        {
+          "name": "DAN-DOM Biuro Obrotu Nieruchomościami Danuta Majchrzak",
+          "count": 40,
+          "isOurs": true
+        },
+        {
+          "name": "Nieruchomości Tectum",
+          "count": 29,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości Furman oddz. Wągrowiec",
+          "count": 12,
+          "isOurs": false
+        },
+        {
+          "name": "PRO.DOM NIERUCHOMOŚCI",
+          "count": 12,
+          "isOurs": false
+        },
+        {
+          "name": "FWK Nieruchomości",
+          "count": 10,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości - FURMAN",
+          "count": 7,
+          "isOurs": false
+        },
+        {
+          "name": "Nieruchomości Apartament Piła",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Biuro Obrotu Nieruchomościami Agnieszka Krzywonos",
+          "count": 5,
+          "isOurs": false
+        },
+        {
+          "name": "Phinance S.A.",
+          "count": 4,
+          "isOurs": false
+        },
+        {
+          "name": "Senger&Partners Nieruchomosci",
+          "count": 4,
+          "isOurs": false
+        }
+      ]
     }
   ],
   "timeSeries": [
@@ -9568,52 +9685,6 @@
       "agentName": "Danuta Majchrzak",
       "listedAt": "2026-07-24",
       "firstSeenAt": "2026-07-24"
-    },
-    {
-      "type": "offer_added",
-      "date": "2026-07-28",
-      "effectiveDate": "2026-07-23",
-      "isBootstrap": false,
-      "signature": "439/6093/OMS",
-      "title": "Wyjątkowe mieszkanie Nad Nielbą w Wągrowcu",
-      "city": "WĄGROWIEC",
-      "category": "MIESZKANIE",
-      "transaction": "SPRZEDAŻ",
-      "pricePln": 552000,
-      "areaM2": 58.72,
-      "rooms": 3,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": "2026-07-23",
-      "firstSeenAt": "2026-07-27"
-    },
-    {
-      "type": "offer_added",
-      "date": "2026-07-28",
-      "effectiveDate": "2026-07-23",
-      "isBootstrap": false,
-      "signature": "438/6093/OMS",
-      "title": "2 pokoje z garażem | ul. Piaskowa Wągrowiec",
-      "city": "WĄGROWIEC",
-      "category": "MIESZKANIE",
-      "transaction": "SPRZEDAŻ",
-      "pricePln": 329000,
-      "areaM2": 45.88,
-      "rooms": 2,
-      "agentName": "Danuta Majchrzak",
-      "listedAt": "2026-07-23",
-      "firstSeenAt": "2026-07-27"
-    },
-    {
-      "type": "offer_removed",
-      "date": "2026-08-19",
-      "signature": "438/6093/OMS",
-      "title": "2 pokoje z garażem | ul. Piaskowa Wągrowiec",
-      "city": "WĄGROWIEC",
-      "category": "MIESZKANIE",
-      "lastPricePln": 329000,
-      "listedAt": "2026-07-23",
-      "firstSeenAt": "2026-07-27",
-      "daysOnMarket": 27
     }
   ],
   "totalEventsLogged": 418,

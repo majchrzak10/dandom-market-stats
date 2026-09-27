@@ -4070,7 +4070,7 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-08-23T04:31:37.590Z",
+    "fetchedAt": "2026-09-27T09:43:38.519Z",
     "reason": "no-agent-link"
   },
   "26734892": {
@@ -4084,33 +4084,33 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-08-23T04:31:44.957Z",
+    "fetchedAt": "2026-09-27T09:43:45.102Z",
     "reason": "no-agent-link"
   },
   "26741171": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-08-23T04:29:22.216Z",
+    "fetchedAt": "2026-09-27T09:41:52.351Z",
     "reason": "no-agent-link"
   },
   "26741218": {
     "agentSlug": "agnieszka-mysiak",
     "agencyName": "Nieruchomości Tectum",
-    "fetchedAt": "2026-08-23T04:30:03.338Z"
+    "fetchedAt": "2026-09-27T09:42:40.555Z"
   },
   "26742644": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-08-23T04:31:15.169Z",
+    "fetchedAt": "2026-09-27T09:43:17.505Z",
     "reason": "no-agent-link"
   },
   "26748128": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-08-23T04:29:08.505Z",
+    "fetchedAt": "2026-09-27T09:41:39.222Z",
     "reason": "no-agent-link"
   },
   "26751298": {
@@ -4313,12 +4313,12 @@
   "26829195": {
     "agentSlug": "krystian-kedzia",
     "agencyName": "FWK Nieruchomości",
-    "fetchedAt": "2026-08-23T04:31:22.901Z"
+    "fetchedAt": "2026-09-27T09:43:10.044Z"
   },
   "26829690": {
     "agentSlug": "renata-wegrzynowska",
     "agencyName": "NIERUCHOMOŚCI APARTAMENT Sp. Z o. O.",
-    "fetchedAt": "2026-08-23T04:31:30.936Z"
+    "fetchedAt": "2026-09-27T09:43:24.763Z"
   },
   "26831044": {
     "agentSlug": "izabela-polcyn",
@@ -4329,29 +4329,27 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-08-23T04:29:35.585Z",
+    "fetchedAt": "2026-09-27T09:42:19.867Z",
     "reason": "no-agent-link"
   },
   "26831702": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-08-23T04:29:49.371Z",
+    "fetchedAt": "2026-09-27T09:42:33.233Z",
     "reason": "no-agent-link"
   },
   "26835760": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-08-23T04:31:07.733Z",
+    "fetchedAt": "2026-09-27T09:42:56.535Z",
     "reason": "no-agent-link"
   },
   "26836650": {
-    "agentSlug": null,
-    "agencyName": null,
-    "isPrivate": true,
-    "fetchedAt": "2026-08-23T04:29:14.775Z",
-    "reason": "no-agent-link"
+    "agentSlug": "marta-janusz",
+    "agencyName": "DAN - DOM Danuta Majchrzak",
+    "fetchedAt": "2026-09-27T09:41:16.769Z"
   },
   "26840091": {
     "agentSlug": "krystian-kedzia",
@@ -4515,7 +4513,7 @@
   "26887897": {
     "agentSlug": "julia-krause",
     "agencyName": "BROKZ Nieruchomości",
-    "fetchedAt": "2026-08-16T04:28:08.664Z"
+    "fetchedAt": "2026-09-27T09:42:12.868Z"
   },
   "26887981": {
     "agentSlug": null,
@@ -4573,25 +4571,27 @@
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-08-23T04:28:47.358Z",
+    "fetchedAt": "2026-09-27T09:41:31.838Z",
     "reason": "no-agent-link"
   },
   "26907494": {
     "agentSlug": null,
     "agencyName": null,
     "isPrivate": true,
-    "fetchedAt": "2026-08-23T04:30:52.717Z",
+    "fetchedAt": "2026-09-27T09:42:48.757Z",
     "reason": "no-agent-link"
   },
   "26908187": {
-    "agentSlug": "agnieszka-mysiak",
-    "agencyName": "Nieruchomości Tectum",
-    "fetchedAt": "2026-08-23T04:29:02.337Z"
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-09-27T09:41:45.531Z",
+    "reason": "no-agent-link"
   },
   "26910169": {
     "agentSlug": "marta-janusz",
     "agencyName": "DAN - DOM Danuta Majchrzak",
-    "fetchedAt": "2026-08-23T04:28:54.670Z"
+    "fetchedAt": "2026-09-27T09:41:24.666Z"
   },
   "26913841": {
     "agentSlug": "agnieszka-mysiak",
@@ -4601,7 +4601,7 @@
   "26914132": {
     "agentSlug": "iwona-kulczynska",
     "agencyName": "Nieruchomości - FURMAN",
-    "fetchedAt": "2026-08-23T04:29:28.927Z"
+    "fetchedAt": "2026-09-27T09:42:05.695Z"
   },
   "26916164": {
     "agentSlug": null,
@@ -4961,5 +4961,32 @@
     "agentSlug": "agnieszka-mysiak",
     "agencyName": "Nieruchomości Tectum",
     "fetchedAt": "2026-09-20T08:56:38.233Z"
+  },
+  "26990926": {
+    "agentSlug": "marta-janusz",
+    "agencyName": "DAN - DOM Danuta Majchrzak",
+    "fetchedAt": "2026-09-27T09:41:10.353Z"
+  },
+  "26992701": {
+    "agentSlug": null,
+    "agencyName": null,
+    "isPrivate": true,
+    "fetchedAt": "2026-09-27T09:43:03.885Z",
+    "reason": "no-agent-link"
+  },
+  "26994544": {
+    "agentSlug": "krystian-kedzia",
+    "agencyName": "FWK Nieruchomości",
+    "fetchedAt": "2026-09-27T09:43:32.209Z"
+  },
+  "26995451": {
+    "agentSlug": "agnieszka-mysiak",
+    "agencyName": "Nieruchomości Tectum",
+    "fetchedAt": "2026-09-27T09:41:58.730Z"
+  },
+  "26997958": {
+    "agentSlug": "alina-krupecka",
+    "agencyName": "NIERUCHOMOŚCI APARTAMENT Sp. Z o. O.",
+    "fetchedAt": "2026-09-27T09:42:27.103Z"
   }
 }
